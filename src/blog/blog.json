@@ -1,0 +1,4 @@
+{
+  "layout": "pages/blog/post.njk",
+  "tags": "post"
+}
