@@ -52,18 +52,6 @@
           <a href="">Get my expertise for something specific</a>
       </section>     
 
-      <section aria-labelledby="streaming-heading">
-        <h2 id="streaming-heading">Streaming</h2>
-        <ul>
-        {%- for cast in collections.cast -%}
-        <li><article aria-labelledby="{{ cast.data.title | slug }}">
-          <h3 id="{{ cast.data.title | slug }}"><a href="{{ cast.url }}">{{ cast.data.title }}</a></h3>
-          <p>{{ cast.data.description }}</p>
-        </article></li>
-        {%- endfor -%}
-        </ul>
-      </section>
-
       <section aria-labelledby="section-heading">
         <h2 id="section-heading">Blogging</h2>
         <ul>
@@ -74,16 +62,6 @@
         </article></li>
         {%- endfor -%}
         </ul>
-      </section>
-
-      <section aria-labelledby="portfolio-heading">
-        <h2 id="portfolio-heading">Portfolio</h2>
-        {%- for project in collections.project -%}
-        <article aria-labelledby="{{ project.data.title |slug }}">
-          <h3 id="{{ project.data.title |slug }}"><a href="{{ project.url }}">{{ project.data.title }}</a></h3>
-          <p>{{ project.data.description }}</p>
-        </article>
-        {%- endfor -%}
       </section>
     </main>
 
