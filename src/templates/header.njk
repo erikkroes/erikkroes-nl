@@ -1,0 +1,32 @@
+<header>
+  <nav>
+    <h1>
+      <a href="/">Erik Kroes</a>
+    </h1>
+    <ul>
+      <li><a href="/stream/">Stream</a></li>
+      <li><a href="/blog/">Blog</a></li>
+      <li><a href="/portfolio/">Portfolio</a></li>
+      <li><a href="/about/">About</a></li>
+    </ul>
+  </nav>
+</header>
+
+{# 
+        {%- for item in collections.all | eleventyNavigation -%}
+            {%- if item.url -%}
+                {%- set isCurrent = (item.url == page.url) -%}
+                {%- set isParent = item.url != '/' and item.url in page.url -%}
+                <li class="nav__item{% if isCurrent or isParent %} nav__item--active{% endif %}">
+                    <a
+                        href="{% if isCurrent %}#main{% else %}{{ item.url | url }}{% endif %}"
+                        class="nav__link"
+                        {% if isCurrent %}aria-current="page"{% endif %}
+                    >
+                        
+                        {{ item.title }}
+                    </a>
+                </li>
+            {%- endif -%}
+        {%- endfor -%}
+#}
