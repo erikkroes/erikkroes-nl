@@ -1,12 +1,9 @@
-<!doctype html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>My Blog</title>
-    </head>
-    <body>
-        <h1>{{ pageTitle }}</h1>
+---
+layout: main
+---
+<main>
+  <article aria-labelledby="post-heading">
+    <h1 id="post-heading">{{ title }}</h1>
 
-        {{ content }}
-    </body>
-</html>
+    {{ content | safe}}
+</main>

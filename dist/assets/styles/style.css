@@ -19,12 +19,12 @@ body > * {
 
 header, main, footer { 
   display: grid;
-  grid-template-columns: minmax(1rem, 1fr) minmax(20rem, 60rem) minmax(1rem, 1fr);
+  grid-template-columns: minmax(1rem, 1fr) minmax(18rem, 60rem) minmax(1rem, 1fr);
 }
 
 header nav {
   display: flex;
-  grid-column: 2 / 3;
+  grid-column: 2;
   justify-content: space-between;
 }
 
@@ -33,17 +33,15 @@ header nav ul li {
   padding-left: 1rem;
 }
 
+main {
+  background-color: white;
+}
+
 main > *,
 footer > * {
-  grid-column: 2 / 3;
-  background-color: white;
-  padding: 0 1rem;
+  grid-column: 2;
+  padding: 1rem;
 }
-
-main > section {
-
-}
-
 
 main > section + section > ul {
   display: grid;
@@ -59,26 +57,14 @@ main > section article {
 }
 
 main > section article > :not(img) {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  /* padding-left: 1rem;
+  padding-right: 1rem; */
 }
 
-footer > h2 {
-  grid-column: 2 / 4;
-}
-
-footer > section:nth-of-type(2n) {
-  grid-column: 3 / 4;
+footer > * {
+  max-width: 30rem;
 }
 
 ul {
   padding-left: 2rem;
-}
-
-footer {
-  grid-template-columns: minmax(1rem, 1fr) minmax(10rem, 30rem) minmax(10rem, 30rem) minmax(1rem, 1fr);
-}
-
-footer > section {
-  grid-column: 2/3;
 }
