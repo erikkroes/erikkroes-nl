@@ -1,16 +1,19 @@
+// import markdownItTocAndAnchor from 'markdown-it-toc-and-anchor'
+
 const markdownIt = require("markdown-it");
-const markdownItAnchor = require("markdown-it-anchor");
+const markdownItTocAndAnchor = require("markdown-it-toc-and-anchor").default;
 
 module.exports = function (eleventyConfig) {
 
-  let markdownLibrary = markdownIt({ // turn headings into IDs
+  let markdownLibrary = markdownIt({ // turn headings into IDs and links with optional TOC
     html: true,
     breaks: true,
     linkify: true
-  }).use(markdownItAnchor, {
-    permalink: true,
-    permalinkClass: "direct-link",
-    permalinkSymbol: "#"
+  }).use(markdownItTocAndAnchor, {
+    tocClassName: null,
+    tocFirstLevel: 2,
+    anchorClassName: null,
+    wrapHeadingTextInAnchor: true    
   });
   eleventyConfig.setLibrary("md", markdownLibrary);
 

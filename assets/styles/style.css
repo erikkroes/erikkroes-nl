@@ -61,6 +61,17 @@ main > section article > :not(img) {
   padding-right: 1rem; */
 }
 
+article > h2 > a {
+  position: relative;
+}
+
+article > h2 > a::before {
+  content: '#';
+  position: absolute;
+  left: -1rem;
+  pointer-events: none;
+}
+
 footer > * {
   max-width: 30rem;
 }
