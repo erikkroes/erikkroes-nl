@@ -1,0 +1,27 @@
+{%- set absoluteUrl -%}{{ page.url | url | absoluteUrl(metadata.url) }}{%- endset -%}
+{%- set mentions = webmentions.children | webmentionsForUrl(absoluteUrl) -%}
+<section aria-labelledby="webmentions-heading">
+  <h3 id="webmentions-heading">Webmentions</h3>
+
+  {% if mentions | length %}
+    <ul>
+      {% for webmention in mentions | reverse | head(5) %}
+        <img src="{% if webmention.author.photo %}{{ webmention.author.photo }}{% else %}{{ '/img/webmention-avatar-default.svg' | url }}{% endif %}" title="{{ webmention.author.name }}" alt="" class="webmentions__face" />
+      {% endfor %}
+      {% if mentions.length > 5 %}
+        <span>+{{ mentions.length - 5 }}</span>
+      {% endif %}
+    </ul>
+
+    <ol class="webmentions__list">
+      {% for webmention in mentions | reverse %}
+        <li class="webmentions__item">
+          {% include 'webmention.njk' %}
+        </li>
+      {% endfor %}
+    </ol>
+
+  {% else %}
+    <p>No mentions yet.</p>
+  {% endif %}
+</section>

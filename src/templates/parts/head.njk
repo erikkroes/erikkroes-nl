@@ -12,10 +12,12 @@
     <meta name="twitter:title" content="Erik Kroes - Photographer, artist &amp; creative coder" />
     <meta name="twitter:site" content="@erikkroes" />
 
-    <title>Erik Kroes - Photographer, artist &amp; creative coder</title>
-    <title>{%- if title -%}{{ title }} | {{ site.title }}{%- else -%}{{ site.title }}{%- endif -%}</title>
+    <title>{% if title %}{{ title }} | {% endif %}{{ data.title }}</title>
 
     <link rel="stylesheet" href="{{ '/assets/styles/style.css' | url }}">        
     <link rel="preload" href="{{ '/assets/fonts/Atkinson-Hyperlegible-Regular-102a.woff2' | url }}" as="font" type="font/woff2" crossorigin>
     <link rel="preconnect" href="https://webmention.io">
+
+    <link rel="webmention" href="https://webmention.io/www.erikkroes.nl/webmention" />
+    <link rel="pingback" href="https://webmention.io/www.erikkroes.nl/xmlrpc" />
 </head>

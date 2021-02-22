@@ -1,9 +1,22 @@
 ---
 layout: main
 ---
+{% set previousPost = collections.post | getPreviousCollectionItem(page) %}
+{% set nextPost = collections.post | getNextCollectionItem(page) %}
 <main>
   <article aria-labelledby="post-heading">
     <h1 id="post-heading">{{ title }}</h1>
+    <p>Posted at <time datetime="{{ page.date }}">{{ page.date | readableDate('dd-LL-yyyy') }}</time></p>
 
     {{ content | safe}}
+
+    <aside aria-labelledby="aside-heading"> 
+      <h2 id="aside-heading">Aside</h2>
+      {% if previousPost or nextPost %}
+        {% include "parts/prevNext.njk" %}
+      {% endif %}
+
+      {% include "parts/webmentionlist.njk" %}
+    </aside>
+  </article>  
 </main>

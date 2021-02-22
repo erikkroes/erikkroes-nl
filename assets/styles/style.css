@@ -46,6 +46,7 @@ footer > * {
 main > section + section > ul {
   display: grid;
   grid-template-columns: repeat(auto-fill,minmax(16rem,1fr));
+  column-gap: 2rem;
   list-style: none;
   padding: 0;
 }
@@ -56,19 +57,33 @@ main > section article {
   position: relative;
 }
 
+main > article > * + *,
+main > article > aside > * + * {
+  margin-bottom: 1rem;
+}
+
+main > article > p:nth-of-type(2){
+  font-size: 1.5rem;
+}
+
 main > section article > :not(img) {
   /* padding-left: 1rem;
   padding-right: 1rem; */
 }
 
-article > h2 > a {
+article > h2 > a,
+article > h3 > a,
+article > h4 > a {
   position: relative;
+  color: unset;
 }
 
-article > h2 > a::before {
+main > article > h2 > a::before,
+main > article > h3 > a::before,
+main > article > h4 > a::before {
   content: '#';
   position: absolute;
-  left: -1rem;
+  left: -1.2rem;
   pointer-events: none;
 }
 
@@ -78,4 +93,11 @@ footer > * {
 
 ul {
   padding-left: 2rem;
+}
+
+article > aside > nav > ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding-left: unset;
 }
