@@ -1,10 +1,38 @@
+/* Generic bit */
+
 * {
   margin: 0;
   padding: 0;
 }
 
+a {
+  position: relative;
+  text-decoration: none;
+  color: #003052;
+  border-bottom: 0.125rem solid currentColor;
+  padding: 0 0.125rem 0.125rem;
+  border-radius: 0.125rem;
+  transition: all 0.2s ease-out;
+}
+
+a:focus, a:hover {
+  color: black;
+  background-color: #9dc0d7;
+  box-shadow: 0 0 0 0.125rem currentColor;
+  border-bottom-width: 0.25rem;
+}
+
+a:visited {
+  color: #623393;
+}
+
+a:focus:visited {
+  color: #38254E;
+}
+
 body {
   background-color: whitesmoke;
+  color: #2d2d35;
   display: flex;
   flex-direction: column;
   font-family: atkinson_hyperlegible, 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -63,7 +91,7 @@ main > article > aside > * + * {
 }
 
 main > article > p:nth-of-type(2){
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 main > section article > :not(img) {

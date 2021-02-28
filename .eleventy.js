@@ -6,6 +6,25 @@ const sanitizeHTML = require('sanitize-html');
 const markdownIt = require("markdown-it");
 const markdownItTocAndAnchor = require("markdown-it-toc-and-anchor").default; // the .default is essential: https://github.com/medfreeman/markdown-it-toc-and-anchor#readme
 
+const Image = require("@11ty/eleventy-img");
+
+async function imageShortcode(src, alt, sizes) {
+  let metadata = await Image(src, {
+    widths: [300, 600],
+    formats: ["avif", "jpeg"]
+  });
+
+  let imageAttributes = {
+    alt,
+    sizes,
+    loading: "lazy",
+    decoding: "async",
+  };
+
+  // You bet we throw an error on missing alt in `imageAttributes` (alt="" works okay)
+  return Image.generateHTML(metadata, imageAttributes);
+}
+
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.setDataDeepMerge(true);
@@ -21,6 +40,10 @@ module.exports = function (eleventyConfig) {
     wrapHeadingTextInAnchor: true    
   });
   eleventyConfig.setLibrary("md", markdownLibrary);
+
+  eleventyConfig.addFilter('htmlDateString', (dateObj) => {
+    return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('yyyy-LL-dd');
+  });
 
   eleventyConfig.addFilter('readableDate', (date, format) => {
       // default to Europe/Vienna Timezone
@@ -73,7 +96,10 @@ module.exports = function (eleventyConfig) {
 
 
   // set copy asset folder to dist
-  eleventyConfig.addPassthroughCopy('assets');
+  eleventyConfig.addPassthroughCopy("src/assets");
+  eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
+  eleventyConfig.addLiquidShortcode("image", imageShortcode);
+  eleventyConfig.addJavaScriptFunction("image", imageShortcode);
 
   // set input and output folder
   return {
@@ -84,6 +110,7 @@ module.exports = function (eleventyConfig) {
       output: 'dist' 
     },
     dataTemplateEngine: 'njk',
-    markdownTemplateEngine: 'njk'
+    markdownTemplateEngine: 'njk',
+    htmlTemplateEngine: 'njk'
   };
 }
