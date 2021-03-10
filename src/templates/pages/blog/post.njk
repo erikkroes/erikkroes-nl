@@ -6,7 +6,7 @@ layout: main
 <main>
   <article aria-labelledby="post-heading">
     <h1 id="post-heading">{{ title }}</h1>
-    <p>Posted at <time datetime="{{ page.date }}">{{ page.date | readableDate('dd-LL-yyyy') }}</time></p>
+    <p>Posted on <time datetime="{{ page.date }}">{{ page.date | readableDate('dd-LL-yyyy') }}</time></p>
 
     {{ content | safe}}
 

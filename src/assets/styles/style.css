@@ -1,5 +1,21 @@
 /* Generic bit */
 
+@font-face {
+  font-family: 'atkinson_hyperlegible';
+  src: url('/assets/fonts/Atkinson-Hyperlegible-Regular-102a.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'atkinson_hyperlegible';
+  src: url('/assets/fonts/Atkinson-Hyperlegible-Bold-102a.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -26,6 +42,16 @@ a:visited {
   color: #623393;
 }
 
+h1, h2, h3, h4 {
+  font-weight: bold;
+}
+
+h2 a:visited,
+h3 a:visited,
+h4 a:visited {
+  color: inherit;
+}
+
 a:focus:visited {
   color: #38254E;
 }
@@ -42,7 +68,7 @@ body {
 }
 
 body > * {
-  padding-top: 1rem;
+  padding: 1rem 0;
 }
 
 header, main, footer { 
@@ -71,7 +97,8 @@ footer > * {
   padding: 1rem;
 }
 
-main > section + section > ul {
+main > section + section > ul,
+main > article > ol {
   display: grid;
   grid-template-columns: repeat(auto-fill,minmax(16rem,1fr));
   column-gap: 2rem;
@@ -91,12 +118,14 @@ main > article > aside > * + * {
 }
 
 main > article > p:nth-of-type(2){
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 
-main > section article > :not(img) {
-  /* padding-left: 1rem;
-  padding-right: 1rem; */
+main > article picture > img {
+  width: 100vw;
+  max-width: 60rem;
+  margin-left: -1rem;
+  height: auto;
 }
 
 article > h2 > a,
@@ -111,7 +140,7 @@ main > article > h3 > a::before,
 main > article > h4 > a::before {
   content: '#';
   position: absolute;
-  left: -1.2rem;
+  left: -1.4rem;
   pointer-events: none;
 }
 
@@ -121,6 +150,10 @@ footer > * {
 
 ul {
   padding-left: 2rem;
+}
+
+ol {
+  margin-bottom: 1rem;
 }
 
 article > aside > nav > ul {
