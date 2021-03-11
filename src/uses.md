@@ -4,6 +4,7 @@ layout: pages/single.njk
 ---
 A page detailing hardware and software, just like others mentioned on [uses.tech](https://uses.tech/).
 
+{% image "./src/assets/media/IMG_20200709_121435-2048x1536.jpg.webp", "An IKEA desk with some of the hardware described on this page" %}
 ## Hardware
 
 ### Stream System

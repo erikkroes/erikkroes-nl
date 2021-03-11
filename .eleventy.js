@@ -1,5 +1,3 @@
-const pluginRss = require("@11ty/eleventy-plugin-rss");
-
 const { DateTime } = require('luxon');
 const sanitizeHTML = require('sanitize-html');
 
@@ -7,6 +5,7 @@ const markdownIt = require("markdown-it");
 const markdownItTocAndAnchor = require("markdown-it-toc-and-anchor").default; // the .default is essential: https://github.com/medfreeman/markdown-it-toc-and-anchor#readme
 
 const Image = require("@11ty/eleventy-img");
+const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 async function imageShortcode(src, alt, sizes) {
   let metadata = await Image(src, {
@@ -100,8 +99,7 @@ module.exports = function (eleventyConfig) {
   // set copy asset folder to dist
   eleventyConfig.addPassthroughCopy("src/assets");
   eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
-  eleventyConfig.addLiquidShortcode("image", imageShortcode);
-  eleventyConfig.addJavaScriptFunction("image", imageShortcode);
+  eleventyConfig.addLiquidFilter("dateToRfc3339", pluginRss.dateRfc3339);
 
   // set input and output folder
   return {

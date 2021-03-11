@@ -2,11 +2,11 @@
   "title": "Erik Kroes",
   "description": "Erik Kroes - Photographer, artist & creative coder",
   "domain": "erikkroes.nl",  
-  "url": "https://www.erikkroes.nl/",
+  "url": "https://www.erikkroes.nl",
   "feed": {
     "subtitle": "Erik Kroes - Photographer, artist & creative coder",
     "filename": "feed.xml",
-    "path": "/feed/feed.xml",
+    "path": "/feed.xml",
     "id": "https://www.erikkroes.nl/"
   }
 }
