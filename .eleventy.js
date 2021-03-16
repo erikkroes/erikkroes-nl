@@ -47,7 +47,6 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addFilter('readableDate', (date, format) => {
-      // default to Europe/Vienna Timezone
     const dt = DateTime.fromJSDate(date, { zone: 'UTC+2' })
     if (!format) {
         format =

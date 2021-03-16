@@ -39,7 +39,6 @@ a:focus, a:hover {
   color: black;
   background-color: #9dc0d7;
   box-shadow: 0 0 0 0.125rem currentColor;
-  border-bottom-width: 0.25rem;
 }
 
 a:visited {
@@ -91,6 +90,10 @@ header nav ul li {
   padding-left: 1rem;
 }
 
+nav a {
+  display: inline-block;
+}
+
 main {
   background-color: white;
 }
@@ -104,7 +107,7 @@ footer > * {
 main > section + section > ul,
 main > article > ol {
   display: grid;
-  grid-template-columns: repeat(auto-fill,minmax(16rem,1fr));
+  grid-template-columns: repeat(auto-fill,minmax(21rem,1fr));
   column-gap: 2rem;
   list-style: none;
   padding: 0;
@@ -139,13 +142,23 @@ article > h4 > a {
   color: unset;
 }
 
-main > article > h2 > a::before,
-main > article > h3 > a::before,
-main > article > h4 > a::before {
-  content: '#';
-  position: absolute;
-  left: -1.4rem;
-  pointer-events: none;
+article blockquote {
+  font-size: 1.5rem;
+  padding-left: 2.5rem;
+  border-left: 0.25rem solid;
+}
+
+article pre {
+  padding: 1.25rem;
+  white-space: pre-wrap;
+  border: 0.0625rem solid;
+  background-color: whitesmoke;
+}
+
+article p > code {
+  padding: 0.25rem 0.25rem 0.125rem;
+  border: 0.0625rem solid;
+  background-color: whitesmoke;
 }
 
 footer > * {
@@ -160,7 +173,7 @@ ol {
   margin-bottom: 1rem;
 }
 
-article > aside > nav > ul {
+aside > nav > ul {
   display: flex;
   justify-content: space-between;
   list-style: none;
