@@ -40,3 +40,5 @@ fields:
     schema:
       format: markdown
   label: Cover alt
+pages:
+- src/blog/personal-update.md
