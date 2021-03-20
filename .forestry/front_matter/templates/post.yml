@@ -43,3 +43,4 @@ fields:
 pages:
 - src/blog/accessible-html-toggle-button-switch.md
 - src/blog/personal-update.md
+- src/blog/the-guide-to-accessible-web-components.md

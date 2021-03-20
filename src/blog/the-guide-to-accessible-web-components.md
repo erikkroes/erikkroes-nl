@@ -1,9 +1,15 @@
 ---
 title: The Guide to Accessible Web Components
-description: Web Components are a newly supported standard. They're a great match for Design Systems because they're futureproof and work with any framework. Building proper UI Web Components can be quite a task though, especially if you want them to be accessible. Here are some pointers on what to look out for.
+description: Web Components are a newly supported standard. They're a great match
+  for Design Systems because they're futureproof and work with any framework. Building
+  proper UI Web Components can be quite a task though, especially if you want them
+  to be accessible. Here are some pointers on what to look out for.
 permalink: blog/accessibility/the-guide-to-accessible-web-components-draft/
----
+date: 2020-03-10
+cover: ''
+cover-alt: ''
 
+---
 Web Components are a newly supported standard. They're a great match for Design Systems because they're futureproof and work with any framework. Building proper UI Web Components can be quite a task though, especially if you want them to be accessible. Here are some pointers on what to look out for.
 
 > Throughout this article I'll use [Lion](https://github.com/ing-bank/lion) a few times as an example. Lion is a collection of white label UI Web Components. There's more information about Lion in the <a href="#conclusion">conclusion</a>.
@@ -209,4 +215,3 @@ To ease some of that pain, the Web Components I work on professionaly have an op
 - [Basic custom control requirements](https://adrianroselli.com/2019/08/basic-custom-control-requirements.html)
 
 And please ask me anything about Accessibility! You are also welcome on [Twitter](https://twitter.com/erikKroes) or [Twitch](https://twitch.tv/erikKroes/) (I stream about accessibility weekly.
-
