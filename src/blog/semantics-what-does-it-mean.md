@@ -11,17 +11,17 @@ When people talk about the quality of HTML code, it is often about semantics. Bu
 
 ## Table of Contents
 
-<ol>
+<ul>
 <li><a href="#what-is-semantic-html">What is Semantic HTML?</a></li>
 <li><a href="#what-do-semantics-do">Wat do semantics do?</a></li>
 <li><a href="#how-should-i-do-it">How should I do it?</a>
-<ol>
+<ul>
 <li><a href="#what-do-i-want-to-communicate">What do I want to communicate?</a></li>
 <li><a href="#is-my-page-structure-clear">Is my page structure clear?</a></li>
-</ol>
+</ul>
 </li>
 <li><a href="#is-that-it">Is that it?</a></li>
-</ol>
+</ul>
 
 ## What is Semantic HTML?
 
