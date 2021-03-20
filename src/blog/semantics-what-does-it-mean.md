@@ -11,17 +11,12 @@ When people talk about the quality of HTML code, it is often about semantics. Bu
 
 ## Table of Contents
 
-<ul>
-<li><a href="#what-is-semantic-html">What is Semantic HTML?</a></li>
-<li><a href="#what-do-semantics-do">Wat do semantics do?</a></li>
-<li><a href="#how-should-i-do-it">How should I do it?</a>
-<ul>
-<li><a href="#what-do-i-want-to-communicate">What do I want to communicate?</a></li>
-<li><a href="#is-my-page-structure-clear">Is my page structure clear?</a></li>
-</ul>
-</li>
-<li><a href="#is-that-it">Is that it?</a></li>
-</ul>
+* <a href="#what-is-semantic-html">What is Semantic HTML?</a>
+* <a href="#what-do-semantics-do">Wat do semantics do?</a>
+* <a href="#how-should-i-do-it">How should I do it?</a> 
+  * <a href="#what-do-i-want-to-communicate">What do I want to communicate?</a>
+  * <a href="#is-my-page-structure-clear">Is my page structure clear?</a>
+* <a href="#is-that-it">Is that it?</a>
 
 ## What is Semantic HTML?
 
@@ -36,6 +31,7 @@ You can compare it with TypeScript or other languages ​​that contain typing.
 ![A power socket in a wall with water streaming out](https://dev-to-uploads.s3.amazonaws.com/i/reclni2g4kef3uexyhsm.jpeg)
 
 ## What do semantics do?
+
 As indicated, semantics express the intention of an element. If tools can rely on this intention (the semantics indeed say something about the data in the elements) then they can use the content of the elements for all kinds of purposes.
 Some examples:
 
