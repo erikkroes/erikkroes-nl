@@ -13,7 +13,7 @@ When people talk about the quality of HTML code, it is often about semantics. Bu
 
 * <a href="#what-is-semantic-html">What is Semantic HTML?</a>
 * <a href="#what-do-semantics-do">Wat do semantics do?</a>
-* <a href="#how-should-i-do-it">How should I do it?</a> 
+* <a href="#how-should-i-do-it">How should I do it?</a>
   * <a href="#what-do-i-want-to-communicate">What do I want to communicate?</a>
   * <a href="#is-my-page-structure-clear">Is my page structure clear?</a>
 * <a href="#is-that-it">Is that it?</a>
@@ -28,7 +28,7 @@ The tag or element communicates the intention: this is the main heading, this is
 In the same way, you can create a link (`<a>`) that goes nowhere, or a button (`<button>`) that does nothing. With semantic HTML you indicate your intention. That is the first step. The next step is to match the result.
 You can compare it with TypeScript or other languages ​​that contain typing. These can not only contain data, but also say something about the data they contain.
 
-![A power socket in a wall with water streaming out](https://dev-to-uploads.s3.amazonaws.com/i/reclni2g4kef3uexyhsm.jpeg)
+{% image "./src/assets/media/reclni2g4kef3uexyhsm.jpeg", "A power socket in a wall with water streaming out" %}
 
 ## What do semantics do?
 
