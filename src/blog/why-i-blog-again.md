@@ -2,6 +2,8 @@
 title: Why I blog again
 description: It's been a while since I've spent some time and energy on my website. The content was outdated. The overall structure and design no longer offered what I needed from a website. 
 date: 2019-06-12
+cover:
+cover-alt:
 ---
 
 It's been a while since I've spent some time and energy on my website. The content was outdated. The overall structure and design no longer offered what I needed from a website.

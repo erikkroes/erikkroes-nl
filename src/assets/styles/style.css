@@ -17,7 +17,7 @@
 }
 
 :root {
-  --body-width: 60rem;
+  --body-width: 50rem;
 }
 
 * {
@@ -43,10 +43,6 @@ a:focus, a:hover {
 
 a:visited {
   color: #623393;
-}
-
-h1, h2, h3, h4 {
-  font-weight: bold;
 }
 
 h2 a:visited,
@@ -108,7 +104,7 @@ main > section + section > ul,
 main > article > ol {
   display: grid;
   grid-template-columns: repeat(auto-fill,minmax(21rem,1fr));
-  column-gap: 2rem;
+  gap: 2rem;
   list-style: none;
   padding: 0;
 }
@@ -130,8 +126,8 @@ main > article > p:nth-of-type(2){
 
 main > article picture > img {
   width: 100vw;
-  max-width: var(--body-width);
-  margin-left: -1rem;
+  max-width: calc(var(--body-width) + 2rem);
+  margin-left: -2rem;
   height: auto;
 }
 
@@ -143,7 +139,6 @@ article > h4 > a {
 }
 
 article blockquote {
-  font-size: 1.5rem;
   padding-left: 2.5rem;
   border-left: 0.25rem solid;
 }

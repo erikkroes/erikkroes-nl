@@ -10,20 +10,20 @@ Web Components are a newly supported standard. They're a great match for Design 
 
 ## Contents
 
-- <a href="#what-are-wc">What are Web Components?</a>
-- <a href="#what-is-shadow-dom">What is shadow DOM, and light DOM?</a>
+- <a href="#what-are-web-components">What are Web Components?</a>
+- <a href="#what-is-shadow-dom-and-light-dom">What is shadow DOM, and light DOM?</a>
 - <a href="#extending-elements">Extending elements</a>
 - <a href="#accessible-ui-components">Accessible UI Components</a>
   - <a href="#focusable">Focusable</a>
   - <a href="#keyboard-interaction">Keyboard interaction</a>
   - <a href="#visible-states">Visible states</a>
-  - <a href="#states-and-properties">Functional states and properties</a>
+  - <a href="#functional-states-and-properties">Functional states and properties</a>
   - <a href="#semantics">Semantics</a>
   - <a href="#accessible-name">Accessible name</a>
   - <a href="#relationships">Relationships</a>
-  - <a href="#standards-and-conventions">Global standards and conventions</a>
-  - <a href="#browser-bugs">Browser bugs and variations</a>
-- <a href="#aom">The Accessibility Object Model</a>
+  - <a href="#global-standards-and-conventions">Global standards and conventions</a>
+  - <a href="#browser-bugs-and-variations">Browser bugs and variations</a>
+- <a href="#the-accessibility-object-model">The Accessibility Object Model</a>
 - <a href="#conclusion">Conclusion</a>
 - <a href="#further-reading">Further reading</a>
 
