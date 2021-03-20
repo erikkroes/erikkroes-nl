@@ -41,4 +41,5 @@ fields:
       format: markdown
   label: Cover alt
 pages:
+- src/blog/accessible-html-toggle-button-switch.md
 - src/blog/personal-update.md
