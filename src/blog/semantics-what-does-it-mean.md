@@ -12,19 +12,18 @@ When people talk about the quality of HTML code, it is often about semantics. Bu
 ## Table of Contents
 
 <ol>
-  <li><a href="#what-is">What is Semantic HTML?</a></li>
-  <li><a href="#what-do">Wat do semantics do?</a></li>
-  <li><a href="#how-should-i-do-it">How should I do it?</a>
-    <ol>
-       <li><a href="#what-do-i-want-to-communicate">What do I want to communicate?</a></li>
-       <li><a href="#is-my-page-structure-clear">Is my page structure clear?</a></li>
-    </ol>
-  </li>
-  <li><a href="#is-that-it">Is that it?</a></li>
+<li><a href="#what-is-semantic-html">What is Semantic HTML?</a></li>
+<li><a href="#what-do-semantics-do">Wat do semantics do?</a></li>
+<li><a href="#how-should-i-do-it">How should I do it?</a>
+<ol>
+<li><a href="#what-do-i-want-to-communicate">What do I want to communicate?</a></li>
+<li><a href="#is-my-page-structure-clear">Is my page structure clear?</a></li>
+</ol>
+</li>
+<li><a href="#is-that-it">Is that it?</a></li>
 </ol>
 
-
-<h2 id="what-is">What is Semantic HTML?</h2>
+## What is Semantic HTML?
 
 Semantics is communicating your intention through your chosen HTML. This does not guarantee the correct outcome, but if you communicate a different intention than the outcome, then it is not correct anyway.
 A well-known HTML tag is, for example, the `<h1>`. This tag is often used for the most important heading (heading 1) on a page.
@@ -36,33 +35,34 @@ You can compare it with TypeScript or other languages ​​that contain typing.
 
 ![A power socket in a wall with water streaming out](https://dev-to-uploads.s3.amazonaws.com/i/reclni2g4kef3uexyhsm.jpeg)
 
-<h2 id="what-do">What do semantics do?</h2>
+## What do semantics do?
 As indicated, semantics express the intention of an element. If tools can rely on this intention (the semantics indeed say something about the data in the elements) then they can use the content of the elements for all kinds of purposes.
 Some examples:
-- **Readability tools** - There are now many ways to read texts in a more readable format. Sometimes they are stand alone like Pocket and Instapaper. In Firefox and Safari there are tools built in. You can present an existing web page in a different (more readable) way.
-- **Translation tools** - Tools like Google Translate can make use of the context that you communicate as a developer.
-- **Assistive technology** - Software such as screen readers inform their users of the semantic value of the HTML they are reading. This way a user can understand whether something is important or only secondary, and whether something is a paragraph or a list.
-- **People Reading Your Code** - It may sound obvious, but readable code is nice code to work with. You often write HTML code not only for yourself but for others, or even for yourself at a different time. Clearly written HTML is more readable and more future-proof.
-- **Custom CSS, adblocking, etc** - Basically anything that "hooks" into your code benefits from readable, resilient and robust code. If a visitor has Custom CSS for readable headings, then there need to be headings first!
-- **SEO** - Search engines are like actual people sometimes. They also want to know what information you provide and what the context of that information is.
-By creating structure in your code you do not end up with something disjointed. It provides guidance for everyone who has to work with it: developers, visitors and automated tools.
 
-<h2 id="how-should-i-do-it">How should I do it?</h2>
+* **Readability tools** - There are now many ways to read texts in a more readable format. Sometimes they are stand alone like Pocket and Instapaper. In Firefox and Safari there are tools built in. You can present an existing web page in a different (more readable) way.
+* **Translation tools** - Tools like Google Translate can make use of the context that you communicate as a developer.
+* **Assistive technology** - Software such as screen readers inform their users of the semantic value of the HTML they are reading. This way a user can understand whether something is important or only secondary, and whether something is a paragraph or a list.
+* **People Reading Your Code** - It may sound obvious, but readable code is nice code to work with. You often write HTML code not only for yourself but for others, or even for yourself at a different time. Clearly written HTML is more readable and more future-proof.
+* **Custom CSS, adblocking, etc** - Basically anything that "hooks" into your code benefits from readable, resilient and robust code. If a visitor has Custom CSS for readable headings, then there need to be headings first!
+* **SEO** - Search engines are like actual people sometimes. They also want to know what information you provide and what the context of that information is.
+  By creating structure in your code you do not end up with something disjointed. It provides guidance for everyone who has to work with it: developers, visitors and automated tools.
 
-Does this mean you need to memorize [all HTML elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)? No, thankfully. Even though there aren’t really that many. 
+## How should I do it?
+
+Does this mean you need to memorize [all HTML elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)? No, thankfully. Even though there aren’t really that many.
 It is nice to find out which elements you know though! Have you tried the [HTML Tags Memory Test](https://codepen.io/plfstr/full/zYqQeRw) yet?
 
-<h3 id="what-do-i-want-to-communicate">What do I want to communicate?</h3>
+### What do I want to communicate?
 
 This question is very valuable in many situations. If you are writing HTML and you add an element, ask yourself if the element represents your intention correctly. Are you writing a paragraph? Then it makes sense to use a `<p>`. Are you doing something for purely visual reasons, without wanting to communicate a specific intention? Then you might be fine with a `<div>` or a `<span>` (these elements don't communicate any intention).
 On the other hand, do you use a `<div>` or a `<span>` while you want to convey a specific intention? Maybe you want to check the list of [all HTML elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) whether there is a suitable alternative.
 
-<h3 id="is-my-page-structure-clear">Is my page structure clear?</h3>
+### Is my page structure clear?
 
 Every page benefits from a good structure. A newspaper relies on sections, columns and clear headlines. A page on the web (and the underlying HTML) aren’t very different from that.
 See if you can organize your page with clear HTML landmarks such as `<header>`, `<main>`, `<aside>` and `<footer>`. A landmark works just like a landmark in real life. If a village has five church towers it becomes difficult to say "go left at the church tower".
 You can also use headings (just like with a newspaper). The `<h1>` is the main page header; this indicates what the whole page is about. Technically, all content is covered. If you want to use a heading under the `<h1>`, use the `<h2>`. Everything that falls under the `<h2>` in the code should logically also fall under this in the content. You create a hierarchy with your headings. Do not skip headings (don't go from `<h2>` to `<h4>`) and only place something under a heading if it logically falls under it.
 
-<h2 id="is-that-it">Is that it?</h2>
+## Is that it?
 
 Yes, kind of actually. Communicate as clearly as possible what the intention of your code is (meta data) and do not let your intention be an empty promise.
