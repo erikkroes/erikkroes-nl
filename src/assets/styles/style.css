@@ -97,7 +97,7 @@ main {
 main > *,
 footer > * {
   grid-column: 2;
-  padding: 1rem;
+  /* padding: 1rem; */
 }
 
 main > section + section > ul,
@@ -127,7 +127,7 @@ main > article > p:nth-of-type(2){
 main > article picture > img {
   width: 100vw;
   max-width: calc(var(--body-width) + 2rem);
-  margin-left: -2rem;
+  margin-left: -1rem;
   height: auto;
 }
 
