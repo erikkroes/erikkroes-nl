@@ -14,28 +14,23 @@ Everybody loves toggle switch on mobile, or so I've heard. But if you're buildin
 Let's start with the most important part. This is the end result as featured on Codepen:
 
 <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="css,result" data-user="erikkroes" data-slug-hash="WNrOdWp" data-preview="true" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Toggle Button">
-
-  <span>See the Pen <a href="[https://codepen.io/erikkroes/pen/WNrOdWp](https://codepen.io/erikkroes/pen/WNrOdWp "https://codepen.io/erikkroes/pen/WNrOdWp")">
-
-  Toggle Button</a> by Erik (<a href="[https://codepen.io/erikkroes](https://codepen.io/erikkroes/pen/WNrOdWp "https://codepen.io/erikkroes/pen/WNrOdWp")">@erikkroes</a>)
-
-  on <a href="[https://codepen.io](https://codepen.io/erikkroes/pen/WNrOdWp "https://codepen.io/erikkroes/pen/WNrOdWp")">CodePen</a>.</span>
-
+  <span>See the Pen <a href="https://codepen.io/erikkroes/pen/WNrOdWp">
+  Toggle Button</a> by Erik (<a href="https://codepen.io/erikkroes">@erikkroes</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-
-<script async src="[https://cpwebassets.codepen.io/assets/embed/ei.js](https://codepen.io/erikkroes/pen/WNrOdWp "https://codepen.io/erikkroes/pen/WNrOdWp")"></script>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 ## What is this?
 
 When I use my phone, I expect a [Switch](https://developer.android.com/reference/android/widget/Switch) (that's how android calls them) to instantly change a setting. It won't just be selecting an option (like with a checkbox) but the selection will also be submitted instantly.  
- The web is full of examples on how to style checkboxes to look like a switch, but that doesn't help me much further when I want something more like mobile.
+The web is full of examples on how to style checkboxes to look like a switch, but that doesn't help me much further when I want something more like mobile.
 
 ## Bit by bit
 
 ### HTML
 
 Looking at the HTML code, you might first notice the `label`. By default, a button will take its contents to create an [accessible name](https://developer.paciellogroup.com/blog/2017/04/what-is-an-accessible-name/). Using a `<label>` and referencing it by using `for=` and the id of the `<button>`, overrides this default behaviour. The content of the `<label>` becomes the accessible name of the `<button>`.  
- It also makes sure that people can click, press, touch or lick the `<label>` to activate the resulting Switch, just like on Android.
+It also makes sure that people can click, press, touch or lick the `<label>` to activate the resulting Switch, just like on Android.
 
 Then the radical part of this creation, I'm using a `<button>`. Why? Because I want something to change instantly which a checkbox (`<input type=checkbox>`) really should not be doing. In my experience, checkboxes that change things often clash with [WCAG Criterion 3.2.1: On Focus](https://www.w3.org/WAI/WCAG21/Understanding/on-focus.html). A `<button>` aligns better with the goal of instant change.
 
@@ -62,4 +57,4 @@ The JavaScript finds the button in the code, adds an eventListener to it and mak
 ## Further reading
 
 A lot of this component was based on [the example of MDN](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Switch_role). It's a great resource and starting point for everybody.  
- If you want to get more technical than this writing, you could look at [Scott O'Hara](https://scottaohara.github.io/a11y_styled_form_controls/), who has written a great deal more about the subject. Thanks for that!
+If you want to get more technical than this writing, you could look at [Scott O'Hara](https://scottaohara.github.io/a11y_styled_form_controls/), who has written a great deal more about the subject. Thanks for that!
