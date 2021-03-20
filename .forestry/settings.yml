@@ -9,8 +9,8 @@ sections:
   label: Blog
   create: all
   match: "**/*.md"
-upload_dir: src/media
-public_path: "/media"
+upload_dir: src/assets/media
+public_path: "/assets/media"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
