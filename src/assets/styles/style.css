@@ -97,13 +97,13 @@ main {
 main > *,
 footer > * {
   grid-column: 2;
-  /* padding: 1rem; */
+  padding: 1rem 0; 
 }
 
 main > section + section > ul,
 main > article > ol {
   display: grid;
-  grid-template-columns: repeat(auto-fill,minmax(21rem,1fr));
+  grid-template-columns: repeat(auto-fill,minmax(18rem,1fr));
   gap: 2rem;
   list-style: none;
   padding: 0;
