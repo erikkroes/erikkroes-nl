@@ -1,6 +1,8 @@
 ---
 title: I made this website with HTML
-description: ''
+description: This website is 100% semantic. There are no <div>s or <span>s. Every
+  element has been chosen to play a role, because every element has a role. There
+  are no CSS-classes, and the only IDs are for use with aria-labelledby.
 date: 2021-03-20
 cover: ''
 cover-alt: ''
