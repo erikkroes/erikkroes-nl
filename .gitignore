@@ -2,3 +2,4 @@ node_modules
 _cache
 dist
 .env
+.DS_Store

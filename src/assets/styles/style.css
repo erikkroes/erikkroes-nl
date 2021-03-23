@@ -120,8 +120,12 @@ main > article > aside > * + * {
   margin-bottom: 1rem;
 }
 
-main > article > p:nth-of-type(2){
+article > p:nth-of-type(2){
   font-size: 1.6rem;
+}
+
+article > ul + p {
+  font-size: inherit;
 }
 
 main > article picture > img {
