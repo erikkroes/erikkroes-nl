@@ -124,7 +124,7 @@ article > p:nth-of-type(2){
   font-size: 1.6rem;
 }
 
-article > ul + p {
+article > ul + p:nth-of-type(2) {
   font-size: inherit;
 }
 
