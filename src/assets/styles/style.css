@@ -33,6 +33,7 @@ a {
   padding: 0 0.125rem 0.125rem;
   border-radius: 0.125rem;
   transition: all 0.2s ease-out;
+  touch-action: manipulation;
 }
 
 a:focus, a:hover {
