@@ -40,6 +40,10 @@ fields:
     schema:
       format: markdown
   label: Cover alt
+- name: eleventyExcludeFromCollections
+  type: boolean
+  label: Draft
+  default: false
 pages:
 - src/blog/accessible-html-toggle-button-switch.md
 - src/blog/i-made-this-website-with-html.md
