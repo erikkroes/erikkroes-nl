@@ -5,6 +5,7 @@ description: Everything you put on your website is old. Every website is an arch
 date: 2021-04-05
 cover: ''
 cover-alt: ''
+eleventyExcludeFromCollections: true
 
 ---
 Everything you put on your website is old. Every website is an archive. The web is a collective history. 
