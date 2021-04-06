@@ -8,6 +8,10 @@ cover-alt: Blue water with horizontal lines. Even less subtle are the dark and g
   pixelated artifacts in front of it. They're leafless branches waving in the wind
   and they violently break up in the image.
 eleventyExcludeFromCollections: false
+cover_alt: |-
+  Blue water with horizontal lines. Even less subtle are the dark and golden
+    pixelated artifacts in front of it. They're leafless branches waving in the wind
+    and they violently break up in the image.
 
 ---
 Everything you put on your website is old. Every website is an archive. The web is a collective history.
