@@ -9,7 +9,7 @@ require('dotenv').config()
 // Configuration Parameters
 const CACHE_DIR = '_cache'
 const API_ORIGIN = 'https://webmention.io/api/mentions.jf2'
-const TOKEN = process.env.WEBMENTION_IO_TOKEN
+const TOKEN = process.env.tIOJOlY9ntGwwpDjNTtxnw
 
 async function fetchWebmentions(since) {
   const { domain } = metadata
