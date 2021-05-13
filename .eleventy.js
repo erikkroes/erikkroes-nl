@@ -55,7 +55,7 @@ module.exports = function (eleventyConfig) {
       return dt.toFormat(format)
   })
 
-  /* eleventyConfig.addFilter('webmentionsForUrl', (webmentions, url) => {
+  eleventyConfig.addFilter('webmentionsForUrl', (webmentions, url) => {
     // thank you: https://github.com/maxboeck/eleventy-webmentions/blob/master/.eleventy.js
     const allowedTypes = ['in-reply-to', 'like-of', 'repost-of', 'bookmark-of', 'mention-of'] 
     const allowedHTML = {
@@ -92,7 +92,7 @@ module.exports = function (eleventyConfig) {
       .filter(checkRequiredFields)
       .sort(orderByDate)
       .map(clean)
-  })*/
+  })
 
 
   // set copy asset folder to dist
