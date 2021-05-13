@@ -11,10 +11,10 @@ layout: main
 
   <section aria-labelledby="section-heading">
     <h2 id="section-heading"><a href="/blog/">Blog</a>, latest writings</h2>
-    <ul>
+    <ul class="h-feed">
     {%- for post in collections.post | reverse -%}
       {% if loop.index0 < 4 %}
-    <li><article aria-labelledby="{{ post.data.title | slug }}">
+    <li class="h-entry"><article aria-labelledby="{{ post.data.title | slug }}">
       <h3 id="{{ post.data.title | slug }}"><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
       <time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate('dd-LL-yyyy') }}</time>
       <p>{{ post.data.description }}</p>

@@ -4,9 +4,11 @@ layout: main
 {% set previousPost = collections.post | getPreviousCollectionItem(page) %}
 {% set nextPost = collections.post | getNextCollectionItem(page) %}
 <main>
-  <article aria-labelledby="post-heading">
-    <h1 id="post-heading">{{ title }}</h1>
-    <p>Posted on <time datetime="{{ page.date }}">{{ page.date | readableDate('dd-LL-yyyy') }}</time></p>
+  <article aria-labelledby="post-heading" class="h-entry">
+    <h1 id="post-heading" class="p-name">{{ title }}</h1>
+    <a class="u-url" href="{{ data.url }}">
+      Posted on <time class="dt-published" datetime="{{ page.date }}">{{ page.date | readableDate('dd-LL-yyyy') }}</time>
+    </a>
 
     {{ content | safe}}
 
