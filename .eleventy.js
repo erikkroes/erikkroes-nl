@@ -2,6 +2,7 @@ const { DateTime } = require('luxon');
 const sanitizeHTML = require('sanitize-html');
 
 const markdownIt = require("markdown-it");
+const markdownItAttrs = require('markdown-it-attrs');
 const markdownItTocAndAnchor = require("markdown-it-toc-and-anchor").default; // the .default is essential: https://github.com/medfreeman/markdown-it-toc-and-anchor#readme
 
 const Image = require("@11ty/eleventy-img");
@@ -39,7 +40,7 @@ module.exports = function (eleventyConfig) {
     tocFirstLevel: 2,
     anchorClassName: null,
     wrapHeadingTextInAnchor: true    
-  });
+  }).use(markdownItAttrs);
   eleventyConfig.setLibrary("md", markdownLibrary);
 
   eleventyConfig.addFilter('htmlDateString', (dateObj) => {
@@ -53,7 +54,14 @@ module.exports = function (eleventyConfig) {
             dt.hour + dt.minute > 0 ? 'dd LLL yyyy - HH:mm' : 'dd LLL yyyy'
     }
       return dt.toFormat(format)
-  })
+  });
+
+  eleventyConfig.addFilter('dateToISO', (date) => {
+    return DateTime.fromJSDate(date, { zone: 'utc' }).toISO({
+          includeOffset: false,
+          suppressMilliseconds: true
+    });
+  });
 
   eleventyConfig.addFilter('webmentionsForUrl', (webmentions, url) => {
     // thank you: https://github.com/maxboeck/eleventy-webmentions/blob/master/.eleventy.js
@@ -92,7 +100,7 @@ module.exports = function (eleventyConfig) {
       .filter(checkRequiredFields)
       .sort(orderByDate)
       .map(clean)
-  })
+  });
 
 
   // set copy asset folder to dist

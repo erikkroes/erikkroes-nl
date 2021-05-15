@@ -15,9 +15,9 @@ layout: main
     {%- for post in collections.post | reverse -%}
       {% if loop.index0 < 4 %}
     <li class="h-entry"><article aria-labelledby="{{ post.data.title | slug }}">
-      <h3 id="{{ post.data.title | slug }}"><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
-      <time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate('dd-LL-yyyy') }}</time>
-      <p>{{ post.data.description }}</p>
+      <h3 id="{{ post.data.title | slug }}" class="p-name"><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+      <time class="dt-published" datetime="{{ page.date | dateToISO }}">{{ post.date | readableDate('dd-LL-yyyy') }}</time>
+      <p class="p-summary">{{ post.data.description }}</p>
     </article></li>
       {% endif%}
     {%- endfor -%}

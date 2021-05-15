@@ -9,21 +9,21 @@
     "serve": "eleventy --serve",
     "start": "eleventy --serve",
     "debug": "DEBUG=* eleventy"
-  
   },
   "author": "Erik Kroes",
   "license": "MIT",
   "devDependencies": {
-    "@11ty/eleventy": "^0.11.1",
+    "@11ty/eleventy": "^0.12.1",
     "@11ty/eleventy-cache-assets": "^2.1.0",
     "@11ty/eleventy-img": "^0.8.0",
     "@11ty/eleventy-plugin-rss": "^1.0.3",
     "dotenv": "^8.2.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "luxon": "^1.0.0",
-    "markdown-it": "^8.4.2",
+    "markdown-it": "^9",
     "markdown-it-toc-and-anchor": "^4.2.0",
     "node-fetch": "^2.3.0",
-    "sanitize-html": ">=2.3.2"
+    "sanitize-html": ">=2.3.2",
+    "markdown-it-attrs": "^4.0.0"
   }
 }
