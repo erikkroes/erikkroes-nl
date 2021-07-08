@@ -1,6 +1,7 @@
 ---
 title: The value of less
-description: ''
+description: We might not always be able to make the best choices from a set of options.
+  But we can always aim for less. Stay agile and flexible.
 date: 2021-07-08
 cover: "/assets/media/peak.jpg"
 cover_alt: A field of clouds with an opening in the center, showing a single mountain
