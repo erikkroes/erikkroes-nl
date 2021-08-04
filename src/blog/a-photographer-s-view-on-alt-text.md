@@ -12,7 +12,7 @@ Images are visual communication. Consider what you're trying to communicate befo
 
 ## What is alt text?
 
-When I say alt text I’m usually talking about the [alt-attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-alt) in for the [img-element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img) in HTML. But most of what I say goes for other text alternatives as well. So maybe the question should be, what is a text alternative?
+When I say alt text I’m usually talking about the [alt-attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-alt) for the [img-element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img) in HTML. But most of what I say goes for other text alternatives as well. So maybe the question should be, what is a text alternative?
 
 An image says more than a thousand words. But if you can't see an image, well, then it doesn't say much does it? A way to compensate for this is to add a text alternative; a bit of text that serves the same purpose as the image.
 
@@ -28,7 +28,7 @@ When you pick an image, ask yourself the same questions. What am I trying to com
 
 {% image "./src/assets/media/obama.webp", "President Obama speaking from behind a pedestal" %}
 
-Let's take this image as an example. What does it denote? And I'm picking this word because it one I picked up during my study in photography. The literal meaning of something is its [denotation](https://en.wikipedia.org/wiki/Denotation). In this case it could be something like the pretty generic alt text I added in the code: "President Obama speaking from behind a pedestal". The denotation is also right up the alley of image recognition by artifical intelligence (AI). You literally describe what's in the image. Although could easily go for an even more literal description here like: "A man in a suit behind a pedestal".
+Let's take this image as an example. What does it denote? And I'm picking this word because it one I picked up during my study in photography. The literal meaning of something is its [denotation](https://en.wikipedia.org/wiki/Denotation). In this case it could be something like the pretty generic alt text I added in the code: "President Obama speaking from behind a pedestal". The denotation is also right up the alley of image recognition by artifical intelligence (AI). You literally describe what's in the image. Although you could easily go for an even more literal description here like: "A man in a suit behind a pedestal".
 
 Stating it's President Obama is already more of a [connotation](https://en.wikipedia.org/wiki/Connotation). It's an interpretation of what we see. It's a cultural addition. Other connotations could include mentioning it's the first black president, that it's a former president or that he's talking about Donald Trump here.
 
@@ -44,13 +44,14 @@ The denotation has value but the connotation is often why we add an image. When 
 
 ## Why I care
 
-For the past few years, I've been working as a specialist in digital accessibility and inclusive design. In this role I work with WCAG, and the addition of text alternatives is pretty much the [first thing](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html) I check in an audit. Through this role, I've formed an opinion on text alternatives. 
+For the past few years, I've been working as a specialist in digital accessibility and inclusive design. In this role I work with WCAG, and the addition of text alternatives is pretty much the [first thing](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html) I check in an audit. Through this role, I've formed an opinion on text alternatives.
 
-Before this job, I was a photographer. I had 5 years of formal education in this direction. Visual communication is awesome and I wish the theory had stuck with me even more. 
+Before this job, I was a photographer. I had 5 years of formal education in this direction. Visual communication is awesome and I wish the theory had stuck with me even more.
 
 ## Resources
 
 * [https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html "https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html")
 * [https://jakearchibald.com/2021/great-alt-text/](https://jakearchibald.com/2021/great-alt-text/ "https://jakearchibald.com/2021/great-alt-text/")
 * [https://www.w3.org/WAI/tutorials/images/decision-tree/](https://www.w3.org/WAI/tutorials/images/decision-tree/ "https://www.w3.org/WAI/tutorials/images/decision-tree/")
+* [https://www.smashingmagazine.com/2021/06/img-alt-attribute-alternate-description-decorative/](https://www.smashingmagazine.com/2021/06/img-alt-attribute-alternate-description-decorative/ "https://www.smashingmagazine.com/2021/06/img-alt-attribute-alternate-description-decorative/")
 * [https://www.youtube.com/watch?v=IxHng2L_-aQ&t=19s&pp=sAQA](https://www.youtube.com/watch?v=IxHng2L_-aQ&t=19s&pp=sAQA "https://www.youtube.com/watch?v=IxHng2L_-aQ&t=19s&pp=sAQA")
