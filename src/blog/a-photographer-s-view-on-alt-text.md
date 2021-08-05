@@ -5,7 +5,7 @@ description: Images are visual communication. Consider what you're trying to com
 date: 2021-08-04
 cover: "/assets/media/processed_f8d6387ee3b381e0c884e4b950015069.jpg"
 cover_alt: A collage with pretty random pieces of pictures
-eleventyExcludeFromCollections: true
+eleventyExcludeFromCollections: false
 
 ---
 Images are visual communication. Consider what you're trying to communicate before you do.
@@ -16,7 +16,7 @@ Images are visual communication. Consider what you're trying to communicate befo
 
 ## Contents
 
-@[toc]
+@\[toc\]
 
 ## What is alt text?
 
@@ -49,7 +49,7 @@ The denotation has value but the connotation is often why we add an image. When 
 * **Don't include that it's an image.** Or a picture, a graphic, a visual, etc. That only adds noise as it's already clear from the context.
 * **Write out text.**
 * **Don't stylize text.** Italic and bold text don't change the message (and might not even be communicated). The same goes for anything beyond basic punctuation.
-* **"Null" the alt of a decorative image.** In HTML, if an image is [decorative](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html), add an **empty** alt like `<img alt>` or `<img alt="">`. And I do mean empty. No spaces or other text like "image" (I'm looking at you Twitter 👀).
+* **"Null" the alt of a decorative image.** In HTML, if an image is [decorative](https://www.w3.org/WAI/tutorials/images/decision-tree/), add an **empty** alt like `<img alt>` or `<img alt="">`. And I do mean empty. No spaces or other text like "image" (I'm looking at you Twitter 👀).
 
 ## Why I care
 
@@ -59,7 +59,7 @@ Before this job, I was a photographer. I had 5 years of formal education in this
 
 ## Concluding
 
-Studying photography has thaught me that it's all "just" visual communication.
+Studying photography has thaught me that it's all "just" visual communication. Wether it's text or imagery. Think about the message you're trying to communicate, and shape your communication accordingly.
 
 ## Resources
 
