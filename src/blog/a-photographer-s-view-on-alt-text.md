@@ -3,12 +3,20 @@ title: A photographer’s view on alt text
 description: Images are visual communication. Consider what you're trying to communicate
   before you do.
 date: 2021-08-04
-cover: ''
-cover_alt: ''
+cover: "/assets/media/processed_f8d6387ee3b381e0c884e4b950015069.jpg"
+cover_alt: A collage with pretty random pieces of pictures
 eleventyExcludeFromCollections: true
 
 ---
 Images are visual communication. Consider what you're trying to communicate before you do.
+
+{% image "./src/assets/media/processed_f8d6387ee3b381e0c884e4b950015069.jpg", "A collage with pretty random pieces of pictures" %}
+
+<aside>The "cover image" of this writing is from a project I did while studying photography. I wanted to discuss photography but not specific photos. I discovered it's almost impossible to talk about photos, without discussing what's in the photos. So I created images that "felt" like photos but didn't have a clear subject. I wrote a script that grabs random blobs of images from Flickr and turns them into a sort of subjectless collage.</aside>
+
+## Contents
+
+`@[toc]`
 
 ## What is alt text?
 
@@ -32,15 +40,16 @@ Let's take this image as an example. What does it denote? And I'm picking this w
 
 Stating it's President Obama is already more of a [connotation](https://en.wikipedia.org/wiki/Connotation). It's an interpretation of what we see. It's a cultural addition. Other connotations could include mentioning it's the first black president, that it's a former president or that he's talking about Donald Trump here.
 
-And this is where the purpose of the image plays a role. If you're writing an article on the achievements of black people in the USA, you might add Obama as the first black president. If you're writing a course on public speaking, you might add Obama to illustratie that public speaking is very important for presidents.
+And this is where the purpose of the image plays a role. If you're writing an article on the achievements of black people in the USA, you might add Obama as the first black president. If you're writing a course on public speaking, you might add Obama to illustratie that public speaking is very important for presidents. If the image is to supplement information about pedestals, then you might want to focus on highlighting details on the pedestal in the picture. It all about the purpose. Why are you adding the image?
 
 The denotation has value but the connotation is often why we add an image. When somebody adds a description of an image into the file (like discussed in this [Twitter thread](https://twitter.com/jonsneyers/status/1422646901439086592)), it might be enough to derive a connotation from it. But to really get the message across, write your own text alternative.
 
 ## Some more tips
 
-* **Don't include that it's an image.** That only adds noise as it's already clear from the context.
+* **Don't include that it's an image.** Or a picture, a graphic, a visual, etc. That only adds noise as it's already clear from the context.
 * **Write out text.**
 * **Don't stylize text.** Italic and bold text don't change the message (and might not even be communicated). The same goes for anything beyond basic punctuation.
+* **"Null" the alt of a decorative image.** In HTML, if an image is [decorative](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html), add an **empty** alt like `<img alt>` or `<img alt="">`. And I do mean empty. No spaces or other text like "image" (I'm looking at you Twitter 👀).
 
 ## Why I care
 
@@ -48,9 +57,13 @@ For the past few years, I've been working as a specialist in digital accessibili
 
 Before this job, I was a photographer. I had 5 years of formal education in this direction. Visual communication is awesome and I wish the theory had stuck with me even more.
 
+## Concluding
+
+Studying photography has thaught me that it's all "just" visual communication.
+
 ## Resources
 
-* [https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html "https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html")
+* [https://axesslab.com/alt-texts/](https://axesslab.com/alt-texts/ "https://axesslab.com/alt-texts/")
 * [https://jakearchibald.com/2021/great-alt-text/](https://jakearchibald.com/2021/great-alt-text/ "https://jakearchibald.com/2021/great-alt-text/")
 * [https://www.w3.org/WAI/tutorials/images/decision-tree/](https://www.w3.org/WAI/tutorials/images/decision-tree/ "https://www.w3.org/WAI/tutorials/images/decision-tree/")
 * [https://www.smashingmagazine.com/2021/06/img-alt-attribute-alternate-description-decorative/](https://www.smashingmagazine.com/2021/06/img-alt-attribute-alternate-description-decorative/ "https://www.smashingmagazine.com/2021/06/img-alt-attribute-alternate-description-decorative/")
