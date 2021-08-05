@@ -16,7 +16,7 @@ Images are visual communication. Consider what you're trying to communicate befo
 
 ## Contents
 
-@[toc]
+@\[toc\]
 
 ## What is alt text?
 
@@ -40,7 +40,7 @@ Let's take this image as an example. What does it denote? And I'm picking this w
 
 Stating it's President Obama is already more of a [connotation](https://en.wikipedia.org/wiki/Connotation). It's an interpretation of what we see. It's a cultural addition. Other connotations could include mentioning it's the first black president, that it's a former president or that he's talking about Donald Trump here.
 
-And this is where the purpose of the image plays a role. If you're writing an article on the achievements of black people in the USA, you might add Obama as the first black president. If you're writing a course on public speaking, you might add Obama to illustratie that public speaking is very important for presidents. If the image is to supplement information about pedestals, then you might want to focus on highlighting details on the pedestal in the picture. It all about the purpose. Why are you adding the image?
+And this is where the purpose of the image plays a role. If you're writing an article on the achievements of black people in the USA, you might add Obama as the first black president. If you're writing a course on public speaking, you might add Obama to illustrate that public speaking is very important for presidents. If the image is to supplement information about pedestals, then you might want to focus on highlighting details on the pedestal in the picture. It all about the purpose. Why are you adding the image?
 
 The denotation has value but the connotation is often why we add an image. When somebody adds a description of an image into the file (like discussed in this [Twitter thread](https://twitter.com/jonsneyers/status/1422646901439086592)), it might be enough to derive a connotation from it. But to really get the message across, write your own text alternative.
 
