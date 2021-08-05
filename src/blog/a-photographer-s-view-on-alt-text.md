@@ -59,7 +59,7 @@ Before this job, I was a photographer. I had 5 years of formal education in this
 
 ## Concluding
 
-Studying photography has thaught me that it's all "just" visual communication. Wether it's text or imagery. Think about the message you're trying to communicate, and shape your communication accordingly.
+Studying photography has taught me that it's all "just" visual communication. Wether it's text or imagery. Think about the message you're trying to communicate, and shape your communication accordingly.
 
 ## Resources
 
