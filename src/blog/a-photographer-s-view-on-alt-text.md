@@ -16,7 +16,7 @@ Images are visual communication. Consider what you're trying to communicate befo
 
 ## Contents
 
-`@[toc]`
+@[toc]
 
 ## What is alt text?
 
