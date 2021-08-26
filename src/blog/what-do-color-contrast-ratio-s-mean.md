@@ -1,5 +1,5 @@
 ---
-title: What do color contrast ratio's mean?
+title: Color and contrast, what does it mean?
 description: The color contrast ratio's mentioned in WCAG can give you an insight
   in how usable your color palette is. How that works isn't very transparent. Learn
   more about how the color contrast ratio is determined, and what that means for you
