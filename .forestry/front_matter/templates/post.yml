@@ -45,6 +45,7 @@ fields:
   label: Draft
   default: false
 pages:
+- src/blog/a-closer-look-a-family-evacuated-from-afghanistan-arrives-at-dulles.md
 - src/blog/a-photographer-s-view-on-alt-text.md
 - src/blog/accessible-html-toggle-button-switch.md
 - src/blog/i-made-this-website-with-html.md
