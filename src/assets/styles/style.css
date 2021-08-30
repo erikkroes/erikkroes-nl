@@ -101,13 +101,16 @@ footer > * {
   padding: 1rem 0; 
 }
 
-main > section + section > ul,
-main > article > ol {
+main > section + section > ul {
   display: grid;
   grid-template-columns: repeat(auto-fill,minmax(18rem,1fr));
   gap: 2rem;
   list-style: none;
   padding: 0;
+}
+
+main > article > ol {
+  padding-left: 1rem;
 }
 
 main > section article {
@@ -165,6 +168,21 @@ article p > code {
   padding: 0.25rem 0.25rem 0.125rem;
   border: 0.0625rem solid;
   background-color: whitesmoke;
+}
+
+article > table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+article > table th {
+  background-color: whitesmoke;
+}
+
+article > table th,
+article > table td  {
+  border: 0.0625rem solid;
+  padding: 0.25rem;
 }
 
 footer > * {
