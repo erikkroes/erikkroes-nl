@@ -4,13 +4,21 @@ description: The color contrast ratio's mentioned in WCAG can give you an insigh
   in how usable your color palette is. How that works isn't very transparent. Learn
   more about how the color contrast ratio is determined, and what that means for you
   (and your palette).
-date: 
-cover: ''
-cover_alt: ''
+date: 2021-08-31
+cover: "/assets/media/_dsc4661-edit.jpg"
+cover_alt: Snowy peaks of a mountain range against a bright and clouded sky. There
+  is a strong contrast between the dark rock structure of the peaks and the lighter
+  snow and sky.
 eleventyExcludeFromCollections: true
 
 ---
 The color contrast ratio's mentioned in WCAG can give you an insight in how usable your color palette is. How that works isn't very transparent. Learn more about how the color contrast ratio is determined, and what that means for you (and your palette).
+
+{% image "./src/assets/media/_dsc4661-edit.jpg", "Snowy peaks of a mountain range against a bright and clouded sky. There is a strong contrast between the dark rock structure of the peaks and the lighter snow and sky." %}
+
+## Contents
+
+@[toc]
 
 ## How it used to be
 
@@ -56,7 +64,7 @@ But nevermind. WCAG works differently.
 
 ### Hue, Saturation and Lightness
 
-There's also HSL (instead of RGB). It works with Hue, Saturation and Lightness. You might've seen (haha) it before. Hue is like having all tints in a circle.It starts with 0 (degrees) for red. Rotate to 30 and you get orange. Rotate to 60 for yellow. 120 is green. 240 is blue. 360 or 0 (full circle) is red again. Feels much more intuitive to me!
+There's also HSL (instead of RGB). It works with Hue, Saturation and Lightness. You might've seen (haha) it before. Hue is like having all tints in a circle. It starts with 0 (degrees) for red. Rotate to 30 and you get orange. Rotate to 60 for yellow. 120 is green. 240 is blue. 360 or 0 (full circle) is red again. Feels much more intuitive to me!
 
 Saturation is how saturated or full a color is. 100 (percent) for full color and 0 for none. The L is for Lightness. How light an image is with 100 (percent) being white and 0 being black.
 
@@ -78,7 +86,7 @@ We get red, yellow, green, cyan, blue and magenta. They're evenly spaced on the 
 
 Check out all the contrast ratio's in this table.
 
-| Red | Yellow | Green | Cyna | Blue | Magenta |
+| Red | Yellow | Green | Cyan | Blue | Magenta |
 | --- | --- | --- | --- | --- | --- |
 | 3.0 | 1.1 | 1.3 | 1.2 | 4.8 | 2.6 |
 | 4.5 | 1.2 | 1.6 | 1.4 | 9.3 | 3.5 |
@@ -92,7 +100,7 @@ And I'm not even going into Color Spaces yet here. I told you color can get comp
 
 ## WCAG?
 
-Yeah sorry. WCAG uses none of those really. Contrast in WCAG is based on [ITU-R Recommendation BT.709](https://en.wikipedia.org/wiki/Rec._709). What? ITU-R Recommendation BT.709. That's not very clear. 
+Yeah sorry. WCAG uses none of those really. Contrast in WCAG is based on [ITU-R Recommendation BT.709](https://en.wikipedia.org/wiki/Rec._709). What? ITU-R Recommendation BT.709. That's not very clear.
 
 > ITU-R Recommendation BT.709, more commonly known by the abbreviations Rec. 709 or BT.709, standardizes the format of high-definition television, having 16:9 (widescreen) aspect ratio. The first edition of the standard was approved in 1990.
 
@@ -103,7 +111,7 @@ That doesn't help much either probably. Sorry about that. Some things that stand
 * It has a component called Luma (component like R in RGB or H in HSL)
 * It's a way to measure brightness in sRGB that takes the human eye in account
 
-Trying to get back to why all of this is relevant. You don't measure RGB values when you use a color contrast tool. What's relevant in the end is the Luma-component. This component can be calculated from RGB (sRGB usually). The contrast is about 72% based on green (because our eyes are generally sensitive to green), 21% based on red and about 7% based on blue. Your eyes don't care much about blue. 
+Trying to get back to why all of this is relevant. You don't measure RGB values when you use a color contrast tool. What's relevant in the end is the Luma-component. This component can be calculated from RGB (sRGB usually). The contrast is about 72% based on green (because our eyes are generally sensitive to green), 21% based on red and about 7% based on blue. Your eyes don't care much about blue.
 
 ## We have Luma!
 
@@ -111,7 +119,7 @@ Now we have this value, it's used to calculate the contrast. As you may have not
 
 So if black is 1, then white is 21. White is 21 times as bright as black in this system. And black is 21 times as dark as white. The implication here, that was the big eye-opener for me, is that it's a ratio with a clearly defined range.
 
-If black is 1, and a color X has a ratio of 3.0:1 on black.. then X has a ratio of (21/3=7) 7.0:1 on white. 
+If black is 1, and a color X has a ratio of 3.0:1 on black.. then X has a ratio of (21/3=7) 7.0:1 on white.
 
 Trying to phrase this in multiple ways because it took me a bit for the coin to drop. If black is 1, X is 3, and white is 21. Then white/X (21/3) is 7.
 
