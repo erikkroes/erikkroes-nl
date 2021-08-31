@@ -9,7 +9,7 @@ cover: "/assets/media/_dsc4661-edit.jpg"
 cover_alt: Snowy peaks of a mountain range against a bright and clouded sky. There
   is a strong contrast between the dark rock structure of the peaks and the lighter
   snow and sky.
-eleventyExcludeFromCollections: true
+eleventyExcludeFromCollections: false
 permalink: "/blog/color-and-contrast/"
 
 ---
