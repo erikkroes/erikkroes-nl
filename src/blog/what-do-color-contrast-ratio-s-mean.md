@@ -1,9 +1,9 @@
 ---
 title: Color and contrast, what does it mean?
-description: The color contrast ratio's mentioned in WCAG can give you an insight
-  in how usable your color palette is. How that works isn't very transparent. Learn
-  more about how the color contrast ratio is determined, and what that means for you
-  (and your palette).
+description: The color contrast ratios mentioned in WCAG can give you an insight in
+  how usable your color palette is. How that works isn't very transparent. Learn more
+  about how the color contrast ratio is determined, and what that means for you (and
+  your palette).
 date: 2021-08-31
 cover: "/assets/media/_dsc4661-edit.jpg"
 cover_alt: Snowy peaks of a mountain range against a bright and clouded sky. There
@@ -13,13 +13,13 @@ eleventyExcludeFromCollections: false
 permalink: "/blog/color-and-contrast/"
 
 ---
-The color contrast ratio's mentioned in WCAG can give you an insight in how usable your color palette is. How that works isn't very transparent. Learn more about how the color contrast ratio is determined, and what that means for you (and your palette).
+The color contrast ratios mentioned in WCAG can give you an insight in how usable your color palette is. How that works isn't very transparent. Learn more about how the color contrast ratio is determined, and what that means for you (and your palette).
 
 {% image "./src/assets/media/_dsc4661-edit.jpg", "Snowy peaks of a mountain range against a bright and clouded sky. There is a strong contrast between the dark rock structure of the peaks and the lighter snow and sky." %}
 
 ## Contents
 
-@[toc]
+@\[toc\]
 
 ## How it used to be
 
@@ -77,7 +77,7 @@ It's a blue (240, 100, 50 in HSL) and a yellow (60, 100, 50) in HSL. The only di
 
 {% image "./src/assets/media/red.png", "Three red squares with varying brightness. The top one is the brightest, and the bottom one is the darkest." %}
 
-To put it in further perspective. These are three red squares. The first and brightest is 0, 100, 68. It has a contrast ratio of 3.0:1 on white. The second is 0, 100, 47 and a ratio of 4.5:1. The third is 0, 100, 36 and has a ratio of 7.0:1. The ratio's were picked because they're practical in a WCAG-context. Don't read too much into them.
+To put it in further perspective. These are three red squares. The first and brightest is 0, 100, 68. It has a contrast ratio of 3.0:1 on white. The second is 0, 100, 47 and a ratio of 4.5:1. The third is 0, 100, 36 and has a ratio of 7.0:1. The ratios were picked because they're practical in a WCAG-context. Don't read too much into them.
 
 Now what happens if we make a grid with the same saturation, these three luminosities but different hues?
 
@@ -85,7 +85,7 @@ Now what happens if we make a grid with the same saturation, these three luminos
 
 We get red, yellow, green, cyan, blue and magenta. They're evenly spaced on the hue-scale. They are not, however, evenly scaled in contrast. Where red a nice 3.0, 4.5 and 7.0, yellow is 1.1, 1.2 and 2.1. Much lower numbers! So the L-value is the same, but the contrast isn't. Blue is much like the opposite of yellow in this case with contrasts of 4.8, 9.3 and 12.4. Where the darkest yellow is not contrasty enough (according to WCAG) for large text (it's less than 3.0), the lightest blue is dark enough (more than 4.5) for small text even!
 
-Check out all the contrast ratio's in this table.
+Check out all the contrast ratios in this table.
 
 | Red | Yellow | Green | Cyan | Blue | Magenta |
 | --- | --- | --- | --- | --- | --- |
@@ -156,5 +156,5 @@ Oh, and we sold the fabric store. I never ended up making a whole Design System 
 * [WCAG Succes Criterion 1.4.3: Contrast (Minimum)](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html)
 * [ITU-R Recommendation BT.709](https://en.wikipedia.org/wiki/Rec._709)
 * [Contrast Grid](https://contrast-grid.eightshapes.com/) by Eightshapes
-* [Pretty usable palette by me](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23FFF%0D%0A%23F8F8F8%0D%0A%23E7E7E7%0D%0A%23DFDFDF%0D%0A%23B3B3B3%0D%0A%23909090%0D%0A%23727272%0D%0A%23555%0D%0A%23282828%0D%0A%23000%0D%0A%2349C4C4%0D%0A%2311A0A1%0D%0A%23107F84%0D%0A%23005F62%0D%0A%23FF968D%0D%0A%23EF605B%0D%0A%23CC4040%0D%0A%23A41F29%0D%0A%23F6C257%0D%0A%23DDAC40%0D%0A%23B68818%0D%0A%23966A00%0D%0A%23AADE6F%0D%0A%238EC255%0D%0A%23689D31%0D%0A%234B7F0F%0D%0A%23C8A2F8%0D%0A%23A47ED0%0D%0A%238461AE%0D%0A%23654591%0D%0A&es-color-form__tile-size=large&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp) 
+* [Pretty usable palette by me](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23FFF%0D%0A%23F8F8F8%0D%0A%23E7E7E7%0D%0A%23DFDFDF%0D%0A%23B3B3B3%0D%0A%23909090%0D%0A%23727272%0D%0A%23555%0D%0A%23282828%0D%0A%23000%0D%0A%2349C4C4%0D%0A%2311A0A1%0D%0A%23107F84%0D%0A%23005F62%0D%0A%23FF968D%0D%0A%23EF605B%0D%0A%23CC4040%0D%0A%23A41F29%0D%0A%23F6C257%0D%0A%23DDAC40%0D%0A%23B68818%0D%0A%23966A00%0D%0A%23AADE6F%0D%0A%238EC255%0D%0A%23689D31%0D%0A%234B7F0F%0D%0A%23C8A2F8%0D%0A%23A47ED0%0D%0A%238461AE%0D%0A%23654591%0D%0A&es-color-form__tile-size=large&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp)
 * [Leonardo](https://leonardocolor.io/)
