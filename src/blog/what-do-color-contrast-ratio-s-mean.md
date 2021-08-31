@@ -19,7 +19,7 @@ The color contrast ratio's mentioned in WCAG can give you an insight in how usab
 
 ## Contents
 
-@\[toc\]
+@[toc]
 
 ## How it used to be
 
