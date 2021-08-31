@@ -44,6 +44,11 @@ fields:
   type: boolean
   label: Draft
   default: false
+- name: permalink
+  type: text
+  config:
+    required: false
+  label: Permalink
 pages:
 - src/blog/a-closer-look-a-family-evacuated-from-afghanistan-arrives-at-dulles.md
 - src/blog/a-photographer-s-view-on-alt-text.md
