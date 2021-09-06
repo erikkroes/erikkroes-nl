@@ -4,7 +4,7 @@ layout: main
 <main>
   <article>
       <h1>Blog</h1>
-      <ol>
+      <ul>
       {%- for post in collections.post | reverse -%}      
         <li><article aria-labelledby="{{ post.data.title | slug }}">
           <h2 id="{{ post.data.title | slug }}"><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
@@ -12,6 +12,6 @@ layout: main
           <p>{{ post.data.description }}</p>
         </article></li>
       {%- endfor -%}
-      </ol>
+      </ul>
   </article>
 </main>

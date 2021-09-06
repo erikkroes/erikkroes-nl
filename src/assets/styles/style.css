@@ -101,13 +101,21 @@ footer > * {
   padding: 1rem 0; 
 }
 
-main > section + section > ul {
+main > section + section > ul,
+main > article > ul {
   display: grid;
   grid-template-columns: repeat(auto-fill,minmax(18rem,1fr));
   gap: 2rem;
   list-style: none;
   padding: 0;
 }
+
+main > article.e-content > ul {
+  display: block;
+  list-style: unset;
+  padding-left: 2rem;
+}
+
 
 main > article > ol {
   padding-left: 1rem;
