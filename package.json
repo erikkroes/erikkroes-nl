@@ -13,17 +13,17 @@
   "author": "Erik Kroes",
   "license": "MIT",
   "devDependencies": {
-    "@11ty/eleventy": "^0.12.1",
-    "@11ty/eleventy-cache-assets": "^2.1.0",
-    "@11ty/eleventy-img": "^0.8.0",
-    "@11ty/eleventy-plugin-rss": "^1.0.3",
-    "dotenv": "^8.2.0",
+    "@11ty/eleventy": "^1.0.1",
+    "@11ty/eleventy-cache-assets": "^2.3.0",
+    "@11ty/eleventy-img": "^2.0.1",
+    "@11ty/eleventy-plugin-rss": "^1.2.0",
+    "dotenv": "^16.0.1",
     "lodash": "^4.17.21",
-    "luxon": "^1.0.0",
-    "markdown-it": "^9",
+    "luxon": "^2.4.0",
+    "markdown-it": "^13",
     "markdown-it-toc-and-anchor": "^4.2.0",
-    "node-fetch": "^2.3.0",
-    "sanitize-html": ">=2.3.2",
-    "markdown-it-attrs": "^4.0.0"
+    "node-fetch": "^3.2.6",
+    "sanitize-html": ">=2.7.0",
+    "markdown-it-attrs": "^4.1.4"
   }
 }
