@@ -8,6 +8,7 @@ eleventyExcludeFromCollections: true
 permalink: ''
 
 ---
+\[introductive summary\]
 
 You start using a new product (hurray). You encounter an accessibility issue (meh). You can report it in a repository (hurray). A helpful maintainer labels it (hurray). They tag it as a "feature request" or "enhancement" (ohno). You have to convince them it's an actual bug (meh).
 
