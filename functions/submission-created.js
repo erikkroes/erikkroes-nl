@@ -7,7 +7,8 @@ const { EMAIL_TOKEN } = process.env
 exports.handler = async event => {
   const email_address = JSON.parse(event.body).payload.email
   console.log(`Recieved a submission: ${email_address}`)
-  return fetch('https://emailoctopus.com/api/1.6/lists/:listId/contacts', {
+  
+  fetch('https://emailoctopus.com/api/1.6/lists/:listId/contacts', {
     method: 'POST',
     headers: {    
       'Content-Type': 'application/json',
