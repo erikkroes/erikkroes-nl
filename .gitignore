@@ -3,3 +3,6 @@ _cache
 dist
 .env
 .DS_Store
+
+# Local Netlify folder
+.netlify

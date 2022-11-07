@@ -8,3 +8,6 @@
   for = "/*"
     [headers.values]
     Access-Control-Allow-Origin = "*"
+
+[functions]
+  node_bundler = "esbuild"
