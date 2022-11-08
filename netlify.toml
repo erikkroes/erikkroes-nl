@@ -1,8 +1,13 @@
 [build]
+  base = "."
   publish = "dist"
   command = "npm run build"
+  functions = "./functions"
 
 [[headers]]
   for = "/*"
     [headers.values]
     Access-Control-Allow-Origin = "*"
+
+[functions]
+  node_bundler = "esbuild"

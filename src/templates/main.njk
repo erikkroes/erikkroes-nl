@@ -2,7 +2,7 @@
 <html lang="en">
     {% include "parts/head.njk" %}
 
-    <body>     
+    <body class="page-{{ page.fileSlug or 'home'}}">     
       {% include "parts/header.njk" %}
       
       {{ content | safe }}        
