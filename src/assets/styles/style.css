@@ -218,23 +218,32 @@ footer > div > h2 {
   padding: 1rem 0 2rem;
 }
 
-.mail-updates {
-  background-color: lightgrey;
-  padding: 1rem;
-  border-radius: .5rem;
-}
-
 footer input,
 footer button,
-.page-about main input,
-.page-about main button {
+.newsletter-inline-submit input,
+.newsletter-inline-submit button {
   padding: 1rem;
   border: 2px solid #2d2d35;
   border-radius: 0.5rem;
 }
 
-.page-about button {
+footer button,
+.newsletter-inline-submit button {
   font-weight: bold;
   color: white;
   background-color: #2d2d35;
+}
+
+.newsletter-inline-submit {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.newsletter-inline-submit input {
+  flex: 2;
+}
+
+.newsletter-inline-submit button {
+  flex: 1;
 }

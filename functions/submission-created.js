@@ -3,6 +3,7 @@ dotenv.config()
 
 import fetch from 'node-fetch'
 const { EMAIL_TOKEN } = process.env
+const { LIST_ID_TOKEN } = process.env
 
 
 
@@ -14,9 +15,8 @@ exports.handler = async event => {
   const body = JSON.stringify({"api_key": EMAIL_TOKEN, "email_address": email_address})
   console.log(`Sending: ${body}`)
   
-  
   const response = await fetch(
-    'https://emailoctopus.com/api/1.6/lists/:listId/contacts',
+    `https://emailoctopus.com/api/1.6/lists/${LIST_ID_TOKEN}/contacts`,
     {
         method: 'POST',
         headers: {
