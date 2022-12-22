@@ -21,9 +21,12 @@
     "lodash": "^4.17.21",
     "luxon": "^2.4.0",
     "markdown-it": "^13",
+    "markdown-it-attrs": "^4.1.4",
     "markdown-it-toc-and-anchor": "^4.2.0",
     "node-fetch": "^3.2.6",
-    "sanitize-html": ">=2.7.0",
-    "markdown-it-attrs": "^4.1.4"
+    "sanitize-html": ">=2.7.0"
+  },
+  "dependencies": {
+    "netlify": "^13.0.1"
   }
 }
