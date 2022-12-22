@@ -1,0 +1,35 @@
+---
+title: Newsletter
+layout: main
+---
+<main>
+  <article>
+      <h1>Newsletter</h1>
+
+The best way to keep to stay up to date is subscribing to his newsletter. You'll get the latest updates delivered to you personally!
+
+<form class="email-form" name="newsletter" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+    <div hidden>
+    <label>
+        Don’t fill this out if you're human: 
+        <input name="bot-field" />
+    </label>
+    </div>
+    <label for="email_address">Email address</label>
+    <div>
+    <input type="email" name="email_address" id="email_address" required />
+    <button type="submit">Subscribe</button>
+    </div>
+</form>
+
+      <ul>
+      {%- for letter in collections.letter | reverse -%}      
+        <li><article aria-labelledby="{{ poletterst.data.title | slug }}">
+          <h2 id="{{ letter.data.title | slug }}"><a href="{{ letter.url }}">{{ letter.data.title }}</a></h2>
+          <time datetime="{{ letter.date | htmlDateString }}">{{ letter.date | readableDate('dd-LL-yyyy') }}</time>
+          <p>{{ letter.data.description }}</p>
+        </article></li>
+      {%- endfor -%}
+      </ul>
+  </article>
+</main>
