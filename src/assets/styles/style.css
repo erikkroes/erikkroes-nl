@@ -25,6 +25,12 @@
   padding: 0;
 }
 
+:focus {
+  box-shadow: 0 0 0 .25rem white;
+  outline: .375rem double black;
+  border-radius: .125rem;
+}
+
 a {
   position: relative;
   text-decoration: none;
@@ -36,10 +42,10 @@ a {
   touch-action: manipulation;
 }
 
-a:focus, a:hover {
+a:focus, a:hover, 
+input:focus, input:hover {
   color: black;
-  background-color: #9dc0d7;
-  box-shadow: 0 0 0 0.125rem currentColor;
+  background-color: #abc7d9;
 }
 
 a:visited {
