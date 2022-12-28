@@ -20,7 +20,3 @@ More information on his digital workspace can be found at [/uses/](/uses/).
 ## Contact
 
 There's a ton of channels these days, but let's try and stick to [e-mail](hi@erikkroes.nl).
-
-## Newsletter
-
-{% include "parts/newsletter.njk" %}
