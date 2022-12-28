@@ -108,7 +108,6 @@ main {
 main > *,
 footer > * {
   grid-column: 2;
-  padding: 1rem 0; 
 }
 
 main > section + section > ul,
@@ -121,6 +120,7 @@ footer > div,
   gap: 2rem;
   list-style: none;
   padding: 0;
+  padding-bottom: 2rem;
 }
 
 main > article.e-content > ul {
@@ -229,34 +229,30 @@ footer > div > h2 {
   padding: 1rem 0 2rem;
 }
 
-footer input,
-footer button,
-.newsletter-inline-submit input,
-.newsletter-inline-submit button {
+.newsletter-submit {
+  display: flex;
+  gap: 1rem;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+.newsletter-submit input,
+.newsletter-submit button {
   padding: 1rem;
   border: 2px solid #2d2d35;
   border-radius: 0.5rem;
+  font-size: 1.1875rem;
+  line-height: 1.7;
 }
 
-footer button,
-.newsletter-inline-submit button {
+.newsletter-submit input {
+  max-width: 10rem;
+}
+
+.newsletter-submit button {
   font-weight: bold;
   color: white;
   background-color: #2d2d35;
-}
-
-.newsletter-inline-submit {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-
-.newsletter-inline-submit input {
-  flex: 2;
-}
-
-.newsletter-inline-submit button {
-  flex: 1;
 }
 
 .introduction h3 {
@@ -274,4 +270,23 @@ footer button,
   background-color: var(--color-blue);
   border-radius: 2rem;
   border: .2rem solid var(--color-dark)
+}
+
+.cta section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: .2rem solid black;
+  border-radius: .6rem;
+  padding: 1rem;
+}
+
+.cta .mail-updates p {
+  padding-bottom: 1.7rem;
+} 
+
+.cta-link {
+  font-weight: bold;
+  font-size: 1.7rem;
+  align-self: center;
 }
