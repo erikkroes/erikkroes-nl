@@ -90,6 +90,8 @@ header nav {
   display: flex;
   grid-column: 2;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
 }
 
 header nav ul li {
@@ -249,10 +251,14 @@ footer > div > h2 {
   max-width: 10rem;
 }
 
+.newsletter .newsletter-submit input {
+  max-width: unset;
+}
+
 .newsletter-submit button {
   font-weight: bold;
   color: white;
-  background-color: #2d2d35;
+  background-color: var(--color-dark);
 }
 
 .introduction h3 {
