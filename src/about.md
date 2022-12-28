@@ -3,7 +3,7 @@ title: About
 layout: pages/single.njk
 ---
 
-Hi, I'm Erik. I'm a photographer and creative in the world of accessibility. I like to:
+Hi, I'm Erik. I like to:
 
 - Sink my teeth into a challenge
 - Get the most out of people and situations

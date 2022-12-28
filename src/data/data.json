@@ -1,10 +1,10 @@
 {
   "title": "Erik Kroes",
-  "description": "Erik Kroes - Photographer, artist & creative coder",
+  "description": "Erik Kroes - Specialist in accessibility, inclusive design and design systems.",
   "domain": "erikkroes.nl",  
   "url": "https://www.erikkroes.nl",
   "feed": {
-    "subtitle": "Erik Kroes - Photographer, artist & creative coder",
+    "subtitle": "Erik Kroes - Specialist in accessibility, inclusive design and design systems.",
     "filename": "feed.xml",
     "path": "/feed.xml",
     "id": "https://www.erikkroes.nl/"
