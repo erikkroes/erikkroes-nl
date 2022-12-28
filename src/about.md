@@ -12,12 +12,14 @@ Hi, I'm Erik. I'm a photographer and creative in the world of accessibility. I l
 
 What I don't like is writing about myself but let's try it anyway.
 
-Erik Kroes is a specialist in accessibility and design systems, and enjoys to combine the two. He lives in the Netherlands where he works as a Product Owner of the Design Systems at ING. Whatever time is left is mostly spent with his family. Personal projects include photography, gardening, generative art and creative programming.
+Erik Kroes is a specialist in accessibility, inclusive design and design systems, and enjoys to combine them. He lives in the Netherlands. He has worked as an accessibility specialist and Product Owner of the Design Systems at ING, as an Accessibility Design Director at IKEA and as the Head of Accessibility at Nomensa. A formal and ordered description of his life can be found on [LinkedIn](https://www.LinkedIn.com/in/ErikKroes/). A bit like a resume, except it's easier to keep up to date. 
+Whatever time is left is mostly spent with his family and advocating accessibility. Personal projects include photography, gardening, generative art and creative programming.
+
+More information on his digital workspace can be found at [/uses/](/uses/).
 
 ## Contact
 
-A formal and ordered description of his life can be found on [LinkedIn](https://www.LinkedIn.com/in/ErikKroes/). Erik spends more time on [Twitter](https://twitter.com/ErikKroes/). More information on his digital workspace can be found at [/uses/](/uses/)
-You can always contact him there, or use [e-mail](contact@k4rp.nl).
+There's a ton of channels these days, but let's try and stick to [e-mail](hi@erikkroes.nl).
 
 ## Newsletter
 
