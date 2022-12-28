@@ -250,6 +250,7 @@ footer > div > h2 {
 .newsletter-submit input {
   max-width: 10rem;
 }
+
 .newsletter .newsletter-submit input {
   max-width: unset;
 }
