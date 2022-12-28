@@ -18,6 +18,10 @@
 
 :root {
   --body-width: 50rem;
+  --color-dark: #2d2d35;
+  --color-blue: #9dc0d7;
+  --color-linkblue: #003052;
+  
 }
 
 * {
@@ -34,7 +38,7 @@
 a {
   position: relative;
   text-decoration: none;
-  color: #003052;
+  color: var(--color-linkblue);
   border-bottom: 0.125rem solid currentColor;
   padding: 0 0.125rem 0.125rem;
   border-radius: 0.125rem;
@@ -45,7 +49,7 @@ a {
 a:focus, a:hover, 
 input:focus, input:hover {
   color: black;
-  background-color: #9dc0d7;
+  background-color: var(--color-blue);
 }
 
 a:visited {
@@ -64,7 +68,7 @@ a:focus:visited {
 
 body {
   background-color: whitesmoke;
-  color: #2d2d35;
+  color: var(--color-dark);
   display: flex;
   flex-direction: column;
   font-family: atkinson_hyperlegible, 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -104,18 +108,19 @@ main {
 main > *,
 footer > * {
   grid-column: 2;
-  padding: 1rem 0; 
 }
 
 main > section + section > ul,
 .page-home > ul,
 .page-blog > ul,
-footer > div {
+footer > div,
+.introduction > .cta {
   display: grid;
   grid-template-columns: repeat(auto-fill,minmax(18rem,1fr));
   gap: 2rem;
   list-style: none;
   padding: 0;
+  padding-bottom: 2rem;
 }
 
 main > article.e-content > ul {
@@ -224,32 +229,64 @@ footer > div > h2 {
   padding: 1rem 0 2rem;
 }
 
-footer input,
-footer button,
-.newsletter-inline-submit input,
-.newsletter-inline-submit button {
+.newsletter-submit {
+  display: flex;
+  gap: 1rem;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+.newsletter-submit input,
+.newsletter-submit button {
   padding: 1rem;
   border: 2px solid #2d2d35;
   border-radius: 0.5rem;
+  font-size: 1.1875rem;
+  line-height: 1.7;
 }
 
-footer button,
-.newsletter-inline-submit button {
+.newsletter-submit input {
+  max-width: 10rem;
+}
+
+.newsletter-submit button {
   font-weight: bold;
   color: white;
   background-color: #2d2d35;
 }
 
-.newsletter-inline-submit {
+.introduction h3 {
+  display: inline;
+}
+
+.introduction ol {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(12rem,1fr));
+  gap: 2rem;
+  padding: 2rem;
+  list-style-position: inside;
+  margin-left: -2rem;
+  margin-top: 1rem;
+  background-color: var(--color-blue);
+  border-radius: 2rem;
+  border: .2rem solid var(--color-dark)
+}
+
+.cta section {
   display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
+  flex-direction: column;
+  justify-content: space-between;
+  border: .2rem solid black;
+  border-radius: .6rem;
+  padding: 1rem;
 }
 
-.newsletter-inline-submit input {
-  flex: 2;
-}
+.cta .mail-updates p {
+  padding-bottom: 1.7rem;
+} 
 
-.newsletter-inline-submit button {
-  flex: 1;
+.cta-link {
+  font-weight: bold;
+  font-size: 1.7rem;
+  align-self: center;
 }
