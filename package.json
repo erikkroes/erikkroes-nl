@@ -4,7 +4,7 @@
   "description": "Personal website of Erik Kroes",
   "main": "index.js",
   "scripts": {
-    "social-images": "eleventy-social-images --siteName 'Erik Kroes'",
+    "social-images": "eleventy-social-images --siteName 'Erik Kroes' --outputDir 'dist' --dateFile src/pages.json",
     "build": "eleventy ; npm run social-images",
     "watch": "eleventy --watch",
     "serve": "eleventy --serve",
