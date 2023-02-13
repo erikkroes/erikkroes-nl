@@ -128,16 +128,24 @@ main {
   background-color: white;
 }
 
-main > *,
+main > section,
+main > article,
 footer > * {
   grid-column: 2;
+}
+
+main > h1 {
+  grid-column: 2;
+}
+
+main > section + section {
+  padding-top: 3rem;
 }
 
 main > section + section > ul,
 .page-home > ul,
 .page-blog > ul,
-footer > div,
-.introduction > .cta {
+footer > div {
   display: grid;
   grid-template-columns: repeat(auto-fill,minmax(18rem,1fr));
   gap: 2rem;
@@ -299,21 +307,77 @@ footer > div > h2 {
   border: .2rem solid var(--color-dark)
 }
 
-.cta section {
+.contact {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   border: .2rem solid black;
   border-radius: .6rem;
   padding: 1rem;
+  max-width: 24rem;
+  margin: 0 auto;
+  margin-top: 2rem;
 }
 
-.cta .mail-updates p {
+.contact .mail-updates p {
   padding-bottom: 1.7rem;
 } 
 
-.cta-link {
+.contact-link {
   font-weight: bold;
   font-size: 1.7rem;
   align-self: center;
+}
+
+.trusted ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.trusted li {
+  margin: 0 auto;
+}
+
+.trusted img {
+  max-width: 10rem;
+  max-height: 8rem;
+}
+
+.activities dl {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.activities dt,
+.activities dd {
+  border-bottom: 0.125rem solid var(--color-dark);
+  padding: .5rem 0;
+}
+
+.activities dt {
+  width: 12rem;
+  font-weight: bold;
+}
+
+.activities dd {
+  width: 36rem;
+  padding-left: 2rem;
+}
+
+.blog ul,
+.page-blog main ul {
+  display: block;
+  padding-left: 2rem;
+  list-style: circle;
+}
+
+.blog ul li,
+.page-blog main ul li {
+  margin: 2rem 0;
+}
+
+.blog article > p:first-of-type,
+.page-blog main article > p:first-of-type {
+  font-size: unset;
 }

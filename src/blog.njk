@@ -8,8 +8,7 @@ layout: main
       <ul>
       {%- for post in collections.post | reverse -%}      
         <li><article aria-labelledby="{{ post.data.title | slug }}">
-          <h2 id="{{ post.data.title | slug }}"><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
-          <time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate('dd-LL-yyyy') }}</time>
+          <h2 id="{{ post.data.title | slug }}"><a href="{{ post.url }}">{{ post.data.title }}</a></h2>          
           <p>{{ post.data.description }}</p>
         </article></li>
       {%- endfor -%}

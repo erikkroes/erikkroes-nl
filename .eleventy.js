@@ -45,6 +45,17 @@ module.exports = function (eleventyConfig) {
   }).use(markdownItAttrs);
   eleventyConfig.setLibrary("md", markdownLibrary);
 
+  eleventyConfig.addShortcode("contact", function(){
+
+    return `<section class="contact">
+    <p><strong>Contact me</strong> to pick my brain. We'll work together, address your specific needs and make something great!</p>
+    
+    <a class="contact-link" href="/about/#contact">Contact me</a>
+    
+    </section>`
+    
+    });
+
   eleventyConfig.addFilter('htmlDateString', (dateObj) => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('yyyy-LL-dd');
   });
