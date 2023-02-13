@@ -1,10 +1,11 @@
 {
-  "name": "erikkroes",
+  "name": "Erik Kroes",
   "version": "1.0.0",
-  "description": "Personal website of erikkroes",
+  "description": "Personal website of Erik Kroes",
   "main": "index.js",
   "scripts": {
-    "build": "eleventy",
+    "social-images": "eleventy-social-images --siteName 'Erik Kroes'",
+    "build": "eleventy ; npm run social-images",
     "watch": "eleventy --watch",
     "serve": "eleventy --serve",
     "start": "eleventy --serve",
@@ -17,6 +18,7 @@
     "@11ty/eleventy-cache-assets": "^2.3.0",
     "@11ty/eleventy-img": "^2.0.1",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
+    "@11tyrocks/eleventy-plugin-social-images": "^0.4.1",
     "dotenv": "^16.0.1",
     "lodash": "^4.17.21",
     "luxon": "^2.4.0",

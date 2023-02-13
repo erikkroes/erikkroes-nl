@@ -7,6 +7,7 @@ const markdownItTocAndAnchor = require("markdown-it-toc-and-anchor").default; //
 
 const Image = require("@11ty/eleventy-img");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
+const socialImages = require("@11tyrocks/eleventy-plugin-social-images");
 
 async function imageShortcode(src, alt, sizes) {
   let metadata = await Image(src, {
@@ -29,6 +30,7 @@ async function imageShortcode(src, alt, sizes) {
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
+  eleventyConfig.addPlugin(socialImages);
   eleventyConfig.setDataDeepMerge(true);
 
   let markdownLibrary = markdownIt({ // add IDs to headings with links inside. Perfect!

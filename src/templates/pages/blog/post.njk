@@ -3,7 +3,7 @@ layout: main
 ---
 {% set previousPost = collections.post | getPreviousCollectionItem(page) %}
 {% set nextPost = collections.post | getNextCollectionItem(page) %}
-<main>
+<main id="main">
   <article aria-labelledby="post-heading" class="h-entry e-content">
     <h1 id="post-heading" class="p-name">{{ title }}</h1>
     <a class="u-url" href="{{ data.url }}">
