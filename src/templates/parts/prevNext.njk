@@ -1,8 +1,0 @@
-<nav aria-labelledby="next-prev-heading">
-  <h3 id="next-prev-heading">Item navigation</h3>
-
-  <ul>
-  {% if previousPost %}<li>Previous item: <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a></li>{% endif %}
-  {% if nextPost %}<li>Next item: <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></li>{% endif %}
-  </ul>
-</nav>
