@@ -1,7 +1,7 @@
 [build]
   base = "."
   publish = "dist"
-  command = "npm run build"
+  command = "AWS_LAMBDA_FUNCTION_NAME=trickpuppeteer npm run build"
   functions = "./functions"
 
 [[headers]]
