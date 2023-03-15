@@ -7,7 +7,7 @@ eleventyExcludeFromCollections: true
 {%- for pages in collections.all %}
   {
       "title":"{{ pages.data.title | addNbsp | safe }}",
-      "imgName":"{{ pages.data.title | slug }}"
+      "imgName":"{{ pages.data.title | slugify }}"
   }{% if loop.last == false %},{% endif -%}
 {% endfor %}
 ]
