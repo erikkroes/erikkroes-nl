@@ -301,10 +301,11 @@ footer > div > h2 {
   padding: 2rem;
   list-style-position: inside;
   margin-left: -2rem;
-  margin-top: 1rem;
-  background-color: var(--color-blue);
-  border-radius: 2rem;
-  border: .2rem solid var(--color-dark)
+}
+
+.introduction ol li {
+  border-left: .2rem solid var(--color-dark);
+  padding: 1rem;  
 }
 
 .contact {
@@ -341,7 +342,6 @@ footer > div > h2 {
 
 .trusted img {
   max-width: 10rem;
-  max-height: 8rem;
 }
 
 .activities dl {
