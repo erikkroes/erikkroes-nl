@@ -8,6 +8,7 @@ eleventyExcludeFromCollections: true
   {
       "title":"{{ pages.data.title | addNbsp | safe }}",
       "imgName":"{{ pages.data.title | slugify }}"
+      {# check https://www.11ty.dev/docs/filters/slugify/ #}
   }{% if loop.last == false %},{% endif -%}
 {% endfor %}
 ]
