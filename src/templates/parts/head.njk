@@ -19,8 +19,20 @@
     <meta name="twitter:image" content="{% if cover %}{{ data.url + cover }}{% endif %}" />
     <meta name="twitter:image:alt" content="{% if cover_alt %}{{ cover_alt }}{% endif %}" />
 
+    {%- set pageSocialImg %}{{ meta.url }}/previews/{{ title | slug }}.png{% endset
+    -%}
+    <meta property="og:image" content="{{pageSocialImg}}" />
+    <meta name="twitter:image" content="{{pageSocialImg}}" />
+
     <title>{% if title %}{{ title }} | {% endif %}{{ data.title }}</title>
 
+    <style type="text/css">
+        header, main, footer { 
+            display: grid;
+            grid-template-columns: minmax(1rem, 1fr) minmax(18rem, var(--body-width)) minmax(1rem, 1fr);
+        }
+    </style>
+    
     <link rel="preload" href="{{ '/assets/fonts/Atkinson-Hyperlegible-Regular-102a.woff2' | url }}" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="{{ '/assets/fonts/Atkinson-Hyperlegible-Bold-102a.woff2' | url }}" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="{{ '/assets/styles/style.css' | url }}">        
