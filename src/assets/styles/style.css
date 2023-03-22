@@ -383,3 +383,23 @@ aside > nav > ul {
 .page-blog main article > p:first-of-type {
   font-size: unset;
 }
+
+footer .social ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 0 1rem;
+  padding-left: 0;
+}
+
+.webring {
+  padding-top: 2rem;
+}
+
+.webring ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 0 1rem;
+  padding-left: 0;
+}
