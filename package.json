@@ -9,6 +9,7 @@
     "watch": "eleventy --watch",
     "serve": "eleventy --serve",
     "start": "eleventy --serve",
+    "write": "npx tinacms dev -c \"eleventy --serve\"",
     "debug": "DEBUG=* eleventy"
   },
   "author": "Erik Kroes",
