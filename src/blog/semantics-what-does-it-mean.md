@@ -1,12 +1,15 @@
 ---
-title: Semantics, what does it mean?
-description: When people talk about the quality of HTML code, it is often about semantics.
-  But what are semantics? What is semantic HTML, and why should you care about it?
-date: 2021-01-19
+title: 'Semantics, what does it mean?'
+description: >-
+  When people talk about the quality of HTML code, it is often about semantics.
+  But what are semantics? What is semantic HTML, and why should you care about
+  it?
+date: 2021-01-19T00:00:00.000Z
 cover: ''
 cover-alt: ''
-
+_template: post
 ---
+
 When people talk about the quality of HTML code, it is often about semantics. But what are semantics? What is semantic HTML, and why should you care about it?
 
 ## Table of Contents

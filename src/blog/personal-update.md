@@ -1,14 +1,12 @@
 ---
 title: Personal update
-description: "I think I'm allowed at least one personal message these days. There's
-  no thread or solid reasoning in this. My mind is still mushy so there should be
-  typo's, but it's the mind I have. \U0001F389 But to me it's all about gratitude
-  and privilege."
-date: 2020-02-26
+description: "I think I'm allowed at least one personal message these days. There's no thread or solid reasoning in this. My mind is still mushy so there should be typo's, but it's the mind I have. \U0001F389 But to me it's all about gratitude and privilege."
+date: 2020-02-26T00:00:00.000Z
 cover: ''
 cover-alt: ''
-
+_template: post
 ---
+
 I think I'm allowed at least one personal message these days. There's no thread or solid reasoning in this. My mind is still mushy so there should be typo's, but it's the mind I have. 🎉 But to me it's all about gratitude and privilege.
 
 ## How it started

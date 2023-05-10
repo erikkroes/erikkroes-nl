@@ -1,12 +1,14 @@
 ---
 title: Accessible HTML Toggle Button (Switch)
-description: Everybody loves toggle switch on mobile, or so I've heard. But if you're
+description: >-
+  Everybody loves toggle switch on mobile, or so I've heard. But if you're
   building a website, how do you reproduce this without excluding people.
-date: 2020-06-27
+date: 2020-06-27T00:00:00.000Z
 cover: ''
 cover-alt: ''
-
+_template: post
 ---
+
 Everybody loves toggle switch on mobile, or so I've heard. But if you're building a website, how do you reproduce this without excluding people.
 
 ## The result

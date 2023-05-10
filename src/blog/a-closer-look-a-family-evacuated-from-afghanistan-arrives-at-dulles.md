@@ -1,13 +1,15 @@
 ---
 title: 'A closer look: "A family evacuated from Afghanistan arrives at Dulles"'
-description: I shared an image of Afghan refugees too haphazardly. Let's have a second
+description: >-
+  I shared an image of Afghan refugees too haphazardly. Let's have a second
   look.
-date: 2021-08-29
-cover: "/assets/media/e90w5dgxoaqytjs.jpg"
+date: 2021-08-29T00:00:00.000Z
+cover: /assets/media/e90w5dgxoaqytjs.jpg
 cover_alt: 5 members of an Afghan family arriving in a US airport
 eleventyExcludeFromCollections: false
-
+_template: post
 ---
+
 I shared an image of Afghan refugees too haphazardly. Let's have a second look.
 
 {% image "./src/assets/media/e90w5dgxoaqytjs.jpg", "5 members of an Afghan family arriving in a US airport" %}

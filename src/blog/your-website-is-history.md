@@ -1,19 +1,22 @@
 ---
 title: Your website is history
-description: Everything you put on your website is old. Every website is an archive.
-  The web is a collective history.
-date: 2021-04-05
-cover: "/assets/media/erik_kroes__time_works_06.jpg"
-cover-alt: Blue water with horizontal lines. Even less subtle are the dark and golden
-  pixelated artifacts in front of it. They're leafless branches waving in the wind
-  and they violently break up in the image.
+description: >-
+  Everything you put on your website is old. Every website is an archive. The
+  web is a collective history.
+date: 2021-04-05T00:00:00.000Z
+cover: /assets/media/erik_kroes__time_works_06.jpg
+cover-alt: >-
+  Blue water with horizontal lines. Even less subtle are the dark and golden
+  pixelated artifacts in front of it. They're leafless branches waving in the
+  wind and they violently break up in the image.
 eleventyExcludeFromCollections: false
 cover_alt: |-
   Blue water with horizontal lines. Even less subtle are the dark and golden
     pixelated artifacts in front of it. They're leafless branches waving in the wind
     and they violently break up in the image.
-
+_template: post
 ---
+
 Everything you put on your website is old. Every website is an archive. The web is a collective history.
 
 {% image "./src/assets/media/erik_kroes__time_works_01.jpg", "Dark blue water with a plane of white in the front that looks snowy. There are subtle horizontal lines in the entire image." %}

@@ -1,16 +1,14 @@
 ---
 title: Knowing what to expect (maybe my favorite accessibility principle)
-description: "There are some useful principles to keep in mind when considering accessibility
-  and inclusive design, but this one is probably my personal favorite. It helps a
-  lot of people (including me, which makes it super important \U0001F440) and can
-  apply to so many situations. Always make sure people know what to expect."
-date: 2023-03-08
+description: "There are some useful principles to keep in mind when considering accessibility and inclusive design, but this one is probably my personal favorite. It helps a lot of people (including me, which makes it super important \U0001F440) and can apply to so many situations. Always make sure people know what to expect."
+date: 2023-03-08T00:00:00.000Z
 cover: ''
 cover_alt: ''
 eleventyExcludeFromCollections: false
 permalink: ''
-
+_template: post
 ---
+
 There are some useful principles to keep in mind when considering accessibility and inclusive design, but this one is probably my personal favorite. It helps a lot of people (including me, which makes it super important 👀) and can apply to so many situations. Always make sure people know what to expect.
 
 ## Example #1 - The stop-and-go haircut

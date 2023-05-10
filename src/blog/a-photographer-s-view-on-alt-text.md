@@ -1,13 +1,15 @@
 ---
 title: A photographer’s view on alt text
-description: Images are visual communication. Consider what you’re trying to communicate
+description: >-
+  Images are visual communication. Consider what you’re trying to communicate
   before you do.
-date: 2021-08-04
-cover: "/assets/media/processed_f8d6387ee3b381e0c884e4b950015069.jpg"
+date: 2021-08-04T00:00:00.000Z
+cover: /assets/media/processed_f8d6387ee3b381e0c884e4b950015069.jpg
 cover_alt: A collage with pretty random pieces of pictures
 eleventyExcludeFromCollections: false
-
+_template: post
 ---
+
 Images are visual communication. Consider what you’re trying to communicate before you do.
 
 {% image "./src/assets/media/processed_f8d6387ee3b381e0c884e4b950015069.jpg", "A collage with pretty random pieces of pictures" %}

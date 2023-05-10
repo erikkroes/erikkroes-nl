@@ -1,13 +1,14 @@
 ---
 title: Inclusion beats optimization
 description: Why accessibility has priority over other issues
-date: 2022-08-18
-cover: "/assets/media/img_20151012_123528663_hdr.jpg"
+date: 2022-08-18T00:00:00.000Z
+cover: /assets/media/img_20151012_123528663_hdr.jpg
 cover_alt: A view back from a train which shows a magnificient Alpine landscape.
 eleventyExcludeFromCollections: false
 permalink: ''
-
+_template: post
 ---
+
 When you're building something and you're moving fast, make sure to look back every now and then. Check if everybody is on board before moving further. Make sure to include people every step of the way. Accessibility has priority over other issues
 
 You start using a new product (hurray). You encounter an accessibility issue (meh). You can report it in a repository (hurray). A helpful maintainer labels it (hurray). They tag it as a "feature request" or "enhancement" (ohno). You have to convince them it's an actual bug (meh).

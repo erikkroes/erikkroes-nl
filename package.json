@@ -29,6 +29,8 @@
     "sanitize-html": ">=2.7.0"
   },
   "dependencies": {
-    "netlify": "^13.0.1"
+    "@tinacms/cli": "^1.5.11",
+    "netlify": "^13.0.1",
+    "tinacms": "^1.5.4"
   }
 }
