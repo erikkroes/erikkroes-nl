@@ -76,7 +76,7 @@ It's simple (famous last words). There are 3 lines of CSS, and the third is opti
 }
 ```
 
-First we select the focus state with `:focus`. We add a double outline that's black with `outline: .375rem double black;`. This is the "inner" and "outer" outline. You can read more about this outline-style on MDN: https://developer.mozilla.org/en-US/docs/Web/CSS/outline-style.
+First we select the focus state with `:focus`. We add a double outline that's black with `outline: .375rem double black;`. This is the "inner" and "outer" outline. [You can read more about this outline-style on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/outline-style).
 But we want a white outline in there as well. We can add that with a `box-shadow`: `box-shadow: 0 0 0 .25rem white;`. And to make everything pretty, you can even add a `border-radius`: `border-radius: .125rem;`. Pretty right?
 
 ![A bit of text with a link in view. The text is light on a dark background. The link is surrounded by a black, white and then black outline. But you only see white. ](</assets/media/Screenshot 2022-11-18 at 08.12.17.png>)
@@ -93,7 +93,7 @@ This whole idea and subject came up on the web-a11y slack. Throw me a message on
 
 Further read on focus states on how they can/should be styled can be found here:
 
-* https://www.w3.org/WAI/WCAG22/Understanding/focus-visible.html
-* https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html
-* https://www.sarasoueidan.com/blog/focus-indicators/
-* http://nativeformelements.com/
+* [WCAG SC 2.4.7 Focus Visible](https://www.w3.org/WAI/WCAG22/Understanding/focus-visible.html)
+* [WCAG SC 1.4.11 Non-text Contrast](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html)
+* [Sara Soueidan on Focus Indicators](https://www.sarasoueidan.com/blog/focus-indicators/)
+* [Native form elements](http://nativeformelements.com/)

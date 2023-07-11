@@ -207,6 +207,10 @@ article aside {
   border-left: 0.25rem solid;
 }
 
+article blockquote {
+  font-size: 2rem;
+}
+
 article pre {
   padding: 1.25rem;
   white-space: pre-wrap;
@@ -312,6 +316,11 @@ aside > nav > ul {
   max-width: 24rem;
   margin: 0 auto;
   margin-top: 2rem;
+}
+
+footer .contact {
+ margin-top: 0;
+ margin-bottom: 1rem;
 }
 
 .contact .mail-updates p {
