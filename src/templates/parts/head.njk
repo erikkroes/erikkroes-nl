@@ -17,11 +17,10 @@
     <meta name="twitter:title" content="{% if title %}{{ title }} | {% endif %}{{ data.title }}" />
     <meta name="twitter:site" content="@erikkroes" />
 
-    {%- set pageSocialImg %}{{ meta.url }}/previews/{{ title | slug }}.png{% endset
-    -%}
-    <meta name="twitter:image" content="{{pageSocialImg}}" />
-    <meta property="og:image" content="{{pageSocialImg}}" />
-
+    <meta name="twitter:image" content="{% if cover %}{{ data.url + cover }}{% endif %}" />
+    <meta name="twitter:image:alt" content="{% if cover-alt %}{{ cover-alt }}{% endif %}" />
+    <meta property="og:image" content="{% if cover %}{{ data.url + cover }}{% endif %}" />
+    <meta name="og:image:alt" content="{% if cover-alt %}{{ cover-alt }}{% endif %}" />
 
     <title>{% if title %}{{ title }} | {% endif %}{{ data.title }}</title>
 
