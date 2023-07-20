@@ -9,6 +9,7 @@ const Image = require("@11ty/eleventy-img");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const Webmentions = require("eleventy-plugin-webmentions");
 
+
 async function imageShortcode(src, alt, sizes) {
   let metadata = await Image(src, {
     widths: [320, 480, 640, 768, 1114, null],
@@ -34,8 +35,7 @@ module.exports = function (eleventyConfig) {
     token: "tIOJOlY9ntGwwpDjNTtxnw",
   });
   eleventyConfig.addPlugin(pluginRss);
-    eleventyConfig.setDataDeepMerge(true);
-
+  eleventyConfig.setDataDeepMerge(true);
 
   let markdownLibrary = markdownIt({ // add IDs to headings with links inside. Perfect!
     html: true,
