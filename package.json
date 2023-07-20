@@ -20,6 +20,7 @@
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@chrisburnell/eleventy-cache-webmentions": "^1.2.3",
     "dotenv": "^16.0.1",
+    "eleventy-plugin-webmentions": "^2.0.0",
     "lodash": "^4.17.21",
     "luxon": "^2.4.0",
     "markdown-it": "^13",

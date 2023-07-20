@@ -1,0 +1,66 @@
+---
+permalink: /test.html
+eleventyExcludeFromCollections: true
+layout: main
+---
+<main id="main">
+  <article aria-labelledby="post-heading">
+    <h1 id="post-heading">Test</h1>
+
+    
+  </article>
+</main>
+
+
+
+{%- set postMentions = webmentions | webmentionsForPage("https://www.erikkroes.nl/blog/anchor-link/")   -%}
+{%- set postMentionCount = webmentions | webmentionCountForPage("https://www.erikkroes.nl/blog/anchor-link/") -%}
+
+{# {%- set reposts = webmentions | webmentionsForUrl: absoluteUrl, "repost-of,mention-of" -%}
+{%- set repostsSize = reposts | size -%}
+{%- set likes = webmentions | webmentionsForUrl: absoluteUrl, 'like-of' -%}
+{%- set likesSize = likes | size -%} #}
+
+
+<main id="main">
+    <dl>
+      <dt>postmentions</dt>
+      <dd>{{ postMentions | dump | safe  }}</dd>
+      <dt>webmentions</dt>
+      <dd>{{ webmentions | dump | safe }}</dd>
+      <dt>postmentions.likes</dt>
+      <dd>{{ postMentions.likes | dump | safe }}</dd>
+      {{ postMentions.reposts }}
+      {{ postMentions.comments }}
+      </dl>
+
+       {% ifAsync postMentions.likes.length %}
+        <h3>Likes</h3>
+
+        <h3>
+          {% if postMentions.likes.length === 1 %}
+            {{ postMentions.likes.length }} Like
+          {% elif (postMentions.likes.length > 1) -%}
+            {{ postMentions.likes.length }} Likes{% endif -%}
+        </h3>
+         {% for like in postMentions.likes %}
+          <a href="{{ like.author.url }}" class="webmentions__face-link" target="_blank" rel="external noopener noreferrer">
+            <div class="webmention__author-photo-wrapper">
+              <img src="{{ like.author.photo or '/static/images/webmention-avatar-default.svg' }}" alt="{{ like.author.name }}" class="webmention__author-photo-image" loading="lazy" decoding="async" width="48" height="48">
+            </div>
+          </a>
+        {% endfor %}
+      {% endif %}
+      
+
+      
+       {% ifAsync postMentions.reposts.length %}
+        <h3>Reposts</h3>
+      {% endif %}
+      
+      {% if postMentions.comments.length %}
+        <h3>Comments</h3>
+      {% endif %}
+      {# {% include "parts/webmentionlist.njk" %} #}
+
+</main>

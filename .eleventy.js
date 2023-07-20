@@ -9,6 +9,7 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginWebmentions = require("@chrisburnell/eleventy-cache-webmentions")
 const configWebmentions = require("./configWebmentions.js")
 
+
 async function imageShortcode(src, alt, sizes) {
   let metadata = await Image(src, {
     widths: [320, 480, 640, 768, 1114, null],
@@ -85,6 +86,7 @@ module.exports = function (eleventyConfig) {
     title = title.replace(/"(.*)"/g, '\\"$1\\"');
     return title;
   });
+
 
   // set copy asset folder to dist
   eleventyConfig.addPassthroughCopy("src/assets");
