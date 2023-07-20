@@ -208,8 +208,7 @@ article > h4 > a {
   color: unset;
 }
 
-article blockquote,
-article aside {
+article blockquote {
   padding-left: 2.5rem;
   border-left: 0.25rem solid;
 }
@@ -254,12 +253,45 @@ ol {
   margin-bottom: 1rem;
 }
 
-aside > nav > ul {
+aside nav ul {
   display: flex;
   justify-content: space-between;
   list-style: none;
   padding-left: unset;
 }
+
+aside .aside-nav {
+  padding-left: 2.5rem;
+  border-left: 0.25rem solid;
+}
+
+aside ol {
+  list-style: none;
+  padding-left: 2.5rem;
+  border-left: 0.25rem solid;
+}
+
+aside ol li {
+  display: inline;
+}
+
+aside .comments ol {
+  border: 0;
+  padding: unset
+}
+
+aside .comments li {
+  display: block;
+  padding-left: 2.5rem;
+  border-left: 0.25rem solid;
+  margin-bottom: 2rem;
+}
+
+aside .comments li > a {
+  width: 12rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+} 
 
 .social form {
   padding: 1rem 0 2rem;
@@ -401,7 +433,7 @@ footer .contact {
 }
 
 footer {
-  padding: var(--gap-600);
+  /* padding: var(--gap-600); */
 }
 
 footer .social ul {
