@@ -13,8 +13,8 @@ layout: main
 
 
 
-{%- set postMentions = webmentions | webmentionsForPage("https://www.erikkroes.nl/blog/the-universal-focus-state/")   -%}
-{%- set postMentionCount = webmentions | webmentionCountForPage("https://www.erikkroes.nl/blog/the-universal-focus-state/") -%}
+{%- set postMentions = webmentions | webmentionsForPage("https://www.erikkroes.nl/blog/anchor-link/")   -%}
+{%- set postMentionCount = webmentions | webmentionCountForPage("https://www.erikkroes.nl/blog/anchor-link/") -%}
 
 {# {%- set reposts = webmentions | webmentionsForUrl: absoluteUrl, "repost-of,mention-of" -%}
 {%- set repostsSize = reposts | size -%}
@@ -23,11 +23,16 @@ layout: main
 
 
 <main id="main">
-      {{ postMentions | dump | safe  }}
-      {{ webmentions }}
-      {{ postMentions.likes }}
+    <dl>
+      <dt>postmentions</dt>
+      <dd>{{ postMentions | dump | safe  }}</dd>
+      <dt>webmentions</dt>
+      <dd>{{ webmentions | dump | safe }}</dd>
+      <dt>postmentions.likes</dt>
+      <dd>{{ postMentions.likes | dump | safe }}</dd>
       {{ postMentions.reposts }}
       {{ postMentions.comments }}
+      </dl>
 
        {% ifAsync postMentions.likes.length %}
         <h3>Likes</h3>
