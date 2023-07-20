@@ -1,5 +1,4 @@
 const { DateTime } = require('luxon');
-const sanitizeHTML = require('sanitize-html');
 
 const markdownIt = require("markdown-it");
 const markdownItAttrs = require('markdown-it-attrs');
@@ -32,7 +31,7 @@ async function imageShortcode(src, alt, sizes) {
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginWebmentions, configWebmentions);
   eleventyConfig.addPlugin(pluginRss);
-    eleventyConfig.setDataDeepMerge(true);
+  eleventyConfig.setDataDeepMerge(true);
 
 
   let markdownLibrary = markdownIt({ // add IDs to headings with links inside. Perfect!
