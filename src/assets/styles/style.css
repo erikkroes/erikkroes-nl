@@ -21,7 +21,13 @@
   --color-dark: #2d2d35;
   --color-blue: #9dc0d7;
   --color-linkblue: #003052;
-  
+  --gap-100: .0625rem;
+  --gap-200: .125rem;
+  --gap-300: .25rem;
+  --gap-400: .5rem;
+  --gap-500: 1rem;
+  --gap-600: 2rem;
+  --gap-800: 4rem;
 }
 
 * {
@@ -37,13 +43,13 @@
 
 a {
   position: relative;
-  text-decoration: none;
   color: var(--color-linkblue);
-  border-bottom: 0.125rem solid currentColor;
-  padding: 0 0.125rem 0.125rem;
-  border-radius: 0.125rem;
+  text-decoration: underline;
+  text-decoration-thickness: .125rem;
+  text-decoration-color: currentColor;
+  text-decoration-color: color-mix(in srgb, currentColor 70%, transparent);
+  text-underline-offset: .25rem;
   transition: all 0.2s ease-out;
-  touch-action: manipulation;
 }
 
 a:focus, a:hover, 
@@ -76,13 +82,13 @@ body {
   line-height: 1.7;
 }
 
-body > * {
-  padding: 1rem 0;
-}
-
 header, main, footer { 
   display: grid;
   grid-template-columns: minmax(1rem, 1fr) minmax(18rem, var(--body-width)) minmax(1rem, 1fr);
+}
+
+header {
+  padding: var(--gap-400);
 }
 
 header .skip-link {
@@ -124,6 +130,7 @@ nav a {
 }
 
 main {
+  padding: var(--gap-800) 0;
   background-color: white;
 }
 
@@ -138,7 +145,7 @@ main > h1 {
 }
 
 main > section + section {
-  padding-top: 3rem;
+  padding: var(--gap-800) 0;
 }
 
 main > section + section > ul,
@@ -393,19 +400,11 @@ footer .contact {
   font-size: unset;
 }
 
+footer {
+  padding: var(--gap-600);
+}
+
 footer .social ul {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  gap: 0 1rem;
-  padding-left: 0;
-}
-
-.webring {
-  padding-top: 2rem;
-}
-
-.webring ul {
   display: flex;
   flex-wrap: wrap;
   list-style: none;

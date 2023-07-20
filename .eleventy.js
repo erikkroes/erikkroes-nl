@@ -7,6 +7,8 @@ const markdownItTocAndAnchor = require("markdown-it-toc-and-anchor").default; //
 
 const Image = require("@11ty/eleventy-img");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
+const Webmentions = require("eleventy-plugin-webmentions");
+
 
 async function imageShortcode(src, alt, sizes) {
   let metadata = await Image(src, {
@@ -28,6 +30,10 @@ async function imageShortcode(src, alt, sizes) {
 }
 
 module.exports = function (eleventyConfig) {
+  eleventyConfig.addPlugin(Webmentions, {
+    domain: "erikkroes.nl",
+    token: "tIOJOlY9ntGwwpDjNTtxnw",
+  });
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.setDataDeepMerge(true);
 
@@ -74,45 +80,14 @@ module.exports = function (eleventyConfig) {
     });
   });
 
-  eleventyConfig.addFilter('webmentionsForUrl', (webmentions, url) => {
-    // thank you: https://github.com/maxboeck/eleventy-webmentions/blob/master/.eleventy.js
-    const allowedTypes = ['in-reply-to', 'like-of', 'repost-of', 'bookmark-of', 'mention-of'] 
-    const allowedHTML = {
-      allowedTags: ['b', 'i', 'em', 'strong', 'a'],
-      allowedAttributes: {
-        a: ['href']
-      }
+  eleventyConfig.addFilter("addNbsp", (str) => {
+    if (!str) {
+      return;
     }
-
-    const clean = (entry) => {
-      const { html, text } = entry.content
-
-      if (html) {
-        entry.content.value =
-          html.length > 2000
-            ? `mentioned this in <a href="${entry['wm-source']}">${entry['wm-source']}</a>`
-            : sanitizeHTML(html, allowedHTML)
-      } else {
-        entry.content.value = sanitizeHTML(text, allowedHTML)
-      }
-      return entry
-    }
-
-    const orderByDate = (a, b) => new Date(b.published) - new Date(a.published)
-
-    const checkRequiredFields = (entry) => {
-      const { author, published } = entry
-      return !!author && !!author.name && !!published
-    }
-
-    return webmentions
-      .filter((entry) => entry['wm-target'] === url)
-      .filter((entry) => allowedTypes.includes(entry['wm-property']))
-      .filter(checkRequiredFields)
-      .sort(orderByDate)
-      .map(clean)
+    let title = str.replace(/((.*)\s(.*))$/g, "$2&nbsp;$3");
+    title = title.replace(/"(.*)"/g, '\\"$1\\"');
+    return title;
   });
-
 
   // set copy asset folder to dist
   eleventyConfig.addPassthroughCopy("src/assets");
