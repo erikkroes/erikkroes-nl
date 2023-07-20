@@ -4,8 +4,6 @@ layout: main
 {% set previousPost = collections.post | getPreviousCollectionItem(page) %}
 {% set nextPost = collections.post | getNextCollectionItem(page) %}
 
-{%- set currentPostMentions = webmentions | webmentionsForPage -%}
-<!-- postmentions: {{ postMentions | dump | safe  }} -->
 <main id="main">
   <article aria-labelledby="post-heading" class="h-entry e-content">
     <h1 id="post-heading" class="p-name">{{ title }}</h1>
@@ -17,11 +15,46 @@ layout: main
 
     <aside aria-labelledby="aside-heading"> 
       <h2 id="aside-heading">Aside</h2>
+      <div class = "aside-nav">
       {% if previousPost or nextPost %}
         {% include "parts/prevNext.njk" %}
       {% endif %}
+      </div>
+      
+      <div class="reposts">
+        <h3>Reposted by</h3>
+        <ol>      
+          {% for webmention in webmentions %}
+            {% if webmention.activity.type == "repost" %}
+              <li><a href="{{webmention.data.url}}">{{ webmention.data.author.name }}</a></li>
+            {% endif %}  
+          {% endfor %}
+        </ol> 
+      </div>
 
-      {# {% include "parts/webmentionlist.njk" %} #}
+      <div class="likes">
+        <h3>Liked by</h3>
+        <ol>      
+          {% for webmention in webmentions %}
+            {% if webmention.activity.type == "like" %}
+              <li><a href="{{webmention.data.url}}">{{ webmention.data.author.name }}</a></li>
+            {% endif %}            
+          {% endfor %}
+        </ol>
+      </div>
+
+      <div class="comments">
+        <h3>Comments</h3>
+        <ol>
+          {% for webmention in webmentions %}
+            {% if webmention.activity.type == "reply" %}
+              <li><a href="{{webmention.data.url}}">{{ webmention.data.author.name }}</a>
+              <p>{{webmention.content | safe}}</p>
+              </li>
+            {% endif %}    
+          {% endfor %}
+        </ol>      
+      </div>
     </aside>
   </article>  
 </main>

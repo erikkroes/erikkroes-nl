@@ -1,5 +1,4 @@
 const { DateTime } = require('luxon');
-const sanitizeHTML = require('sanitize-html');
 
 const markdownIt = require("markdown-it");
 const markdownItAttrs = require('markdown-it-attrs');
@@ -7,7 +6,8 @@ const markdownItTocAndAnchor = require("markdown-it-toc-and-anchor").default; //
 
 const Image = require("@11ty/eleventy-img");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
-const Webmentions = require("eleventy-plugin-webmentions");
+const pluginWebmentions = require("@chrisburnell/eleventy-cache-webmentions")
+const configWebmentions = require("./configWebmentions.js")
 
 
 async function imageShortcode(src, alt, sizes) {
@@ -30,12 +30,10 @@ async function imageShortcode(src, alt, sizes) {
 }
 
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addPlugin(Webmentions, {
-    domain: "erikkroes.nl",
-    token: "tIOJOlY9ntGwwpDjNTtxnw",
-  });
+  eleventyConfig.addPlugin(pluginWebmentions, configWebmentions);
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.setDataDeepMerge(true);
+
 
   let markdownLibrary = markdownIt({ // add IDs to headings with links inside. Perfect!
     html: true,
@@ -88,6 +86,7 @@ module.exports = function (eleventyConfig) {
     title = title.replace(/"(.*)"/g, '\\"$1\\"');
     return title;
   });
+
 
   // set copy asset folder to dist
   eleventyConfig.addPassthroughCopy("src/assets");
