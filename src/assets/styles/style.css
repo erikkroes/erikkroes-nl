@@ -390,11 +390,19 @@ footer .contact {
   align-self: center;
 }
 
+.tools ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 0 1rem;
+  padding-left: 2rem;
+  border-left: .2rem solid var(--color-dark);
+}
+
 .trusted ul {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  border-left: .2rem solid var(--color-dark);
   padding-left: 2rem;
 }
 

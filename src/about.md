@@ -12,7 +12,7 @@ Hi, I'm Erik. I like to:
 
 What I don't like is writing about myself but let's try it anyway.
 
-Erik Kroes is a specialist in accessibility, inclusive design and design systems, and enjoys to combine them. He lives in the Netherlands. He has worked as an accessibility specialist and Product Owner of the Design Systems at ING, as an Accessibility Design Director at IKEA and as the Head of Accessibility at Nomensa. A formal and ordered description of his life can be found on [LinkedIn](https://www.LinkedIn.com/in/ErikKroes/). A bit like a resume, except it's easier to keep up to date. 
+Erik Kroes is a consultant specialized in accessibility, inclusive design and design systems, and enjoys to combine them. He lives in the Netherlands. He has worked as an accessibility specialist and Product Owner of the Design Systems at ING, as an Accessibility Design Director at IKEA and as the Head of Accessibility at Nomensa. You can pick his brain and hire him as an Accessibility Consultant, or however you think he'll contribute! A formal and ordered description of his life can be found on [LinkedIn](https://www.LinkedIn.com/in/ErikKroes/). A bit like a resume, except it's easier to keep up to date. 
 Whatever time is left is mostly spent with his family and advocating accessibility. Personal projects include photography, gardening, generative art and creative programming.
 
 More information on his digital workspace can be found at [/uses/](/uses/).
