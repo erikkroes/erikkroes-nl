@@ -93,6 +93,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
   eleventyConfig.addLiquidFilter("dateToRfc3339", pluginRss.dateRfc3339);
 
+  eleventyConfig.addPassthroughCopy("src/eu-standard");
+
   // set input and output folder
   return {
     dir: { 
