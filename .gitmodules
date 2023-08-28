@@ -1,3 +1,3 @@
-[submodule "src/src/eu-standard"]
-	path = src/src/eu-standard
+[submodule "src/eu-standard"]
+	path = src/eu-standard
 	url = https://github.com/erikkroes/en301549.git
