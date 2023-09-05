@@ -13,6 +13,7 @@ cover-alt: ''
 _template: post
 ---
 
+
 Web Components are a newly supported standard. They're a great match for Design Systems because they're futureproof and work with any framework. Building proper UI Web Components can be quite a task though, especially if you want them to be accessible. Here are some pointers on what to look out for.
 
 > Throughout this article I'll use [Lion](https://github.com/ing-bank/lion) a few times as an example. Lion is a collection of white label UI Web Components. There's more information about Lion in the <a href="#conclusion">conclusion</a>.

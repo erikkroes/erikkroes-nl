@@ -315,36 +315,6 @@ aside .comments li > a {
   padding: 1rem 0 2rem;
 }
 
-.newsletter-submit {
-  display: flex;
-  gap: 1rem;
-  justify-content: left;
-  flex-wrap: wrap;
-}
-
-.newsletter-submit input,
-.newsletter-submit button {
-  padding: 1rem;
-  border: 2px solid #2d2d35;
-  border-radius: 0.5rem;
-  font-size: 1.1875rem;
-  line-height: 1.7;
-}
-
-.newsletter-submit input {
-  max-width: 10rem;
-}
-
-.newsletter .newsletter-submit input {
-  max-width: unset;
-}
-
-.newsletter-submit button {
-  font-weight: bold;
-  color: white;
-  background-color: var(--color-dark);
-}
-
 .introduction h3 {
   display: inline;
 }

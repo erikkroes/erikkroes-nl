@@ -9,6 +9,7 @@ permalink: ''
 _template: post
 ---
 
+
 When you're building something and you're moving fast, make sure to look back every now and then. Check if everybody is on board before moving further. Make sure to include people every step of the way. Accessibility has priority over other issues
 
 You start using a new product (hurray). You encounter an accessibility issue (meh). You can report it in a repository (hurray). A helpful maintainer labels it (hurray). They tag it as a "feature request" or "enhancement" (ohno). You have to convince them it's an actual bug (meh).

@@ -9,6 +9,7 @@ cover-alt: ''
 _template: post
 ---
 
+
 Everybody loves toggle switch on mobile, or so I've heard. But if you're building a website, how do you reproduce this without excluding people.
 
 ## The result

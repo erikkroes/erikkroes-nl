@@ -4,7 +4,7 @@
   "description": "Personal website of Erik Kroes",
   "main": "index.js",
   "scripts": {
-    "build": "yarn tinacms build && eleventy",
+    "build": "tinacms build && eleventy",
     "watch": "eleventy --watch",
     "serve": "eleventy --serve",
     "start": "eleventy --serve",
@@ -30,8 +30,8 @@
     "sanitize-html": ">=2.7.0"
   },
   "dependencies": {
-    "@tinacms/cli": "^1.5.11",
+    "@tinacms/cli": "^1.5.29",
     "netlify": "^13.0.1",
-    "tinacms": "^1.5.4"
+    "tinacms": "^1.5.20"
   }
 }

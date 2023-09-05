@@ -10,6 +10,7 @@ eleventyExcludeFromCollections: false
 _template: post
 ---
 
+
 I shared an image of Afghan refugees too haphazardly. Let's have a second look.
 
 {% image "./src/assets/media/e90w5dgxoaqytjs.jpg", "5 members of an Afghan family arriving in a US airport" %}

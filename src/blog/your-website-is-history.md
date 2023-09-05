@@ -17,6 +17,7 @@ cover_alt: |-
 _template: post
 ---
 
+
 Everything you put on your website is old. Every website is an archive. The web is a collective history.
 
 {% image "./src/assets/media/erik_kroes__time_works_01.jpg", "Dark blue water with a plane of white in the front that looks snowy. There are subtle horizontal lines in the entire image." %}

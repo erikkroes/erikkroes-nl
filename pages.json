@@ -8,10 +8,6 @@
       "imgName":"google-please-be-good" 
   },
   {
-      "title":"Google, please be good",
-      "imgName":"google-please-be-good" 
-  },
-  {
       "title":"An introduction to Web Monetization",
       "imgName":"an-introduction-to-web-monetization" 
   },
@@ -48,7 +44,7 @@
       "imgName":"a-photographer-s-view-on-alt-text" 
   },
   {
-      "title":"A closer look: "A family evacuated from Afghanistan arrives at Dulles"",
+      "title":"A closer look: \"A family evacuated from Afghanistan arrives at Dulles\"",
       "imgName":"a-closer-look-a-family-evacuated-from-afghanistan-arrives-at-dulles" 
   },
   {
@@ -76,10 +72,6 @@
       "imgName":"undefined" 
   },
   {
-      "title":"Newsletter",
-      "imgName":"newsletter" 
-  },
-  {
       "title":"Knowing what to expect (maybe my favorite accessibility principle)",
       "imgName":"knowing-what-to-expect-maybe-my-favorite-accessibility-principle" 
   },
@@ -102,5 +94,17 @@
   {
       "title":"What you should (not) put inside an anchor link",
       "imgName":"what-you-should-not-put-inside-an-anchor-link" 
+  },
+  {
+      "title":"",
+      "imgName":"undefined" 
+  },
+  {
+      "title":"",
+      "imgName":"undefined" 
+  },
+  {
+      "title":"",
+      "imgName":"undefined" 
   }
 ]

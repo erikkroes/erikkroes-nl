@@ -10,6 +10,7 @@ cover-alt: ''
 _template: post
 ---
 
+
 When people talk about the quality of HTML code, it is often about semantics. But what are semantics? What is semantic HTML, and why should you care about it?
 
 ## Table of Contents

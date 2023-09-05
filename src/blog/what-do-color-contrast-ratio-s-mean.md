@@ -16,6 +16,7 @@ permalink: /blog/color-and-contrast/
 _template: post
 ---
 
+
 The color contrast ratios mentioned in WCAG can give you an insight in how usable your color palette is. How that works isn't very transparent. Learn more about how the color contrast ratio is determined, and what that means for you (and your palette).
 
 {% image "./src/assets/media/_dsc4661-edit.jpg", "Snowy peaks of a mountain range against a bright and clouded sky. There is a strong contrast between the dark rock structure of the peaks and the lighter snow and sky." %}
