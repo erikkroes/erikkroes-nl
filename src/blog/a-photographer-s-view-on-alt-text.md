@@ -10,6 +10,7 @@ eleventyExcludeFromCollections: false
 _template: post
 ---
 
+
 Images are visual communication. Consider what you’re trying to communicate before you do.
 
 {% image "./src/assets/media/processed_f8d6387ee3b381e0c884e4b950015069.jpg", "A collage with pretty random pieces of pictures" %}

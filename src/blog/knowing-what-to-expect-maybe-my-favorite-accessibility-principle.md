@@ -9,6 +9,7 @@ permalink: ''
 _template: post
 ---
 
+
 There are some useful principles to keep in mind when considering accessibility and inclusive design, but this one is probably my personal favorite. It helps a lot of people (including me, which makes it super important 👀) and can apply to so many situations. Always make sure people know what to expect.
 
 ## Example #1 - The stop-and-go haircut

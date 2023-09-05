@@ -12,6 +12,7 @@ eleventyExcludeFromCollections: false
 _template: post
 ---
 
+
 In 2019 we started planning for a new house. I started sketching layouts because I didn't know what our needs were. It's kinda hard discussing budget with construction companies if you have no idea what you want to ask from them.
 
 {% image "./src/assets/media/peak.jpg", "A field of clouds with an opening in the center, showing a single mountain peak." %}

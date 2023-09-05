@@ -9,6 +9,7 @@ cover-alt: ''
 _template: post
 ---
 
+
 This website is 100% semantic. There are no `<div>`s or `<span>`s. Every element has been chosen to play a role, because every element has a role. 
 
 I even tried to follow the HTML [Document Outline](https://html5doctor.com/outlines/). Still some possible improvement there, but at least that's not actively used right now. (I'm still a fan of the idea though. One of very few probably.)
