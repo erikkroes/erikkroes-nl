@@ -2,7 +2,6 @@ import { defineConfig } from "tinacms";
 import { postFields } from "./templates";
 import * as dotenv from 'dotenv' 
 dotenv.config
-console.log(process.env) 
 
 const { TINA_CLIENTID } = process.env
 const { TINA_TOKEN } = process.env
@@ -43,7 +42,90 @@ export default defineConfig({
             description: "This is the markdown body",
             isBody: true,
           },
-          ...postFields(),
+          {
+            type: "string",
+            name: "title",
+            label: "Title",
+          },
+          {
+            type: "string",
+            name: "description",
+            label: "Description",
+            ui: {
+              component: "textarea",
+            },
+          },
+          {
+            type: "datetime",
+            name: "date",
+            label: "Date",
+          },
+          {
+            type: "image",
+            name: "cover",
+            label: "Cover",
+          },
+          {
+            type: "string",
+            name: "cover_alt",
+            label: "Cover alt",
+            ui: {
+              component: "textarea",
+            },
+          },
+          {
+            type: "boolean",
+            name: "eleventyExcludeFromCollections",
+            label: "Draft",
+          },
+          {
+            type: "string",
+            name: "permalink",
+            label: "Permalink",
+          },
+        ],
+      },
+      {
+        format: "md",
+        label: "Notes",
+        name: "notes",
+        path: "src/notes",
+        match: {
+          include: "**/*",
+        },
+        fields: [
+          {
+            type: "string",
+            name: "title",
+            label: "Title",
+            isTitle: true,
+            required: true,
+          },
+          {
+            type: "image",
+            name: "image",
+            label: "Image",
+          },
+          {
+            type: "string",
+            name: "alt",
+            label: "Text alternative",
+          },
+          {
+            type: "boolean",
+            name: "formal",
+            label: "LinkedIn?",
+          },
+          {
+            type: "boolean",
+            name: "image_note",
+            label: "Image note?",
+          },
+          {
+            type: "boolean",
+            name: "publish",
+            label: "Publish?",
+          },
         ],
       },
     ],

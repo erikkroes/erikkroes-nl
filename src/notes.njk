@@ -1,0 +1,17 @@
+---
+title: Notes
+layout: main
+---
+<main>
+  <article>
+      <h1>Notes</h1>
+      <ul>
+      {%- for note in collections.note | reverse -%}      
+        <li><article aria-labelledby="{{ note.data.title | slug }}">
+          <h2 id="{{ note.data.title | slug }}"><a href="{{ note.url }}">{{ note.data.title }}</a></h2>          
+          <p>{{ note.data.description }}</p>
+        </article></li>
+      {%- endfor -%}
+      </ul>
+  </article>
+</main>
