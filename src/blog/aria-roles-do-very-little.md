@@ -5,7 +5,7 @@ description: >-
   pretty <div> with role="button" here, a nice <a> with role="link" further
   along, and so on. But what is an aria-role, and what does it actually do?
 date: 2023-09-11T22:00:00.000Z
-permalink: /aria-roles-do-very-little/
+permalink: aria-roles-do-very-little/
 ---
 
 Look at modern websites at you'll see their code covered in aria-roles: a pretty `<div>` with `role="button"` here, a nice `<a>` with `role="link"` further along, and so on. But what is an aria-role, and what does it actually do?
