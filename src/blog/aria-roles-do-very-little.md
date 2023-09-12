@@ -5,7 +5,7 @@ description: >-
   pretty <div> with role="button" here, a nice <a> with role="link" further
   along, and so on. But what is an aria-role, and what does it actually do?
 date: 2023-09-11T22:00:00.000Z
-permalink: aria-roles-do-very-little/
+permalink: ''
 ---
 
 Look at modern websites at you'll see their code covered in aria-roles: a pretty `<div>` with `role="button"` here, a nice `<a>` with `role="link"` further along, and so on. But what is an aria-role, and what does it actually do?
@@ -23,6 +23,8 @@ The first thoughts for some people seemed to be something like the following:
 3. The alt-attribute determines the accessible name
 
 So let's have a quick look at aria-roles.
+
+@\[toc]
 
 ## What is WAI-ARIA?
 
