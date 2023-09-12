@@ -24,8 +24,6 @@ The first thoughts for some people seemed to be something like the following:
 
 So let's have a quick look at aria-roles.
 
-@\[toc]
-
 ## What is WAI-ARIA?
 
 I wrote aria but it's actually the [Web Accessibility Initiative - Accessible Rich Internet Applications (WAI-ARIA)](https://www.w3.org/TR/wai-aria-1.2/). So I write aria.
