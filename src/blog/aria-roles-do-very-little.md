@@ -45,7 +45,7 @@ Nope. A `<div>` with an aria-role will interact with your mouse -exactly- like a
 
 ## Do aria-roles show I care about accessibility?
 
-Not really. It might show you know aria-roles exist. It might just mean you're good at copy/pasting things. Aria is not a good or bad practive in itself.
+Not really. It might show you know aria-roles exist. It might just mean you're good at copy/pasting things. Aria is not a good or bad practice in itself.
 
 ## Do aria-roles override the HTML-element?
 
