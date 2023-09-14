@@ -1,0 +1,43 @@
+{
+  "/notes/This-note-was-sent-from-my-website-testing/": {
+    "id": "this-note-was-sent-from-my-website.-testing",
+    "url": "/notes/This-note-was-sent-from-my-website-testing/",
+    "content_text": "This note was sent from my website. #testing",
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1694681329356
+  },
+  "/notes/This-is-an-image-note/": {
+    "id": "this-is-an-image-note",
+    "url": "/notes/This-is-an-image-note/",
+    "content_text": "This is an image note",
+    "attachments": [
+      {
+        "url": "/Screenshot 2023-09-06 at 14.00.04.png",
+        "mime_type": "image/jpeg",
+        "title": "This is a screenshot"
+      }
+    ],
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1694681329356
+  },
+  "/notes/Image-test/": {
+    "id": "image-test",
+    "url": "/notes/Image-test/",
+    "content_text": "Image test",
+    "attachments": [
+      {
+        "url": "/Screenshot 2023-09-06 at 14.00.04.png",
+        "mime_type": "image/jpeg",
+        "title": ""
+      }
+    ],
+    "toots": [
+      "Ignored during first run (see `ignoreFirstRun` input)"
+    ],
+    "lastTootTimestamp": 1694681329356
+  }
+}
