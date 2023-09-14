@@ -1,0 +1,19 @@
+---
+title: Test
+layout: main
+permalink: "./test.html"
+eleventyExcludeFromCollections: true
+---
+<main>
+  <article>
+      <h1>Newest Note</h1>
+      <ul>
+      {%- for note in collections.newestNote | reverse -%}      
+        <li><article aria-labelledby="{{ note.data.title | slug }}">
+          <h2 id="{{ note.data.title | slug }}"><a href="{{ note.url }}">{{ note.data.title }}</a></h2>          
+          <p>{{ note.data.description }}</p>
+        </article></li>
+      {%- endfor -%}
+      </ul>
+  </article>
+</main>

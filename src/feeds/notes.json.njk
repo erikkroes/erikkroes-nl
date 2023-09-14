@@ -1,0 +1,26 @@
+---
+permalink: /notes/feed.json
+eleventyExcludeFromCollections: true
+---
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "Notes - Erik Kroes",
+  "home_page_url": "{{ data.url }}/notes/",
+  "feed_url": "{{ data.url }}/notes/feed.json",
+  "items": [
+  {%- for note in collections.note | reverse -%}    
+    {
+      "id": "{{ note.data.title | slug }}",
+      "url": "{{ note.url }}",
+      "content_text": "{{  note.data.title  }}"{% if note.data.image %},
+      "attachments": [
+        {
+          "url": "{{ note.data.image}}",
+          "mime_type": "image/jpeg",
+          "title": "{{ note.data.alt}}"
+        }
+      ]{% endif %}
+    }{%- if not loop.last -%},{%- endif -%}
+  {% endfor %}
+  ]
+}

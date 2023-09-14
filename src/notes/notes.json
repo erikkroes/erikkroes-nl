@@ -1,0 +1,4 @@
+{
+  "layout": "pages/notes/note.njk",
+  "tags": "note"
+}

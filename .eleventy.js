@@ -34,7 +34,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.setDataDeepMerge(true);
 
-
   let markdownLibrary = markdownIt({ // add IDs to headings with links inside. Perfect!
     html: true,
     breaks: true,

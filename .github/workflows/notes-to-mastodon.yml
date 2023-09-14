@@ -1,0 +1,30 @@
+name: Posse notes to mastodon
+on:
+  workflow_dispatch:
+
+jobs:
+  JSONFeed2Mastodon:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout the repository to restore previous cache
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      # Look for new toots to create from items in the JSON feed
+      - name: Feed to Mastodon
+        uses: nhoizey/github-action-feed-to-mastodon@v2
+        with:
+          feedUrl: "https://www.erikkroes.nl/notes/feed.json"
+          mastodonInstance: "https://mastodon.social"
+          mastodonToken: ${{ secrets.MASTODON_TOKEN }}
+          testMode: true
+
+      # Make sure files are up to date if other commits have been pushed in the mean time
+      - name: Pull any changes from Git
+        run: git pull
+
+      # Push changes in the cache files to the repository
+      # See https://github.com/stefanzweifel/git-auto-commit-action#readme
+      - name: Commit and push
+        uses: stefanzweifel/git-auto-commit-action@v4
