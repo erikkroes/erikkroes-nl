@@ -1,6 +1,3 @@
-const fs = require('node:fs/promises');
-const util = require('util');
-
 const { DateTime } = require('luxon');
 
 const markdownIt = require("markdown-it");
@@ -36,28 +33,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginWebmentions, configWebmentions);
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.setDataDeepMerge(true);
-
-  // POSSE time
-  let selectedNote = {};
-  
-  eleventyConfig.addCollection("newestNote", function(collectionApi) {
-    selectedNote = collectionApi.getAll().filter(function(item) {   
-      return item.data?.publish === true;
-    });
-    return selectedNote;
-  });
-
-  eleventyConfig.on("eleventy.after", function (cfg) {
-    console.log(selectedNote[0].template)
-
-    console.log(selectedNote[0].template.frontMatter.data.title);
-    console.log(selectedNote[0].template.frontMatter.data.image);
-    console.log(selectedNote[0].template.frontMatter.data.alt);
-  });
-
-  
-
-
 
   let markdownLibrary = markdownIt({ // add IDs to headings with links inside. Perfect!
     html: true,
