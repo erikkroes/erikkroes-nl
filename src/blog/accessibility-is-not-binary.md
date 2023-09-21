@@ -5,7 +5,7 @@ description: >-
   thing. Something either is or isn’t accessible. And that’s true, but it also
   isn’t.
 date: 2023-09-20T22:00:00.000Z
-cover: /assets/media/3714877538_a071a635d2_o-jpg.webp
+cover: /assets/media/chider.png
 cover_alt: A slider component with a checkbox as a handle.
 ---
 
