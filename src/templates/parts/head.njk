@@ -9,16 +9,15 @@
     <link rel="stylesheet" href="{{ '/assets/styles/style.css' | url }}">        
     
     {# <link rel="preconnect" href="https://webmention.io"> #}
-    <link rel="webmention" href="https://webmention.io/www.erikkroes.nl/webmention" />
+
+    <meta name="author" content="Erik Kroes" href="/about">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
     <link rel="manifest" href="/assets/site.webmanifest">
 
-    <meta name="monetization" content="$coil.xrptipbot.com/h59d6rpOTYKmhAXFLDvrPQ" />
-    <meta name="description" content="{{data.description}}" />
-    
+    <meta name="description" content="{% if description %}{{ description }}{% else %}{{data.description}}{% endif %}" />   
     <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 
     <meta name="twitter:card" content="summary_large_image" />
@@ -27,8 +26,8 @@
     <meta name="twitter:site" content="@erikkroes" />
 
     <meta property="og:title" content="{% if title %}{{ title }}{% endif %}" />
-    <meta property="og:site_name" content="{% if title %}{{ title }}{% endif %}" />
-    <meta property="og:description" content="{% if data.description %}{{ data.description }}{% else %}{{description}}{% endif %}" />
+    <meta property="og:site_name" content="{{ data.title }}" />
+    <meta property="og:description" content="{% if description %}{{ description }}{% else %}{{data.description}}{% endif %}" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ data.url + page.url }}" />
 
@@ -36,4 +35,7 @@
     <meta name="twitter:image:alt" content="{% if cover_alt %}{{ cover_alt }}{% endif %}" />
     <meta property="og:image" content="{% if cover %}{{ data.url + cover }}{% endif %}" />
     <meta property="og:image:alt" content="{% if cover_alt %}{{ cover_alt }}{% endif %}" />
+
+    <link rel="authorization_endpoint" href="https://indieauth.com/auth">
+    <link rel="webmention" href="https://webmention.io/www.erikkroes.nl/webmention" />
 </head>

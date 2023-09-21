@@ -94,17 +94,17 @@ body {
   line-height: 1.7;
 }
 
+h1 {
+  font-size: 2.3rem;
+}
+
 header, main, footer { 
   display: grid;
   grid-template-columns: minmax(1rem, 1fr) minmax(18rem, var(--body-width)) minmax(1rem, 1fr);
 }
 
 header {
-  padding: var(--gap-400);
-}
-
-header {
-  padding: var(--gap-400);
+  margin: var(--gap-400);
 }
 
 header .skip-link {
@@ -146,8 +146,7 @@ nav a {
 }
 
 main {
-  padding: var(--gap-800) 0;
-  padding: var(--gap-800) 0;
+  margin: var(--gap-800) 0;
   background-color: white;
 }
 
@@ -162,8 +161,7 @@ main > h1 {
 }
 
 main > section + section {
-  padding: var(--gap-800) 0;
-  padding: var(--gap-800) 0;
+  margin: var(--gap-800) 0;
 }
 
 main > section + section > ul,
@@ -196,7 +194,7 @@ main > section article {
 
 main > article > * + *,
 main > article > aside > * + * {
-  margin-bottom: 1rem;
+  margin-bottom: var(--gap-500);
 }
 
 article > a:first-of-type{
@@ -268,7 +266,7 @@ ul {
 }
 
 ol {
-  margin-bottom: 1rem;
+  margin-bottom: var(--gap-500);
 }
 
 aside nav ul {
