@@ -1,6 +1,15 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+       
+    <title>{% if title %}{{ title }} | {% endif %}{{ data.title }}</title>
+
+    <link rel="preload" href="{{ '/assets/fonts/Atkinson-Hyperlegible-Regular-102a.woff2' | url }}" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="{{ '/assets/fonts/Atkinson-Hyperlegible-Bold-102a.woff2' | url }}" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="{{ '/assets/styles/style.css' | url }}">        
+    
+    {# <link rel="preconnect" href="https://webmention.io"> #}
+    <link rel="webmention" href="https://webmention.io/www.erikkroes.nl/webmention" />
 
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
@@ -18,23 +27,12 @@
     <meta name="twitter:site" content="@erikkroes" />
 
     <meta property="og:title" content="{% if title %}{{ title }} | {% endif %}{{ data.title }}" />
-    <meta name="og:description" content="{% if description %}{{ description }}{% else %}{{data.description}}{% endif %}" />
+    <meta property="og:description" content="{% if data.description %}{{ data.description }}{% else %}{{description}}{% endif %}" />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="{% if url %}{{ url }}{% endif %}" />
 
     <meta name="twitter:image" content="{% if cover %}{{ data.url + cover }}{% endif %}" />
     <meta name="twitter:image:alt" content="{% if cover-alt %}{{ cover_alt }}{% endif %}" />
     <meta property="og:image" content="{% if cover %}{{ data.url + cover }}{% endif %}" />
-    <meta name="og:image:alt" content="{% if cover-alt %}{{ cover_alt }}{% endif %}" />
-
-    <title>{% if title %}{{ title }} | {% endif %}{{ data.title }}</title>
-
-
-    <link rel="preload" href="{{ '/assets/fonts/Atkinson-Hyperlegible-Regular-102a.woff2' | url }}" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="{{ '/assets/fonts/Atkinson-Hyperlegible-Bold-102a.woff2' | url }}" as="font" type="font/woff2" crossorigin>
-    <link rel="stylesheet" href="{{ '/assets/styles/style.css' | url }}">        
-    
-    {# <link rel="preconnect" href="https://webmention.io"> #}
-
-    <link rel="webmention" href="https://webmention.io/www.erikkroes.nl/webmention" />
+    <meta property="og:image:alt" content="{% if cover-alt %}{{ cover_alt }}{% endif %}" />
 </head>
