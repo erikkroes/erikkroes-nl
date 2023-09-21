@@ -116,7 +116,15 @@
       "imgName":"image-test" 
   },
   {
+      "title":"Aria-roles do very little",
+      "imgName":"aria-roles-do-very-little" 
+  },
+  {
       "title":"This is an image note",
       "imgName":"this-is-an-image-note" 
+  },
+  {
+      "title":"Accessibility is not binary",
+      "imgName":"accessibility-is-not-binary" 
   }
 ]
