@@ -17,6 +17,11 @@
     <meta name="twitter:title" content="{% if title %}{{ title }} | {% endif %}{{ data.title }}" />
     <meta name="twitter:site" content="@erikkroes" />
 
+    <meta property="og:title" content="{% if title %}{{ title }} | {% endif %}{{ data.title }}" />
+    <meta name="og:description" content="{% if description %}{{ description }}{% else %}{{data.description}}{% endif %}" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="{% if url %}{{ url }}{% endif %}" />
+
     <meta name="twitter:image" content="{% if cover %}{{ data.url + cover }}{% endif %}" />
     <meta name="twitter:image:alt" content="{% if cover-alt %}{{ cover_alt }}{% endif %}" />
     <meta property="og:image" content="{% if cover %}{{ data.url + cover }}{% endif %}" />
