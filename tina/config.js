@@ -1,5 +1,4 @@
 import { defineConfig } from "tinacms";
-import { postFields } from "./templates";
 import * as dotenv from 'dotenv' 
 dotenv.config
 
@@ -20,7 +19,7 @@ export default defineConfig({
   },
   media: {
     tina: {
-      mediaRoot: "",
+      mediaRoot: "assets/media",
       publicFolder: "dist",
     },
   },
