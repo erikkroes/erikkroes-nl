@@ -21,15 +21,16 @@
     
     <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 
-    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:description" content="{% if description %}{{ description }}{% else %}{{data.description}}{% endif %}" />
-    <meta name="twitter:title" content="{% if title %}{{ title }} | {% endif %}{{ data.title }}" />
+    <meta name="twitter:title" content="{% if title %}{{ title }}{% endif %}" />
     <meta name="twitter:site" content="@erikkroes" />
 
-    <meta property="og:title" content="{% if title %}{{ title }} | {% endif %}{{ data.title }}" />
+    <meta property="og:title" content="{% if title %}{{ title }}{% endif %}" />
+    <meta property="og:site_name" content="{% if title %}{{ title }}{% endif %}" />
     <meta property="og:description" content="{% if data.description %}{{ data.description }}{% else %}{{description}}{% endif %}" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="{% if url %}{{ url }}{% endif %}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ data.url + page.url }}" />
 
     <meta name="twitter:image" content="{% if cover %}{{ data.url + cover }}{% endif %}" />
     <meta name="twitter:image:alt" content="{% if cover-alt %}{{ cover_alt }}{% endif %}" />
