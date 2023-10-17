@@ -19,18 +19,11 @@ This is meant for businesses that need external motivation (like laws) to make e
 Let's find out if EAA applies to your product or service.
 
 <dl>
-  <dt>
-    <section><h3>Is your product or service <dfn>a computer or operating system</dfn>?</h3>
-    <p>Computers are electronic devices that process information, designed for a broad range of home and office applications like web browsing, email, word processing, gaming, etc. Computer hardware is split up into desktop-PCs and portable PCs, which can in turn be split up into laptops and tablets. Computers are electronic devices that process information, designed for a broad range of home and office applications like web browsing, email, word processing, gaming, etc. Computer hardware is split up into desktop-PCs and portable PCs, which can in turn be split up into laptops and tablets. - https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=SWD:2015:0264:FIN#footnote48</p>
-    <p>operating system’ means software, which, inter alia, handles the interface to peripheral hardware, schedules tasks, allocates storage, and presents a default interface to the user when no application program is running including a graphical user interface, regardless of whether such software is an integral part of consumer general purpose computer hardware, or constitutes free-standing software intended to be run on consumer general purpose computer hardware, but excluding an operating system loader, basic input/output system, or other firmware required at boot time or when installing the operating system; https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32019L0882#d1e1259-70-1</p>
-  </section></dt>
+  <dt><h3>Is your product or service a computer or operating system?</h3></dt>
   <dd>Yes, the EAA applies. Get started -></dd>
   <dd>No
     <dl>
-      <dt>
-        <section><h3>Are we talking about a <dfn>payment terminal, automated teller machine, ticketing machine, check-in machine or an interactive self-service terminals providing information</dfn>?</h3>
-        <p><p>
-      </dt>
+      <dt><h3>Are we talking about a payment terminal, automated teller machine, ticketing machine, check-in machine or an interactive self-service terminals providing information?</h3></dt>
       <dd>Yes, the EAA applies. Get started -></dd>
       <dd>No
           <dl>
