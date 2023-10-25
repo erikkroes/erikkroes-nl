@@ -4,10 +4,10 @@ eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>{{ data.title }}</title>
+    <title>{{ data.title }} | Blog</title>
     <subtitle>{{ data.description }}</subtitle>
-    <link href="{{ data.url }}/feed.xml" rel="self" type="application/atom+xml" />
-    <link href="{{ data.url }}" rel="alternate" type="text/html"/>
+    <link href="{{ data.url }}/blog/feed.xml" rel="self" type="application/atom+xml" />
+    <link href="{{ data.url }}/blog" rel="alternate" type="text/html"/>
     <author>
         <name>{{ data.title }}</name>
     </author>
