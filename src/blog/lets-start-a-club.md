@@ -2,10 +2,12 @@
 title: Let's start a club
 description: >-
   Newsletters aren't for me. I do love sharing though. I came up with some
-  alternatives including a Discord server. Let me explain you why I think that's
-  a good idea.
+  alternatives including a Discord server. Let me share with you why I think
+  that's a good idea.
 date: 2023-10-24T22:00:00.000Z
 ---
+
+Newsletters aren't for me. I do love sharing though. I came up with some alternatives including a Discord server. Let me share with you why I think that's a good idea.
 
 I've seen several people in my "bubble" start newsletters. I think that's great. Moving away from unstable platforms and walled gardens and creating a channel for sharing.
 I'd love to run a successful newsletter. But I won't. It's not a good fit for me, or for how my head works.
