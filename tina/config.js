@@ -94,11 +94,21 @@ export default defineConfig({
         },
         fields: [
           {
-            type: "string",
+            type: "datetime",
             name: "title",
             label: "Title",
             isTitle: true,
             required: true,
+            ui: {
+              timeFormat: "HH:mm"
+            },
+          },
+          {
+            type: "rich-text",
+            name: "body",
+            label: "Body of Document",
+            description: "This is the markdown body",
+            isBody: true,
           },
           {
             type: "image",

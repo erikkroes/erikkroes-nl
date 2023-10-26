@@ -108,18 +108,6 @@
       "imgName":"notes" 
   },
   {
-      "title":"Image test",
-      "imgName":"image-test" 
-  },
-  {
-      "title":"This is an image note",
-      "imgName":"this-is-an-image-note" 
-  },
-  {
-      "title":"This note was sent from my website. #testing",
-      "imgName":"this-note-was-sent-from-my-website-testing" 
-  },
-  {
       "title":"An audit won't solve your issues",
       "imgName":"an-audit-won-t-solve-your-issues" 
   },
@@ -130,5 +118,13 @@
   {
       "title":"Burn your toast",
       "imgName":"burn-your-toast" 
+  },
+  {
+      "title":"Let's start a club",
+      "imgName":"let-s-start-a-club" 
+  },
+  {
+      "title":"Let's create a nice community together. https://www.erikkroes.nl/blog/lets-start-a-club/",
+      "imgName":"let-s-create-a-nice-community-together-https-www-erikkroes-nl-blog-lets-start-a-club" 
   }
 ]
