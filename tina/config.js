@@ -94,14 +94,11 @@ export default defineConfig({
         },
         fields: [
           {
-            type: "datetime",
+            type: "string",
             name: "title",
             label: "Title",
             isTitle: true,
             required: true,
-            ui: {
-              timeFormat: "HH:mm"
-            },
           },
           {
             type: "rich-text",
