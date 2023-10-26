@@ -1,5 +1,5 @@
 ---
-title: 2023-10-26T06:56:00.000Z
+title: Automated Tools
 ---
 
 A comparison of automated tools
