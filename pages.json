@@ -130,5 +130,21 @@
   {
       "title":"Automated Tools",
       "imgName":"automated-tools" 
+  },
+  {
+      "title":"The added value of (neuro)diversity",
+      "imgName":"the-added-value-of-neuro-diversity" 
+  },
+  {
+      "title":"RSS feeds",
+      "imgName":"rss-feeds" 
+  },
+  {
+      "title":"RSS from Mastodon",
+      "imgName":"rss-from-mastodon" 
+  },
+  {
+      "title":"GitHub profile accessibility",
+      "imgName":"github-profile-accessibility" 
   }
 ]

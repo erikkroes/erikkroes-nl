@@ -49,13 +49,17 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addShortcode("contact", function(){
 
     return `<section class="contact">
-    <p><strong>Pick my brain.</strong> Let's work together, address your specific needs and make something great!</p>
-    
-    <a class="contact-link" href="/about/#contact">Contact me</a>
-    
+      <p><strong>Pick my brain.</strong> Let's work together, address your specific needs and make something great!</p>
+      <a class="contact-link" href="/about/#contact">Contact me</a>
     </section>`
-    
-    });
+  });
+
+  eleventyConfig.addShortcode("discord", function(){
+    return `<section class="contact">
+    <p><strong>Like my stuff?</strong> I bet you'd like a group of accessibility experts. Share insights and grow together.</p>
+    <a class="contact-link" href="https://discord.gg/ep32FdJvm">Join Discord!</a>
+    </section>`  
+  });
 
   eleventyConfig.addFilter('htmlDateString', (dateObj) => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('yyyy-LL-dd');

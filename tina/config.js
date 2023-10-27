@@ -45,6 +45,8 @@ export default defineConfig({
             type: "string",
             name: "title",
             label: "Title",
+            isTitle: true,
+            required: true,
           },
           {
             type: "string",
