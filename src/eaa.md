@@ -16,19 +16,33 @@ This is meant for businesses that need external motivation (like laws) to make e
 
 ## The flowchart (needs better title)
 
-Let's find out if EAA applies to your product or service.
+Let's find out if EAA applies to your product or service. 
+
+### Product
 
 <dl>
-  <dt><h3>Is your product or service a computer or operating system?</h3></dt>
+  <dt><h3>Computer or operating system?</h3></dt>
   <dd>Yes, the EAA applies. Get started -></dd>
   <dd>No
     <dl>
-      <dt><h3>Are we talking about a payment terminal, automated teller machine, ticketing machine, check-in machine or an interactive self-service terminals providing information?</h3></dt>
+      <dt><h3>A payment terminal, automated teller machine, ticketing machine, check-in machine or an interactive self-service terminals providing information?</h3></dt>
       <dd>Yes, the EAA applies. Get started -></dd>
       <dd>No
           <dl>
-            <dt>Question 3 that summarizes a complicated situation, but also offers resources to dive in further.</dt>
+            <dt>Electronic communications services?</dt>
             <dd>Yes, the EAA applies. Get started -></dd>
+            <dd>No
+              <dl>
+                <dt><h3>Terminals for electronic communications services</h3></dt>
+                <dd>Yes, the EAA applies. Get started -></dd>
+                <dd>No
+                  <dl>
+                    <dt>Electronic communications services?</dt>
+                    <dd>Yes, the EAA applies. Get started -></dd>
+
+
+
+
             <dd>No. Then legally, you can probably get away without being accessible. You're still an asshole though.
             </dd>
           </dl>

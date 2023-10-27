@@ -4,7 +4,7 @@ description: >-
   People like people who are like them. That's practical for making friends.
   It's not when you want a well-rounded team.
 date: 2023-10-26T22:00:00.000Z
-cover: /assets/media/value.jpg
+cover: /assets/media/v-jpg.jpg
 cover_alt: >-
   A bunch of circles covering each other with the text "duplication" over it.
   Another circle overlaps slightly and features the text "value". It's a bit
@@ -22,7 +22,7 @@ People like people who are like them. That's practical for making friends. It's 
 
 There's this thing called "affinity bias". It's when people tend to like people who are a lot like them. It's one of a ton of biases that [Wikipedia](https://en.wikipedia.org/wiki/List_of_cognitive_biases) explains better than I do.
 
-The thing with these biases is, they tend to cloud your judgment. This is especially clear when hiring (and promoting) people. People like people that are like them, so they're the ones that get hired and promoted. If this goes unchecked, you end up with teams full of people that are alike. Managements mlevels of people that are alike. Companies full of people that are alike. You gravitate towards echo chambers where everybody agrees, everybody says yes, and nobody offers a different perspective.
+The thing with these biases is, they tend to cloud your judgment. This is especially clear when hiring (and promoting) people. People like people that are like them, so they're the ones that get hired and promoted. If this goes unchecked, you end up with teams full of people that are alike. Managements levels of people that are alike. Companies full of people that are alike. You gravitate towards echo chambers where everybody agrees, everybody says yes, and nobody offers a different perspective.
 
 ## Diversity to the rescue
 

@@ -6,7 +6,6 @@ description: >-
   apply my experience as a freelance consultant and these are a few of the
   things I’ve done recently.
 date: 2023-07-10T22:00:00.000Z
-permalink: ''
 cover: /assets/media/dependency-graph.jpg
 cover-alt: >-
   A crop of a rather intricate looking graph showing circled names of components and lines connecting them.
