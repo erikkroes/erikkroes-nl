@@ -146,5 +146,21 @@
   {
       "title":"GitHub profile accessibility",
       "imgName":"github-profile-accessibility" 
+  },
+  {
+      "title":"Accessibility shaming",
+      "imgName":"accessibility-shaming" 
+  },
+  {
+      "title":"Wrong",
+      "imgName":"wrong" 
+  },
+  {
+      "title":"hr in select",
+      "imgName":"hr-in-select" 
+  },
+  {
+      "title":"A glossary of web accessibility terms",
+      "imgName":"a-glossary-of-web-accessibility-terms" 
   }
 ]

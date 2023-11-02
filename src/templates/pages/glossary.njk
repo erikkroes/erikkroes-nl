@@ -1,0 +1,35 @@
+---
+layout: main
+---
+<main id="main">
+  <article aria-labelledby="post-heading">
+    <h1 id="post-heading">{{ title }}</h1>
+
+    {{ content | safe}}
+
+    {% for item in glossary %}
+      <details>
+        <summary><h2>{{ item.term }}</h2></summary>
+        <div id="{{ item.term | slugify }}">
+          {% for p in item.definition %}
+          <p>{{ p }}</p>
+          {% endfor %}    
+          {% if item.resources %}
+          <h3>Further reading</h3>  
+          <ul>
+            {% for resource in item.resources %}
+            <li>
+              <a href="{{ resource }}">{{ resource }}</a>
+            </li>
+          {% endfor %}  
+          </ul>
+          {% endif %}
+        </div>
+      </details>
+    {% endfor %}
+
+    {% discord %}
+  </article>
+</main>
+
+

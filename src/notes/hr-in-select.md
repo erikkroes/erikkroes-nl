@@ -2,7 +2,7 @@
 title: hr in select
 ---
 
-Have you heard about using a \<hr> in your \<select>? 
+Have you heard about using a `<hr>` in your `<select>`? 
 
 Here's how well that works:
 

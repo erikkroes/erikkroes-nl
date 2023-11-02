@@ -1,0 +1,48 @@
+[
+  {
+    "term": "Accessible name",
+    "definition": [
+      "The accessible name of an element is the label by which it can be referred. It An accessible name is the name of a user interface element; it is the text associated with an HTML element that provides users of assistive technology with a label for the element."
+    ]
+  },
+  {
+    "term": "Accessibility tree",
+    "definition": [
+      "Web browsers transform markup into an internal structure known as the DOM tree. This tree contains objects that represent all the elements, attributes, and text nodes present in the markup. To make the content accessible to assistive technologies like screen readers, browsers generate an accessibility tree based on the DOM tree. This second tree is based on the DOM tree and is specifically designed to be understood by assistive technologies.",
+      "The accessibility tree helps assistive technologies work smoothly with the webpage, making it easier for people with disabilities to access and interact with the content."
+    ]
+  },
+  {
+    "term": "ARIA",
+    "definition": [
+      "ARIA (Accessible Rich Internet Applications) is a specification by W3C. Its purpose is to enhance HTML by incorporating semantics and additional metadata, making web content more accessible."
+    ]
+  },
+  {
+    "term": "Programmatically determined",
+    "definition": [
+      "Something is programmatically determinable when it is communicated in code. For example, a state is not just communicated visually with an icon or color, but also as an HTML5- or ARIA-attribute."
+    ]
+  },
+  {
+    "term": "Tab Stop",
+    "definition": [
+      "When using the tab-key on the keyboard to navigate, every spot you reach is a tab stop."
+    ]
+  },
+  {
+    "term": "Visually hidden",
+    "definition": [
+      "Something is visually hidden when it is not shown on screen, but is still available in the accessibility tree (and for screen readers). This is usually achieved with a CSS-class."
+    ],
+    "resources": [
+      "https://www.a11yproject.com/posts/how-to-hide-content/"
+    ]
+  },
+  {
+    "term": "Keyboard testing",
+    "definition": [
+      "Not everybody uses a mouse, so you shouldn’t test with just a mouse. The most universal device to test with is a keyboard. A lot of people either use a keyboard, or use something that interacts with your creation like a keyboard."
+    ]
+  }
+]
