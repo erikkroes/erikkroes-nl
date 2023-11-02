@@ -19,6 +19,12 @@
     ]
   },
   {
+    "term": "Keyboard testing",
+    "definition": [
+      "Not everybody uses a mouse, so you shouldn’t test with just a mouse. The most universal device to test with is a keyboard. A lot of people either use a keyboard, or use something that interacts with your creation like a keyboard."
+    ]
+  },
+  {
     "term": "Programmatically determined",
     "definition": [
       "Something is programmatically determinable when it is communicated in code. For example, a state is not just communicated visually with an icon or color, but also as an HTML5- or ARIA-attribute."
@@ -37,12 +43,6 @@
     ],
     "resources": [
       "https://www.a11yproject.com/posts/how-to-hide-content/"
-    ]
-  },
-  {
-    "term": "Keyboard testing",
-    "definition": [
-      "Not everybody uses a mouse, so you shouldn’t test with just a mouse. The most universal device to test with is a keyboard. A lot of people either use a keyboard, or use something that interacts with your creation like a keyboard."
     ]
   }
 ]
