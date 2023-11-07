@@ -160,7 +160,27 @@
       "imgName":"hr-in-select" 
   },
   {
+      "title":"Glossary",
+      "imgName":"glossary" 
+  },
+  {
       "title":"A glossary of web accessibility terms",
       "imgName":"a-glossary-of-web-accessibility-terms" 
+  },
+  {
+      "title":"Audit WoW",
+      "imgName":"audit-wow" 
+  },
+  {
+      "title":"Chatbots",
+      "imgName":"chatbots" 
+  },
+  {
+      "title":"External link",
+      "imgName":"external-link" 
+  },
+  {
+      "title":"Twitter on websites",
+      "imgName":"twitter-on-websites" 
   }
 ]

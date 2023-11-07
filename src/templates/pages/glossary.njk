@@ -7,10 +7,20 @@ layout: main
 
     {{ content | safe}}
 
+    <h2>Table of Contents</h2>
+    <ul>
+      {% for item in glossary %}
+      <li>
+        <a href="#{{ item.term | slugify }}">{{ item.term }}</a>
+      </li> 
+      {% endfor %}
+    </ul>
+
+    <h2>Items</h2>
     {% for item in glossary %}
-      <details>
-        <summary><h2>{{ item.term }}</h2></summary>
-        <div id="{{ item.term | slugify }}">
+      <details id="{{ item.term | slugify }}">
+        <summary><h3>{{ item.term }}</h3></summary>
+        <div>
           {% for p in item.definition %}
           <p>{{ p }}</p>
           {% endfor %}    

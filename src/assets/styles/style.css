@@ -456,7 +456,7 @@ summary {
   margin: var(--gap-200);
 }
 
-summary h2 {
+summary > * {
   display: inline;
 }
 
