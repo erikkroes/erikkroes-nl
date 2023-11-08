@@ -55,7 +55,7 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addShortcode("discord", function(){
-    return `<section class="contact">
+    return `<section class="contact" lang="en">
     <p><strong>Got feedback?</strong> I bet you'd appreciate a group of accessibility experts. Share insights and grow together.</p>
     <a class="contact-link" href="https://discord.gg/ep32FdJvm">Join Discord!</a>
     </section>`  

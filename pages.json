@@ -182,5 +182,21 @@
   {
       "title":"Twitter on websites",
       "imgName":"twitter-on-websites" 
+  },
+  {
+      "title":"Best practice",
+      "imgName":"best-practice" 
+  },
+  {
+      "title":"Glossary-TOC",
+      "imgName":"glossary-toc" 
+  },
+  {
+      "title":"Shared responsibility",
+      "imgName":"shared-responsibility" 
+  },
+  {
+      "title":"Politieke partijen niet digitaal toegankelijk",
+      "imgName":"politieke-partijen-niet-digitaal-toegankelijk" 
   }
 ]

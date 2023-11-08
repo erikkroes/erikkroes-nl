@@ -255,14 +255,19 @@ article > table {
   border-spacing: 0;
 }
 
-article > table th {
-  background-color: whitesmoke;
-}
-
 article > table th,
 article > table td  {
   border: 0.0625rem solid;
-  padding: 0.25rem;
+  padding: 0.5rem;
+}
+
+article > table th {
+  background-color: whitesmoke;
+  border: 0.125rem solid;
+}
+
+article > table tr:nth-child(even) {
+  background-color: whitesmoke;
 }
 
 ul {

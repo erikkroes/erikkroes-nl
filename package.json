@@ -16,7 +16,7 @@
   "devDependencies": {
     "@11ty/eleventy": "^1.0.1",
     "@11ty/eleventy-cache-assets": "^2.3.0",
-    "@11ty/eleventy-img": "^2.0.1",
+    "@11ty/eleventy-img": "^3",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@chrisburnell/eleventy-cache-webmentions": "^1.2.3",
     "dotenv": "^16.0.1",
