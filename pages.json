@@ -64,10 +64,6 @@
       "imgName":"about" 
   },
   {
-      "title":"Blog",
-      "imgName":"blog" 
-  },
-  {
       "title":"",
       "imgName":"undefined" 
   },
@@ -102,10 +98,6 @@
   {
       "title":"Accessibility is not binary",
       "imgName":"accessibility-is-not-binary" 
-  },
-  {
-      "title":"Notes",
-      "imgName":"notes" 
   },
   {
       "title":"An audit won't solve your issues",
@@ -198,5 +190,125 @@
   {
       "title":"Politieke partijen niet digitaal toegankelijk",
       "imgName":"politieke-partijen-niet-digitaal-toegankelijk" 
+  },
+  {
+      "title":"Blog",
+      "imgName":"blog" 
+  },
+  {
+      "title":"Notes",
+      "imgName":"notes" 
+  },
+  {
+      "title":"active contrast",
+      "imgName":"active-contrast" 
+  },
+  {
+      "title":"apg patterns",
+      "imgName":"apg-patterns" 
+  },
+  {
+      "title":"aria-label appending",
+      "imgName":"aria-label-appending" 
+  },
+  {
+      "title":"avif",
+      "imgName":"avif" 
+  },
+  {
+      "title":"button-href",
+      "imgName":"button-href" 
+  },
+  {
+      "title":"chrome and adblockers",
+      "imgName":"chrome-and-adblockers" 
+  },
+  {
+      "title":"comboboxes",
+      "imgName":"comboboxes" 
+  },
+  {
+      "title":"hiding with height",
+      "imgName":"hiding-with-height" 
+  },
+  {
+      "title":"necessary",
+      "imgName":"necessary" 
+  },
+  {
+      "title":"stream deck for accessibility",
+      "imgName":"stream-deck-for-accessibility" 
+  },
+  {
+      "title":"ux",
+      "imgName":"ux" 
+  },
+  {
+      "title":"x-link audit",
+      "imgName":"x-link-audit" 
+  },
+  {
+      "title":"2024-2",
+      "imgName":"2024-2" 
+  },
+  {
+      "title":"2024",
+      "imgName":"2024" 
+  },
+  {
+      "title":"accessibility for designers",
+      "imgName":"accessibility-for-designers" 
+  },
+  {
+      "title":"aria is powerful",
+      "imgName":"aria-is-powerful" 
+  },
+  {
+      "title":"autonomy vs stimulation",
+      "imgName":"autonomy-vs-stimulation" 
+  },
+  {
+      "title":"digital addiction",
+      "imgName":"digital-addiction" 
+  },
+  {
+      "title":"disabled button color",
+      "imgName":"disabled-button-color" 
+  },
+  {
+      "title":"elno spam",
+      "imgName":"elno-spam" 
+  },
+  {
+      "title":"figma annotations",
+      "imgName":"figma-annotations" 
+  },
+  {
+      "title":"how WCAG works",
+      "imgName":"how-wcag-works" 
+  },
+  {
+      "title":"html bad parts",
+      "imgName":"html-bad-parts" 
+  },
+  {
+      "title":"level access buys userway",
+      "imgName":"level-access-buys-userway" 
+  },
+  {
+      "title":"screen reader survey 10",
+      "imgName":"screen-reader-survey-10" 
+  },
+  {
+      "title":"shortest day",
+      "imgName":"shortest-day" 
+  },
+  {
+      "title":"spectrum two",
+      "imgName":"spectrum-two" 
+  },
+  {
+      "title":"yahoo pipes",
+      "imgName":"yahoo-pipes" 
   }
 ]
