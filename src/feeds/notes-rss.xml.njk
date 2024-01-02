@@ -1,0 +1,27 @@
+---
+permalink: /notes/feed-rss.xml
+eleventyExcludeFromCollections: true
+---
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>{{ data.title }} | Notes</title>
+        <link>{{ data.url }}/notes</link>
+        <description>{{ data.description }}</description>
+        <language>en-us</language>
+        <lastBuildDate>{{ collections.note | rssLastUpdatedDate }}</lastBuildDate>
+        <docs>https://www.rssboard.org/rss-specification</docs>
+    {%- for note in collections.note -%}
+    {% set absoluteNoteUrl %}{{ note.url | url | absoluteUrl(data.url) }}{% endset %}
+        <item>
+            <title>{{ note.data.title }}</title>
+            <link>{{ absoluteNoteUrl }}</link>
+            <description>{{ note.templateContent | htmlToAbsoluteUrls(absoluteNoteUrl) | safe }}</description>
+            <pubDate>{{ note.date | rssDate }}</pubDate>
+            <guid>{{ absoluteNoteUrl }}</guid>
+            <media:content url="{{note.data.image}}">
+		        <media:description>{{note.data.alt}}</media:description>
+	        </media:content>
+        </item>
+    {%- endfor -%}
+    </channel>
+</rss>
