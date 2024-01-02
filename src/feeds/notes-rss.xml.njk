@@ -18,7 +18,7 @@ eleventyExcludeFromCollections: true
             <description>{{ note.templateContent | htmlToAbsoluteUrls(absoluteNoteUrl) | safe }}</description>
             <pubDate>{{ note.date | rssDate }}</pubDate>
             <guid>{{ absoluteNoteUrl }}</guid>
-            <media:content url="{{note.data.image}}">
+            <media:content url="{{ data.url }}{{note.data.image}}">
 		        <media:description>{{note.data.alt}}</media:description>
 	        </media:content>
         </item>
