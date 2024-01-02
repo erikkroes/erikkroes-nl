@@ -38,7 +38,7 @@ export default defineConfig({
             type: "rich-text",
             name: "body",
             label: "Body of Document",
-            description: "This is the  markdown body",
+            description: "This is the markdown body",
             isBody: true,
           },
           {
