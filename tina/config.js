@@ -19,7 +19,7 @@ export default defineConfig({
   },
   media: {
     tina: {
-      mediaRoot: "assets",
+      mediaRoot: "assets/media",
       publicFolder: "src",
     },
   },
