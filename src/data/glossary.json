@@ -31,9 +31,18 @@
     ]
   },
   {
+    "term": "Skip link",
+    "definition": [
+      "A link placed before a block of content that enables users to skip the content.",
+      "The link is often visually hidden (until focussed), the first item on a page and used to skip (repeated) navigation. It can also be used to skip other blocks of content with lots of tab stops like carousels."
+    ],
+    "resources": [
+      "https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-skip.html"
+    ]},
+  {
     "term": "Tab Stop",
     "definition": [
-      "When using the tab-key on the keyboard to navigate, every spot you reach is a tab stop."
+      "When using the tab-key on the keyboard to navigate, every spot you reach (usually every interactive element) is a tab stop."
     ]
   },
   {
