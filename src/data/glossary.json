@@ -19,6 +19,12 @@
     ]
   },
   {
+    "term": "Assistive technology",
+    "definition": [
+      "An umbrella term for technologies that support people (with disabilities). The term is broad and hard to scope. Examples include glasses, wheelchairs, walkers, crutches, prosthetic limbs, screen readers, braille displays, magnification software, custom keyboards and many more."
+    ]
+  },
+  {
     "term": "Keyboard testing",
     "definition": [
       "Not everybody uses a mouse, so you shouldn’t test with just a mouse. The most universal device to test with is a keyboard. A lot of people either use a keyboard, or use something that interacts with your creation like a keyboard."
@@ -31,6 +37,12 @@
     ]
   },
   {
+    "term": "Screen reader",
+    "definition": [
+      "Software that reads the screen (hence the name) and communicates it to the user (usually in speech but can be braille as well). It also enables the user to use a device without seeing its screen. Screen readers depend on non-visual information."
+    ]
+  },
+  {
     "term": "Skip link",
     "definition": [
       "A link placed before a block of content that enables users to skip the content.",
@@ -38,7 +50,8 @@
     ],
     "resources": [
       "https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-skip.html"
-    ]},
+    ]
+  },
   {
     "term": "Tab Stop",
     "definition": [

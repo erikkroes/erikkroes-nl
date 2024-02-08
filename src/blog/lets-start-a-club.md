@@ -17,7 +17,7 @@ I've been considering what would work for me instead. This is what I came up wit
   * RSS: [https://www.erikkroes.nl/notes/feed.xml](https://www.erikkroes.nl/notes/feed.xml)
   * Mastodon: [https://mastodon.social/@erikKroes](https://mastodon.social/@erikKroes)
   * Twitter: [https://www.twitter.com/erikkroes](https://www.twitter.com/erikkroes)
-  * Discord (more on that later): [https://discord.gg/ZQ2nstsE](https://discord.gg/ZQ2nstsE)
+  * Discord (more on that later): [https://discord.gg/FSRZDPDzrQ](https://discord.gg/FSRZDPDzrQ)
   * I also want to publish on Flickr, Pixelfed and LinkedIn but my crude setup doesn't allow that yet. I hope all this makes sure you can find my content wherever you like.
 * My second action is setting up a Discord server. Discord is like a modern IRC. Or Slack but with an archive and more integrations. To be honest, I'm not a big fan. I still have a ton of options to configure and make the space as usable and inclusive as possible. But I think it's the best tool for the job right now.
 
@@ -34,7 +34,7 @@ Why I think you should join:
 * More discounts. If I'm going to make big things like books, courses and digital assets, you bet I'll drop some discounts.
 * A passionate and inclusive community! I hope to gather a nice group of people (including you). It's one of the reasons I landed in the field of accessibility: so many nice people!
 
-So join! Let's gather up some nice people and improve ourselves together. This is an invite link that works for at least 7 days, but feel free to invite other people as well! [https://discord.gg/ZQ2nstsE](https://discord.gg/ZQ2nstsE)
+So join! Let's gather up some nice people and improve ourselves together. This is an invite link that works for at least 7 days, but feel free to invite other people as well! [https://discord.gg/FSRZDPDzrQ]https://discord.gg/FSRZDPDzrQ)
 
 ## Disclaimer
 
