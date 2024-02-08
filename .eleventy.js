@@ -61,6 +61,10 @@ module.exports = function (eleventyConfig) {
     </section>`  
   });
 
+  eleventyConfig.addShortcode("term", function(link, term){
+    return `<a href="https://www.erikkroes.nl/glossary/#${term}">${link}</a>`
+  });
+
   eleventyConfig.addFilter('htmlDateString', (dateObj) => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('yyyy-LL-dd');
   });
