@@ -13,7 +13,7 @@ Designers often (if they're nice) design multiple versions of a website. The des
 
 {% image "./src/assets/media/mobile-version.jpg", "A person sitting behind a computer with a huge screen" %}
 
-@\[toc]
+@[toc]
 
 ## The assumptions
 
@@ -22,9 +22,9 @@ I'm afraid there are some faulty assumptions in that thought. Let me highlight s
 
 ### It's not just touch
 
-While mobile phones often have a touch screen, it's certainly not the only way to control them. People can use external keyboards instead. People can use a {% term "screen reader", screen-reader %} to control their phone. There's Switch Control or Switch Access. All of those rely on being able to operate a website with a keyboard.
+While mobile phones often have a touch screen, it's certainly not the only way to control them. People can use external keyboards instead. People can use a {% term "screen reader", "screen-reader" %} to control their phone. There's Switch Control or Switch Access. All of those rely on being able to operate a website with a keyboard.
 And then there's also voice control, which does not rely on the keyboard, but does show there's a whole world beyond touch.
-Those are just some (sort of) common ways to control a phone beyond touch. The world of {% term "assistive technology", assistive-technology %} is rich and features many more ways and devices.
+Those are just some (sort of) common ways to control a phone beyond touch. The world of {% term "assistive technology", "assistive-technology" %} is rich and features many more ways and devices.
 
 ### It's not just small screens
 
