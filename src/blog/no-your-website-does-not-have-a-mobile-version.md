@@ -5,8 +5,7 @@ description: >-
   designs get names like "mobile version", "tablet version" and "desktop
   version". I appreciate the effort, but I've noticed confusion stemming from
   these terms. They are often counterproductive. 
-cover: >-
-  /assets/media/mobile-version.jpg
+cover: /assets/media/mobile-version.jpg
 cover_alt: A person sitting behind a computer with a huge screen
 ---
 
@@ -14,7 +13,7 @@ Designers often (if they're nice) design multiple versions of a website. The des
 
 {% image "./src/assets/media/mobile-version.jpg", "A person sitting behind a computer with a huge screen" %}
 
-@[toc]
+@\[toc]
 
 ## The assumptions
 
@@ -39,9 +38,7 @@ So no, your "mobile version" is not restricted to small screens. And when you im
 I'd like to get rid of the term mobile or anything phone-related in this context. Also nothing with "small", as that might create assumptions about the screen size.
 I can imagine "zoomed in version" already removing some of the stigma. It still draws attention to a specific use case.
 How about "version for low resolutions"? As in the end, that's what determines wether a version gets show or not: the resolution it's presented in. I can use a version for low resolutions on a large display. I can use a version for high resolutions on a small display. It feels like a fitting definition.
-Join the Discord community and share what you think is a good term!
-
-{% discord %}
+Join the Discord community and share what you think is a good term! (Link at the end of this blog)
 
 ## Conclusion
 
