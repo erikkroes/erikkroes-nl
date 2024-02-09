@@ -310,5 +310,53 @@
   {
       "title":"2024-2",
       "imgName":"2024-2" 
+  },
+  {
+      "title":"nn overlays",
+      "imgName":"nn-overlays" 
+  },
+  {
+      "title":"Shattered elbow",
+      "imgName":"shattered-elbow" 
+  },
+  {
+      "title":"WAI-ARIA 1.3 WD",
+      "imgName":"wai-aria-1-3-wd" 
+  },
+  {
+      "title":"bilingual",
+      "imgName":"bilingual" 
+  },
+  {
+      "title":"chat widgets",
+      "imgName":"chat-widgets" 
+  },
+  {
+      "title":"checkboxes",
+      "imgName":"checkboxes" 
+  },
+  {
+      "title":"design systems",
+      "imgName":"design-systems" 
+  },
+  {
+      "title":"different images",
+      "imgName":"different-images" 
+  },
+  {
+      "title":"glossary: skip link",
+      "imgName":"glossary-skip-link" 
+  },
+  {
+      "title":"orange",
+      "imgName":"orange" 
+  },
+  {
+      "title":"wheelchair",
+      "imgName":"wheelchair" 
+  },
+  {
+      "title":"No, your website does not have a mobile version",
+      "imgName":"no-your-website-does-not-have-a-mobile-version" 
   }
 ]
