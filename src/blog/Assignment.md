@@ -16,7 +16,7 @@ cover_alt: >-
 
 I've been looking for something for months. It's a tool that's a mix of [IndieWeb](https://indieweb.org/), accessibility and nonexistence. There are plenty of tools out there that do -some- of what I want. But none of them seem to do all of it. I'm now calling for your help. I'm looking for a programmer to build this.
 
-![](</assets/media/Firefly a man with glasses in panic and pulling out their hairs only to discover there are some wire.jpg>)
+{% image "./src/assets/media/Firefly a man with glasses in panic and pulling out their hairs only to discover there are some wire.jpg", "A man with glasses in panic and pulling out their hairs only to discover there are some wires among the hairs" %}
 
 The idea is simple (in my mind). I want to post short messages on my website, and I want them to be syndicated elsewhere. In the terms of IndieWeb, this would be [POSSE](https://indieweb.org/POSSE). The tough part seems to be posting short messages with images -and- a text alternative. This is crucial to me, but this is where most tools fall short.
 
