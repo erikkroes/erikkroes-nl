@@ -356,7 +356,35 @@
       "imgName":"wheelchair" 
   },
   {
+      "title":"glossary update",
+      "imgName":"glossary-update" 
+  },
+  {
       "title":"No, your website does not have a mobile version",
       "imgName":"no-your-website-does-not-have-a-mobile-version" 
+  },
+  {
+      "title":"mobile version",
+      "imgName":"mobile-version" 
+  },
+  {
+      "title":"REM sleep",
+      "imgName":"rem-sleep" 
+  },
+  {
+      "title":"courses ",
+      "imgName":"courses" 
+  },
+  {
+      "title":"error messages",
+      "imgName":"error-messages" 
+  },
+  {
+      "title":"sonoma",
+      "imgName":"sonoma" 
+  },
+  {
+      "title":"spring",
+      "imgName":"spring" 
   }
 ]
