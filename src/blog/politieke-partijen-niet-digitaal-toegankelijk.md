@@ -5,6 +5,7 @@ description: >-
   uitsluiten. Een groot deel van de bevolking heeft geen toegang tot hun
   website.
 language: nl
+date: 2023-11-08T00:00:00.000Z
 cover: /assets/media/deurlinten.jpg
 cover_alt: Een open deur die ontoegankelijk is door afsluitlint
 ---
