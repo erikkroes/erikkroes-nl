@@ -5,6 +5,7 @@ description: >-
   designs get names like "mobile version", "tablet version" and "desktop
   version". I appreciate the effort, but I've noticed confusion stemming from
   these terms. They are often counterproductive. 
+date: 2024-02-09T00:00:00.000Z
 cover: /assets/media/mobile-version.jpg
 cover_alt: A person sitting behind a computer with a huge screen
 ---
