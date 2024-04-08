@@ -8,6 +8,6 @@ alt: >-
 
 I'll be giving a 15min presentation for the IAAP Hybrid event in Paris this week.
 
-"Less audits, more accessibility: How focussed assessments help both teams and organizations"
+"Less audits, more accessibility: How focussed assessments help both teams and organizations"
 
 Will you attend/watch?
