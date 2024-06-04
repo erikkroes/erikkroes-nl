@@ -37,7 +37,7 @@ Also good to know is that people with disabilities often have lots of tooling av
 But then there are some upsides as well. The first can be rather commercial. There's value in communicating that you care about the user experience. By putting up a button that reads a page out loud, you communicate a positive message.
 You're also adding value for people who don't consider themselves as having a disability, or don't want to confirm or acknowledge such. Let's say you're having trouble reading a website, but you don't want to call yourself dyslexic. You could use the button already present. You're not required acknowledge a disability, and to learn about tooling. It's already present.
 And finally, assuming your addition doesn't exclude anybody, then there's no harm in adding it right?  If your addition is beneficial to some, but doesn't exclude anybody else. Sounds like it's valid to try it out then!
-Most common customizations in this category are typography, contrast and reading text out loud.
+Common customizations in this category are typography, contrast and reading text out loud.
 
 ## Where does that leave us?
 
