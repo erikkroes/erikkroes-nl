@@ -14,7 +14,7 @@ cover_alt: A pair of orthopedic shoes with all laces in one big knot
 
 There are lots of tools/addons/widgets you can add to your website, with the intent of improving usability or accessibility. You can also build multiple versions and variations, to cater to different people and needs (or for [compliance](https://www.w3.org/TR/WCAG22/#dfn-conforming-alternate-versions)).
 
-{% image "./src/assets/media/hFirefly A pair of orthopedic shoes with all laces in one big knot 54636.jpg", "A pair of orthopedic shoes with all laces in one big knot" %}
+{% image "./src/assets/media/Firefly A pair of orthopedic shoes with all laces in one big knot 54636.jpg", "A pair of orthopedic shoes with all laces in one big knot" %}
 
 Should you or shouldn't you do this?
 
