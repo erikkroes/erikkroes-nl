@@ -28,8 +28,9 @@ So that's:
 * possible superfluous work,
 * lack of inclusion and
 * not benefitting all visitors.
-  Another point that aligns with the (lack of) inclusion is having to declare a need. As a visitor it's like you have to say "I have a disability" because you need to make a conscious choice to use a different version of the website. It can be rather confrontational. Experiences like these are quite negative for me.
-  Another point is that people with disabilities often have lots of tooling available. They know their limits better than you. Build a proper accessible website, and their tools will be able to deal with it.
+
+Another point that aligns with the (lack of) inclusion is having to declare a need. As a visitor it's like you have to say "I have a disability" because you need to make a conscious choice to use a different version of the website. It can be rather confrontational. Experiences like these are quite negative for me.
+Also good to know is that people with disabilities often have lots of tooling available. They know their limits better than you. Build a proper accessible website, and their tools will be able to deal with it.
 
 ## The upsides
 
