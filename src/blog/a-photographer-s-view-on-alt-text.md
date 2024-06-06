@@ -19,7 +19,7 @@ Images are visual communication. Consider what you’re trying to communicate be
 
 ## Contents
 
-@\[toc\]
+@[toc]
 
 ## What is alt text?
 
