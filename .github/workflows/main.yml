@@ -9,7 +9,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: 📂 Sync files
-        uses: timseverien/github-action-syndicate-notes@v1.0.0
+        uses: timseverien/github-action-syndicate-notes@v1.0.1
         with:
           feedType: jsonfeed
           feedUrl: https://www.erikkroes.nl/notes/feed.json
