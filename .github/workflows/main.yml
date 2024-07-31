@@ -1,0 +1,32 @@
+on: workflow_dispatch:
+name: 🚀 Spread ze notes!
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v4
+
+      - name: 📂 Sync files
+        uses: timseverien/syndicate-notes
+        with:
+          feedType: jsonfeed
+          feedUrl: https://www.erikkroes.nl/notes/feed.json
+
+          # Optional: format the message - allows you to add prefixes and suffixes
+          # contentFormat: '{{content}} {{url}}'
+
+          # Optional: change the cache directory used to track what’s published
+          # cacheDirectory: .cache/syndicate-notes
+
+          # Integration details
+          # These are all optional — omit the integrations you don’t want to publish to
+          discordWebhookId: ${{ secrets.discordWebhookId }}
+          discordWebhookToken: ${{ secrets.discordWebhookToken }}
+          mastodonInstance: 'https://mastodon.social'
+          mastodonAccessToken: ${{ secrets.mastodonAccessToken }}
+
+      # Required to persist cache
+      - name: Commit and push
+        uses: stefanzweifel/git-auto-commit-action@v4
