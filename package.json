@@ -4,7 +4,7 @@
   "description": "Personal website of Erik Kroes",
   "main": "index.js",
   "scripts": {
-    "build": "tinacms build && eleventy",
+    "build": "eleventy",
     "watch": "eleventy --watch",
     "serve": "eleventy --serve",
     "start": "eleventy --serve",

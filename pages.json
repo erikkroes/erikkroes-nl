@@ -176,6 +176,10 @@
       "imgName":"twitter-on-websites" 
   },
   {
+      "title":"Politieke partijen niet digitaal toegankelijk",
+      "imgName":"politieke-partijen-niet-digitaal-toegankelijk" 
+  },
+  {
       "title":"Best practice",
       "imgName":"best-practice" 
   },
@@ -186,10 +190,6 @@
   {
       "title":"Shared responsibility",
       "imgName":"shared-responsibility" 
-  },
-  {
-      "title":"Politieke partijen niet digitaal toegankelijk",
-      "imgName":"politieke-partijen-niet-digitaal-toegankelijk" 
   },
   {
       "title":"Blog",
@@ -352,12 +352,12 @@
       "imgName":"wheelchair" 
   },
   {
-      "title":"glossary update",
-      "imgName":"glossary-update" 
-  },
-  {
       "title":"No, your website does not have a mobile version",
       "imgName":"no-your-website-does-not-have-a-mobile-version" 
+  },
+  {
+      "title":"glossary update",
+      "imgName":"glossary-update" 
   },
   {
       "title":"mobile version",
@@ -382,6 +382,10 @@
   {
       "title":"spring",
       "imgName":"spring" 
+  },
+  {
+      "title":"A tool for sharing messages and images",
+      "imgName":"a-tool-for-sharing-messages-and-images" 
   },
   {
       "title":"cookies ",
@@ -410,5 +414,53 @@
   {
       "title":"Notes",
       "imgName":"notes" 
+  },
+  {
+      "title":"Be flexible about what people need (and don't assume).",
+      "imgName":"be-flexible-about-what-people-need-and-don-t-assume" 
+  },
+  {
+      "title":"The unclear case of usability widgets on your website",
+      "imgName":"the-unclear-case-of-usability-widgets-on-your-website" 
+  },
+  {
+      "title":"Capitalize your hashtags",
+      "imgName":"capitalize-your-hashtags" 
+  },
+  {
+      "title":"Needs and flexibility",
+      "imgName":"needs-and-flexibility" 
+  },
+  {
+      "title":"branding contrast",
+      "imgName":"branding-contrast" 
+  },
+  {
+      "title":"brick separator",
+      "imgName":"brick-separator" 
+  },
+  {
+      "title":"casual meetup",
+      "imgName":"casual-meetup" 
+  },
+  {
+      "title":"iaap presentation",
+      "imgName":"iaap-presentation" 
+  },
+  {
+      "title":"mail contrast",
+      "imgName":"mail-contrast" 
+  },
+  {
+      "title":"product and process",
+      "imgName":"product-and-process" 
+  },
+  {
+      "title":"test",
+      "imgName":"test" 
+  },
+  {
+      "title":"webaim million 2024",
+      "imgName":"webaim-million-2024" 
   }
 ]
