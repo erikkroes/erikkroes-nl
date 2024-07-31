@@ -9,7 +9,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: 📂 Sync files
-        uses: timseverien/github-action-syndicate-notes@v1.0.1
+        uses: timseverien/github-action-syndicate-notes@v1.0.2
         with:
           feedType: jsonfeed
           feedUrl: https://www.erikkroes.nl/notes/feed.json
@@ -22,10 +22,11 @@ jobs:
 
           # Integration details
           # These are all optional — omit the integrations you don’t want to publish to
+          
           discordWebhookId: ${{ secrets.discordWebhookId }}
           discordWebhookToken: ${{ secrets.discordWebhookToken }}
-          mastodonInstance: 'https://mastodon.social'
-          mastodonAccessToken: ${{ secrets.mastodonAccessToken }}
+          # mastodonInstance: 'https://mastodon.social'
+          # mastodonAccessToken: ${{ secrets.mastodonAccessToken }}
 
       # Required to persist cache
       - name: Commit and push
