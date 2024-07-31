@@ -32,6 +32,6 @@
   "dependencies": {
     "@tinacms/cli": "^1.5.29",
     "netlify": "^13.0.1",
-    "tinacms": "^1.5.20"
+    "tinacms": "^2.1"
   }
 }
