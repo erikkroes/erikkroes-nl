@@ -196,10 +196,6 @@
       "imgName":"blog" 
   },
   {
-      "title":"Notes",
-      "imgName":"notes" 
-  },
-  {
       "title":"active contrast",
       "imgName":"active-contrast" 
   },
@@ -386,5 +382,33 @@
   {
       "title":"spring",
       "imgName":"spring" 
+  },
+  {
+      "title":"cookies ",
+      "imgName":"cookies" 
+  },
+  {
+      "title":"meetup",
+      "imgName":"meetup" 
+  },
+  {
+      "title":"pointers for buttons",
+      "imgName":"pointers-for-buttons" 
+  },
+  {
+      "title":"reflow",
+      "imgName":"reflow" 
+  },
+  {
+      "title":"spring ",
+      "imgName":"spring" 
+  },
+  {
+      "title":"the work",
+      "imgName":"the-work" 
+  },
+  {
+      "title":"Notes",
+      "imgName":"notes" 
   }
 ]
