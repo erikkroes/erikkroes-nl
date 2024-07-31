@@ -1,4 +1,4 @@
-on: workflow_dispatch:
+on: workflow_dispatch
 name: 🚀 Spread ze notes!
 jobs:
   web-deploy:
