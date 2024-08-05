@@ -12,7 +12,7 @@ jobs:
         uses: timseverien/github-action-syndicate-notes@v1.0.3
         with:
           feedType: jsonfeed
-          feedUrl: https://www.erikkroes.nl/notes/feed.json
+          feedUrl: https://tsev.dev/notes/feed.json
 
           # Optional: format the message - allows you to add prefixes and suffixes
           # contentFormat: '{{content}} {{url}}'
