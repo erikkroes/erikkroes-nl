@@ -14,7 +14,7 @@ Your assumptions about facilitation and accommodation can be wrong. They're ofte
 
 You might have come across the term "accommodation" in the context of disability. Maybe it was during a hiring process, and you were asked if you needed any accommodations. It could've been buying a ticket for an event. It can also be in a learning-environment. Or during travel.
 
-You might have an idea what an accommodation could be. You could be thinking of audio versons of text, materials with a large print, materials in braille, specific software, sign language, the list goes on.
+You might have an idea what an accommodation could be. You could be thinking of audio versions of text, materials with a large print, materials in braille, specific software, sign language, the list goes on.
 
 When you search for examples of accommodations on the web, they tend to be quite big. They might require preparations, physical changes to spaces or arrangements (like seating) or even specific people being present. But did you know accommodations can also be quite small? Sometimes the biggest difference is in awareness.
 
@@ -26,7 +26,7 @@ After my appointment, I was not reminded of my open payment. And, not unexpected
 
 Now the dentist did hear my question, and the reply, and he was aware of my disabilities. Now you can imagine that a customer leaving without paying might make him angry. I would've understood if he were upset with me, maybe even angry.
 
-But he wasn't angry at me. He wasn't though. He was wondering why I wasn't reminded of my payment. I specifically asked (I was actually a bit proud of that) but I wasn't reminded. He recognized my question as a request for help. He completely understood I had walked out!
+But he wasn't angry at me. He wasn't happy though. He was wondering why I wasn't reminded of my payment. I specifically asked (I was actually a bit proud of that) but I wasn't reminded. He recognized my question as a request for help. He completely understood I had walked out!
 
 The dentist told me when I was at the practice again. I laughed when I found out (and I paid of course).
 
