@@ -9,6 +9,8 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginWebmentions = require("@chrisburnell/eleventy-cache-webmentions")
 const configWebmentions = require("./configWebmentions.js")
 
+const glossary = require("./src/data/glossary.json");
+
 
 async function imageShortcode(src, alt, sizes) {
   let metadata = await Image(src, {
@@ -47,7 +49,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.setLibrary("md", markdownLibrary);
 
   eleventyConfig.addShortcode("contact", function(){
-
     return `<section class="contact">
       <p><strong>Pick my brain.</strong> Let's work together, address your specific needs and make something great!</p>
       <a class="contact-link" href="/about/#contact">Contact me</a>
@@ -62,7 +63,22 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addShortcode("term", function(link, term){
-    return `<a href="https://www.erikkroes.nl/glossary/#${term}">${link}</a>`
+    return `<a href="https://www.erikkroes.nl/glossary/#${term}">${link}</a>`;
+  });
+
+  eleventyConfig.addShortcode("df", function(term){
+    let result = glossary.filter((item) => item.term == term);
+    // return `${term}`;
+    return `<section>
+  <figure>
+    <blockquote>
+      <p>${result[0].definition}</p>
+    </blockquote>
+    <figcaption>
+    Definition of <dfn>${result[0].term}</dfn> in my <cite><a href="https://www.erikkroes.nl/glossary/">Glossary</a></cite>
+    </figcaption>
+  </figure>
+</section>`;
   });
 
   eleventyConfig.addFilter('htmlDateString', (dateObj) => {

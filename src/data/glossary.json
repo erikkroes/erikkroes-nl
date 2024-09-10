@@ -53,7 +53,7 @@
     ]
   },
   {
-    "term": "Tab Stop",
+    "term": "Tab stop",
     "definition": [
       "When using the tab-key on the keyboard to navigate, every spot you reach (usually every interactive element) is a tab stop."
     ]
@@ -65,6 +65,16 @@
     ],
     "resources": [
       "https://www.a11yproject.com/posts/how-to-hide-content/"
+    ]
+  },
+  {
+    "term": "WCAG",
+    "definition": [
+      "The Web Content Accessibility Guidelines (WCAG) are an international standard for digital accessibility. It is an established standard that is referenced in many laws, and is often implied when talking about accessibility."
+    ],
+    "resources": [
+      "https://www.w3.org/WAI/standards-guidelines/wcag/",
+      "https://en.wikipedia.org/wiki/Web_Content_Accessibility_Guidelines"
     ]
   }
 ]

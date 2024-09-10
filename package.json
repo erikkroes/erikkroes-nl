@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "eleventy",
+    "both": "eleventy --serve --watch",
     "watch": "eleventy --watch",
     "serve": "eleventy --serve",
     "start": "eleventy --serve",
