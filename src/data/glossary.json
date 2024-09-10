@@ -2,7 +2,7 @@
   {
     "term": "Accessible name",
     "definition": [
-      "The accessible name of an element is the label by which it can be referred. It An accessible name is the name of a user interface element; it is the text associated with an HTML element that provides users of assistive technology with a label for the element."
+      " The accessible name of an element is the label by which it can be referred. For example, it provides users of assistive technology with a label for the element."
     ]
   },
   {

@@ -1,8 +1,8 @@
 ---
 title: 'How to find the accessible name  of a button with Google Chrome'
 description: >-
-  You just ran an automated test and it tells you "Buttons must have discernible text". What does that mean, why does it matter, and how do you check this yourself?
-date: 2024-09-03T22:00:00.000Z
+  You just ran an automated test and it tells you your buttons don't have accessible names. What does that mean, why does it matter, and how do you check this yourself?
+date: 2024-09-10T22:00:00.000Z
 cover: /assets/media/volde-venn.jpg
 cover-alt: >-
   A venn diagram with "buttons" in one circle, and a a picture of voldemort from the "harry potter"-franchise in another. The overlap between the two is called "things that go unnamed".
