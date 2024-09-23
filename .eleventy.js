@@ -113,6 +113,7 @@ module.exports = function (eleventyConfig) {
 
   // set copy asset folder to dist
   eleventyConfig.addPassthroughCopy("src/assets");
+  eleventyConfig.addPassthroughCopy("admin");
   eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
   eleventyConfig.addLiquidFilter("dateToRfc3339", pluginRss.dateRfc3339);
 
