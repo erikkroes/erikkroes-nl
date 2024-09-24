@@ -28,7 +28,7 @@ I've also been exploring working together with some other amazing accessibility 
 
 ## Europe
 If you're not aware yet, June 2025 is when the European Accessibility Act (EAA) comes in effect. That's less than 9 months or 3 quarters for lots of organizations to do lots of work. EN 301 549 is a European standard for accessibility that will play a key role in this.
-Last year I spent quite some time making an accessible HTML version if it (instead of a horrible PDF-file currently). I hope setting up a foundation opens a route for me to contribute to this standard even more. I think I'm already the first individual to have an account for their [GitLab-repository](https://labs.etsi.org/rep/HF/en301549).
+Last year I spent quite some time making an accessible HTML version of it (instead of a horrible PDF-file currently). I hope setting up a foundation opens a route for me to contribute to this standard even more. I think I'm already the first individual to have an account for their [GitLab-repository](https://labs.etsi.org/rep/HF/en301549).
 
 ## Corporations
 With the EAA-deadline coming up, companies are waking up! I've been happy to contribute to several large organizations (think e-commerce, telecommunications, television, sports and such). 
@@ -37,7 +37,7 @@ With the EAA-deadline coming up, companies are waking up! I've been happy to con
 Large organizations have lots of needs. I've contributed to knowledge base and brand portals. I've supported people on subjects such as QR codes, dark mode, infinite scroll, responsive tables, HTML validation, (text) alternatives for video, forms, CMSs, apps vs websites, design systems and impact analysis.
 
 ### Training
-I've trained writers, designers, developers, editors, communication teams, billing departments and conversation rate optimization (CRO) specialists. The last one was a particularly interesting subject.
+I've trained writers, designers, developers, editors, communication teams, billing departments and conversion rate optimization (CRO) specialists. The last one was a particularly interesting subject.
 We've discussed everything from designs to websites, and apps to PDFs.
 
 ### Audits and research
@@ -47,13 +47,13 @@ As a counterpart, I've also done large sample tests. Extensive dives into entire
 Global and specific. Overall and in-depth. I've had lots of fun navigating accessibility at so many levels. I've even done reviews of physical products!
 
 ### And more
-Organizations need personal attention but also strategy and vision. The field is broad and deep. So even with all the tools applied, and meetings all the disciplines I've met, there can always be surprises. I've had the pleasure of regular office hours and joining (internal) communities to uncover some of those!
+Organizations need personal attention but also strategy and vision. The field is broad and deep. So even with all the tools applied, and meetings with all the disciplines, and all the people I've met, there can always be surprises. I've had the pleasure of regular office hours and joining (internal) communities to uncover some of those!
 
 ## What else?
 I'd say that was quite a lot already. But I did do a few more things. I visited [Nationaal Congres Digitale Toegankelijkheid](https://www.ncdt.nl/) (NCDT). I joined the enjoyable [AXSChat](https://www.axschat.com/). I also gave some in-house talks and live demo's. Contributed to Definition of Done's for easy and continuous accessibility testing. I renewed my certification as the first Web Accessibility Specialist (WAS) in the Netherlands. And yes, I'm pretty sure I didn't mention everything. Apologies for any omissions!
 
 ## Was it all accessibility?
 Pretty much yeah, but I do have some hobbies. I very much enjoyed the garden this year. I've done multiple hikes, including a vacation in Austria. I bought an amazing set of Lego on April 1st that I still haven't finished. Because yeah, it's been quite busy. It probably also didn't help that I shattered my elbow in January.
-For the near future, I'm really looking forward to do work as (part of) a foundation. I want to finish my course(s), and really help some large organizations get ready for EAA. Also, ambitious none-work goal: I want drive a car of my own.
+For the near future, I'm really looking forward to do work as (part of) a foundation. I want to finish my course(s), and really help some large organizations get ready for EAA. Also, ambitious none-work goal: I want to drive a car of my own.
 
 If you made it this far, let me know what you're working on. I enjoy working together!
