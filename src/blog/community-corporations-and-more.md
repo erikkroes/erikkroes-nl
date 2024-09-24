@@ -5,13 +5,13 @@ description: "  Summer 2023 I made an overview of things I was doing. Summer
   2024 is behind us, and now I've got a new list. And my goodness, what a list
   it is. How much can one person do in a year? "
 date: 2024-09-24T08:59:00.000Z
-cover: /src/assets/media/firefly-busy-octopus.-tentacles-in-slings-bandages-and-casts-like-broken-arms.-7507.jpg
+cover: /src/assets/media/firefly-busy-octopus.jpg
 cover_alt: An octopus with tentacles in slings, bandages and casts like broken arms.
 ---
 
 Summer 2023 I made an [overview](https://www.erikkroes.nl/blog/accessibility-design-systems-and-management/) of things I was doing. Summer 2024 is behind us, and now I've got a new list. And my goodness, what a list it is. How much can one person do in a year? 
 
-{% image "./src/assets/media/firefly-busy-octopus.-tentacles-in-slings-bandages-and-casts-like-broken-arms.-7507.jpg", "An octopus with tentacles in slings, bandages and casts like broken arms." %}
+{% image "./src/assets/media/firefly-busy-octopus.jpg", "An octopus with tentacles in slings, bandages and casts like broken arms." %}
 
 @[toc]
 
