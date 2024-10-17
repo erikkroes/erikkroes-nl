@@ -118,6 +118,14 @@ module.exports = function (eleventyConfig) {
     return stripped;
   });
 
+  eleventyConfig.addFilter("prepJSON", (str) => {
+    if (!str) {
+      return;
+    }
+    let prepped = str.replaceAll('\"', '\\"').replaceAll('\n', '\\n').replaceAll('&quot;', '\\"');
+    return prepped;
+  });
+
   // set copy asset folder to dist
   eleventyConfig.addPassthroughCopy("src/assets");
   eleventyConfig.addPassthroughCopy("admin");
