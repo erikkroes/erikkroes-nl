@@ -31,9 +31,7 @@
   },
   "dependencies": {
     "@octokit/core": "^6.1.2",
-    "@tinacms/cli": "^1.5.29",
     "netlify": "^13.0.1",
-    "octokit": "^4.0.2",
-    "tinacms": "^2.1"
+    "octokit": "^4.0.2"
   }
 }

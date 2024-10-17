@@ -110,6 +110,13 @@ module.exports = function (eleventyConfig) {
     return title;
   });
 
+  eleventyConfig.addFilter("stripHTML", (str) => {
+    if (!str) {
+      return;
+    }
+    let stripped = str.replaceAll('<p>', '').replaceAll('</p>', '\\n').replaceAll('<code>', '').replaceAll('</code>', '').replaceAll(/<a\b[^>]*>/gi,'').replaceAll('</a>', '');
+    return stripped;
+  });
 
   // set copy asset folder to dist
   eleventyConfig.addPassthroughCopy("src/assets");
