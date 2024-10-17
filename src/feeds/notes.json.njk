@@ -13,7 +13,7 @@ eleventyExcludeFromCollections: true
     {
       "id": "{{ note.data.title | slug }}",
       "url": "{{ note.url }}",
-      "content_text": "{{ note.templateContent | htmlToAbsoluteUrls(absoluteNoteUrl) | stripHTML | safe | replace('\"', '\\"') | replace('\n', '\\n') }}",
+      "content_text": "{{ note.templateContent | htmlToAbsoluteUrls(absoluteNoteUrl) | stripHTML | safe | replace('\"', '\\"') | replace('\n', '\\n') | replace('&quot;', '\\"')  }}",
       "content_html": "{{ note.templateContent | htmlToAbsoluteUrls(absoluteNoteUrl) | safe | replace('\"', '\\"') | replace('\n', '\\n') | replace('&quot;', '\\"')  }}"{% if note.data.image %},     
       "attachments": [
         {
