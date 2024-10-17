@@ -114,7 +114,7 @@ module.exports = function (eleventyConfig) {
     if (!str) {
       return;
     }
-    let stripped = str.replaceAll('<p>', '').replaceAll('</p>', '\\n').replaceAll('<code>', '').replaceAll('</code>', '').replaceAll(/<a\b[^>]*>/gi,'').replaceAll('</a>', '');
+    let stripped = str.replaceAll('<p>', '').replaceAll('</p>', '\\n').replaceAll('<code>', '').replaceAll('</code>', '').replaceAll(/<a\b[^>]*>/gi,'').replaceAll('</a>', '').replaceAll('<ol>\n', '').replaceAll('<ul>\n', '').replaceAll('<li>', '- ').replaceAll('</li>', '').replaceAll('</ol>', '').replaceAll('</ul>', '');
     return stripped;
   });
 
