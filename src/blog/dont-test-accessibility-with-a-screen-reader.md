@@ -11,6 +11,8 @@ cover_alt: A cropped picture of a mechanical keyboard that's compatible with
 
 Screen readers are great, and they deserve a lot of love. But let me give you a better option to start testing with.
 
+{% image "./src/assets/media/keyboard.jpg", "A cropped picture of a mechanical keyboard that's compatible with Lego. Because where's the fun if we can't hide some Lego in this thing?" %}
+
 ## What is a screen reader?
 Somebody might've told you about screen readers. They're wonderful pieces of technology. A screen reader is software ({% term "assistive technology", assistive-technology %}) that reads out loud what's visible on a screen. And it also helps people navigate that same screen, without having to see it! Oh, and it can also present output in other ways, like to a braille display!
 It's great for people with a visual impairment but people with other disabilities can benefit as well, like various cognitive disabilities.
