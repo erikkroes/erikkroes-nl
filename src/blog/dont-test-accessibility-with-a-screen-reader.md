@@ -1,6 +1,6 @@
 ---
 _template: post
-title: Don't test accessibility with a screen reader
+title: Don't start testing accessibility with a screen reader
 description: Screen readers are great, and they deserve a lot of love. But let
   me give you a better option to start testing with.
 date: 2025-02-13T09:57:00.000Z
