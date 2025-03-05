@@ -34,7 +34,7 @@ I don't know much about tactile indicators on products. I'm aware of at least 2 
 ### Surface Thunderbolt 4 Dock
 This hub or dock by Microsoft features "Tactile indicators for port identification". This is described as a "Design innovation" on the [information page](https://learn.microsoft.com/en-us/surface/surface-thunderbolt4-dock#references).
 
-![/assets/media/LAAtpxvlRe-320.jpeg](Screenshot showing a rear view of the Surface Thunderbolt 4 Dock. It has several connectors with tactile dots for recognition.)
+![Screenshot showing a rear view of the Surface Thunderbolt 4 Dock. It has several connectors with tactile dots for recognition.](/assets/media/LAAtpxvlRe-320.jpeg)
 
 Several ports feature small tactile dots above them. For example, the rectangle-ish USB-C ports have 1 tactile dot above it. Likewise, the USB-A ports have 3 dots. And a UTP-port has 2 dots. Other round connectors (like power and audio) don't have dots. 
 
