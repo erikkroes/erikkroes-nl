@@ -49,7 +49,8 @@
       "The link is often visually hidden (until focussed), the first item on a page and used to skip (repeated) navigation. It can also be used to skip other blocks of content with lots of tab stops like carousels."
     ],
     "resources": [
-      "https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-skip.html"
+      "https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-skip.html",
+      "https://www.scottohara.me/blog/2017/04/14/inclusively-hidden.html"
     ]
   },
   {
