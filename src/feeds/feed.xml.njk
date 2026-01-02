@@ -20,7 +20,7 @@ eleventyExcludeFromCollections: true
         <entry>
             <title>{{ post.data.title }}</title>
             <link href="{{ absolutePostUrl }}"/>
-            <updated>{{ post.date | rssDate }}</updated>
+            <updated>{% if post.date %}{{ post.date | rssDate }}{% else %} 1970-01-01T00:00:00.000Z {% endif %}</updated>
             <id>{{ absolutePostUrl }}</id>
             <content type="html"><![CDATA[
                 {{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | safe }}
