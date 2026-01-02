@@ -1,5 +1,6 @@
 ---
 title: stream deck for accessibility
+date: 1970-01-01T00:00:00.000Z
 ---
 
 🤔 Considering a new article/guide on using a stream deck (little device with bunch of buttons) for accessibility auditing.

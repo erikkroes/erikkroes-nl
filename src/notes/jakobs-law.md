@@ -1,5 +1,6 @@
 ---
 title: jakobs law
+date: 1970-01-01T00:00:00.000Z
 ---
 
 "Users spend most of their time on other sites."

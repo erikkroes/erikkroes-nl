@@ -1,5 +1,6 @@
 ---
 title: bilingual
+date: 1970-01-01T00:00:00.000Z
 ---
 
 For a future meetup, we might have some bilingual content. Does anybody have tips on how to handle this? How can we make English content to a Dutch-speaking crowd, and vice versa?

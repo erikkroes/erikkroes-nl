@@ -1,5 +1,6 @@
 ---
 title: GitHub profile accessibility
+date: 1970-01-01T00:00:00.000Z
 ---
 
 How to make your GitHub profile accessible

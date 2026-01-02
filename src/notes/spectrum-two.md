@@ -1,5 +1,6 @@
 ---
 title: spectrum two
+date: 1970-01-01T00:00:00.000Z
 ---
 
 Adobe introduces Spectrum 2, the next version of their design system.

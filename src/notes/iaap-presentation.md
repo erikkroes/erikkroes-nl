@@ -4,6 +4,7 @@ image: /assets/media/Fb-gIMOXgAEalsu.jpg
 alt: >-
   A bound book with a hard cover that's unrealistically thick. It's hard to
   estimate but could easily be 60cm or 2ft.
+date: 1970-01-01T00:00:00.000Z
 ---
 
 I'll be giving a 15min presentation for the IAAP Hybrid event in Paris this week.

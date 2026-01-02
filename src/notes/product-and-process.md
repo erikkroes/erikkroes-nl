@@ -4,6 +4,7 @@ image: /assets/media/FjR5FzVXEAMPKiF.jpg
 alt: >-
   A picture outdoor with a pipe going over and around a boulder in an awkward
   way. The boulder was clearly in the way, but not removed.
+date: 1970-01-01T00:00:00.000Z
 ---
 
 Why do we assess products, while we want to improve processes?

@@ -1,5 +1,6 @@
 ---
 title: active contrast
+date: 1970-01-01T00:00:00.000Z
 ---
 
 ☯ Designer tip: when a component has increased attention, give it -more- contrast!

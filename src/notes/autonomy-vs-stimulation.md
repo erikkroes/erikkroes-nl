@@ -1,5 +1,6 @@
 ---
 title: autonomy vs stimulation
+date: 1970-01-01T00:00:00.000Z
 ---
 
 🙏🏿 Autonomy and control vs (over)stimulation. Looking for resources!

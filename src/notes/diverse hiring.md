@@ -2,7 +2,7 @@
 title: diverse hiring
 image: /assets/media/LEGO-Icons-10350-Tudor-Corner-4.jpg
 alt: Lego 10350 Tudor Corner. An impressive and intricate building with lots of details, odd angles and a wide variety of elements. It includes an inn, a haberdashery, a watch maker on the first floor and an appartment on top. It's richly decorated with a tudor style, decorative flowers and 7 lively Lego figures.
-date: 2024-12-12
+date: 2024-12-12T00:00:00.000Z
 ---
 
 Complex solutions require diversity. Stop and start doing these things to hire neurodiverse people.

@@ -2,6 +2,7 @@
 title: Capitalize your hashtags
 image: /assets/media/analbumcover.jpg
 alt: '#analbumcover'
+date: 1970-01-01T00:00:00.000Z
 ---
 
 Simple tip to make your social media posts more inclusive right away:

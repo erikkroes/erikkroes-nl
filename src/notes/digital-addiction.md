@@ -1,5 +1,6 @@
 ---
 title: digital addiction
+date: 1970-01-01T00:00:00.000Z
 ---
 
 🎉 Call for new EU rules needed to address digital addiction.
