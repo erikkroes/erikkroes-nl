@@ -350,6 +350,7 @@ aside .comments li > a {
   max-width: 24rem;
   margin: 0 auto;
   margin-top: 2rem;
+  background-color: #e2ff68;
 }
 
 footer .contact {

@@ -50,8 +50,9 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addShortcode("contact", function(){
     return `<section class="contact">
-      <p><strong>Pick my brain.</strong> Let's work together, address your specific needs and make something great!</p>
-      <a class="contact-link" href="/about/#contact">Contact me</a>
+            <span><strong>2026 update!</strong></span>
+      
+      <p>Reach out to <a href="https://inklusivo.nl">inklusivo</a> for accessibility. That is the agency and foundation through which I do all my accessibility work. Contact them, and they'll help you find the best people to support you!</p>      
     </section>`
   });
 
