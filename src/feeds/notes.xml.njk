@@ -15,7 +15,7 @@ eleventyExcludeFromCollections: true
     <updated>{{ collections.note | rssLastUpdatedDate }}</updated>
     {% endif %}
     <id>{{ data.url }}/</id>
-    {%- for note in collections.note -%}
+    {%- for note in collections.note | reverse -%}
     {% set absoluteNoteUrl %}{{ note.url | url | absoluteUrl(data.url) }}{% endset %}
         <entry>
             <title>{{ note.data.title }}</title>
