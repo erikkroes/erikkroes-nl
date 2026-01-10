@@ -214,7 +214,8 @@ article > ul + p:nth-of-type(2) {
   font-size: inherit;
 }
 
-main > article picture > img {
+main > article picture > img,
+main > article img {
   width: 100vw;
   max-width: calc(var(--body-width) + 2rem);
   margin-left: -1rem;
