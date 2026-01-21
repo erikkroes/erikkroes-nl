@@ -31,10 +31,9 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ data.url + page.url }}" />
 
-    <meta name="twitter:image" content="{% if cover %}{{ data.url + cover }}{% endif %}" />
-    <meta name="twitter:image:alt" content="{% if cover_alt %}{{ cover_alt }}{% endif %}" />
-    <meta property="og:image" content="{% if cover %}{{ data.url + cover }}{% endif %}" />
-    <meta property="og:image:alt" content="{% if cover_alt %}{{ cover_alt }}{% endif %}" />
+    <meta name="twitter:image" content="{% openGraphScreenshotURL %}" />
+    <meta property="og:image" content="{% openGraphScreenshotURL %}" />
+
 
     <link rel="authorization_endpoint" href="https://indieauth.com/auth">
     <link rel="webmention" href="https://webmention.io/www.erikkroes.nl/webmention" />

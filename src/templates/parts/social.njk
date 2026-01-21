@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+    <body class="page-{{ page.fileSlug or 'home'}}">     
+
+      <main id="main" {% if language %}lang="{{ language }}"{% endif %}>
+        <article aria-labelledby="post-heading" class="h-entry e-content">   
+          <h1 id="post-heading" class="p-name">{{ title }}</h1>
+          <a class="u-url" href="{{ page.url }}" lang="en">
+            Posted on <time class="dt-published" datetime="{{ page.date | dateToISO }}">{{ page.date | readableDate('dd-LL-yyyy') }}</time>
+          </a>          
+        </article>  
+      </main>
+    </body>
+</html>

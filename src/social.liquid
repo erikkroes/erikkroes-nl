@@ -1,0 +1,121 @@
+---
+pagination:
+  data: collections.all
+  size: 1
+  alias: post
+permalink: "social/{{ post.url }}/"
+---
+
+<html>
+  <head>
+    <link rel="stylesheet" href="/assets/styles/style.css">
+    <style>
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: white;
+        font-family: atkinson_hyperlegible, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 1.1875rem;
+        line-height: 1.7;
+      }
+
+      .social * {
+        margin: 0;
+        padding: 0;
+      }
+
+      .box {
+        background-color: whitesmoke;
+        color: var(--color-dark);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 1200px;
+        height: 630px;
+        padding: 1rem;        
+      }
+
+      main {
+        display: block;
+        background-color: inherit;
+        height: 500px;
+      }
+
+      .title {
+        max-height: 500px;   
+      }
+
+      .title span {
+        background-color: var(--color-dark);
+        color: whitesmoke;
+        box-decoration-break: clone;
+        padding: .5rem 1rem;   
+        line-height: 1.1;
+        /* box-shadow: 10px 0 0px 0px #EDC330, -10px 0 0px 0px #EDC330; */
+      }
+
+      footer {
+        height: 130px;
+        display: flex;      
+        justify-content: flex-start;  
+        align-items: flex-end;
+      }
+
+      .logo {        
+        height: 3.5rem;
+        width: auto;                        
+      }
+
+      .tagline {
+        font-size: 2.5rem;
+        margin-left: 2rem;     
+        line-height: normal;
+        width: 100%;     
+        text-align: right;   
+      }
+           
+      .author {
+        display: flex;       
+        align-self: flex-end;
+        align-items: center;
+        flex-direction: column;
+        column-gap: 0;
+      }
+
+      .avatar {
+        display: block;
+        height: 120px;
+        width: auto;        
+        border-radius: 50%;
+        margin: 0px auto;
+        border: 2px solid var(--color-dark);
+      }
+
+      .name {
+        font-size: 2.5rem;
+        line-height: normal;        
+      }
+    </style>
+    <script src="/assets/fitty.min.js"></script>
+  </head>
+  <body class="social">
+    <div class="box">
+      <main>
+        <h2 class="title" id="title"><span>{% if post.data.title %}{{ post.data.title }}{% else %} {% endif %}</span></h2>
+      </main>
+      <footer>
+        <span class="tagline">{{data.title}}</span>
+      </footer>
+    </div>
+    <script>
+      fitty('#title', {
+        minSize: 108,
+        maxSize: 400,
+      });
+      
+    </script>
+  </body>
+</html>

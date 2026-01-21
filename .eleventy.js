@@ -82,6 +82,16 @@ module.exports = function (eleventyConfig) {
 </section>`;
   });
 
+  eleventyConfig.addShortcode("openGraphScreenshotURL", function () {
+      const shortURL = this.page.url.substring(0, this.page.url.length - 1);
+      
+      const encodedURL = encodeURIComponent(
+          `https://erikkroes.nl/social${shortURL}`
+      );
+      const cacheKey = `_${new Date().valueOf()}`;
+      return `https://v1.screenshot.11ty.dev/${encodedURL}/opengraph/${cacheKey}`;
+  });
+
   eleventyConfig.addFilter('htmlDateString', (dateObj) => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('yyyy-LL-dd');
   });
