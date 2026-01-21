@@ -89,7 +89,7 @@ module.exports = function (eleventyConfig) {
           `https://erikkroes.nl/social${shortURL}`
       );
       const cacheKey = `_${new Date().valueOf()}`;
-      return `https://v1.screenshot.11ty.dev/${encodedURL}/opengraph/${cacheKey}`;
+      return `https://v1.screenshot.11ty.dev/${encodedURL}/?opengraph/${cacheKey}`;
   });
 
   eleventyConfig.addFilter('htmlDateString', (dateObj) => {
