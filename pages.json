@@ -1056,10 +1056,6 @@
       "imgName":"ziggo-updated-branding" 
   },
   {
-      "title":"",
-      "imgName":"undefined" 
-  },
-  {
       "title":"weekly content thread",
       "imgName":"weekly-content-thread" 
   },
@@ -1070,5 +1066,29 @@
   {
       "title":"support denmark",
       "imgName":"support-denmark" 
+  },
+  {
+      "title":"northern lights",
+      "imgName":"northern-lights" 
+  },
+  {
+      "title":"sow",
+      "imgName":"sow" 
+  },
+  {
+      "title":"fires",
+      "imgName":"fires" 
+  },
+  {
+      "title":"placeholder contrast",
+      "imgName":"placeholder-contrast" 
+  },
+  {
+      "title":"scroll fade",
+      "imgName":"scroll-fade" 
+  },
+  {
+      "title":"",
+      "imgName":"undefined" 
   }
 ]

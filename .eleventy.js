@@ -83,13 +83,13 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addShortcode("openGraphScreenshotURL", function () {
-      const shortURL = this.page.url.substring(0, this.page.url.length - 1);
+      const shortURL = this.page.url;
       
       const encodedURL = encodeURIComponent(
           `https://erikkroes.nl/social${shortURL}`
       );
       const cacheKey = `_${new Date().valueOf()}`;
-      return `https://v1.screenshot.11ty.dev/${encodedURL}/?opengraph/${cacheKey}`;
+      return `https://v1.screenshot.11ty.dev/${encodedURL}/opengraph/${cacheKey}`;
   });
 
   eleventyConfig.addFilter('htmlDateString', (dateObj) => {
