@@ -241,6 +241,7 @@ article blockquote {
 article pre {
   padding: 1.25rem;
   white-space: pre-wrap;
+  word-break: break-word;
   border: 0.0625rem solid;
   background-color: whitesmoke;
 }
