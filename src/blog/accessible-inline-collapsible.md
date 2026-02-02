@@ -13,6 +13,13 @@ Write something in-depth, and it will be too long and extensive for what I have 
 
 I do have a glossary on my website, and I'm trying to expand and update [a glossary for inklusivo](https://inklusivo.nl/glossary/). I think it's already a great step to be able to link to definitions and further resources this way. But linking to other pages breaks up the flow of reading. So for this new creation, I wanted to improve on this!
 
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="qENYrWJ" data-pen-title="Accessible inline collapsible" data-user="erikkroes" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+      <span>See the Pen <a href="https://codepen.io/erikkroes/pen/qENYrWJ">
+  Accessible inline collapsible</a> by Erik (<a href="https://codepen.io/erikkroes">@erikkroes</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+      </p>
+      <script async src="https://public.codepenassets.com/embed/index.js"></script>
+
 ## The concept
 HTML has a `<summary>` and `<details>`, AKA the [disclosure element](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/details), since about 2020. You can display a term in an element, and the element can expand to show details. I could already imagine it: a sentence has a bit of jargon in it and a visitor can chose to expand it as they wish. And all that with a nice native HTML element. And as MDN states: "The contents of the `<details>` provide the accessible description for the `<summary>`." That sounds practical for accessibility as well.
 
