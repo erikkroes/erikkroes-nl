@@ -56,7 +56,7 @@ When activating the button, the `<span>` becomes visible to expand on the term i
 }
 
 .dfn::after{
-  content: "▲";
+  content: "▲" / "";
   display: inline-block;
   font-size: .9rem;
 }
@@ -70,7 +70,7 @@ When activating the button, the `<span>` becomes visible to expand on the term i
 }
 
 .dfn[aria-expanded="false"]::after{
-  content: "▼";
+  content: "▼" / "";
 }
 
 .dfn[aria-expanded="false"] + span {
@@ -78,7 +78,7 @@ When activating the button, the `<span>` becomes visible to expand on the term i
 }
 ```
 
-The styling starts with removing all button-styles (beware, this might impact focus styling) and adding an underline for affordance. Then there's the `::after` pseudo-element. It shows a little triangle to visually communicate what `aria-expanded` does in code. `display: inline-block;` removes the underline from this part. I've experimented with different visual solutions for making clear the widget is interactive, and grouping elements. I found borders, backgrounds and everything else I tried to break up the reading experience too much. In the end, a simple underline and arrow are minimal and functional enough. I assume icon-designers will disagree.
+The styling starts with removing all button-styles (beware, this might impact focus styling) and adding an underline for affordance. Then there's the `::after` pseudo-element. It shows a little triangle to visually communicate what `aria-expanded` does in code. The `/ ""` is like alt text, but for pseudo-elements. I'm not even sure what it's called, but it's awesome.  `display: inline-block;` removes the underline from this part. I've experimented with different visual solutions for making clear the widget is interactive, and grouping elements. I found borders, backgrounds and everything else I tried to break up the reading experience too much. In the end, a simple underline and arrow are minimal and functional enough. I assume icon-designers will disagree.
 Then we style the span to display as a block (wide) with a bit of spacing, border and background to make it stand apart. We add another `::after` for when the widget is in another state, with a different triangle. And we add `display: none;` to hide the `<span>` when the widget is closed.
 There is no closed/open-class or anything alike. We hook into `aria-expanded` to style the different states.
 
