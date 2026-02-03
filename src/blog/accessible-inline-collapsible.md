@@ -19,7 +19,7 @@ I do have a glossary on my website, and I'm trying to expand and update [a gloss
   on <a href="https://codepen.io">CodePen</a>.</span>
       </p>
       <script async src="https://public.codepenassets.com/embed/index.js"></script>
-      
+
 ## The concept
 HTML has a `<summary>` and `<details>`, AKA the [disclosure element](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/details), since about 2020. You can display a term in an element, and the element can expand to show details. I could already imagine it: a sentence has a bit of jargon in it and a visitor can chose to expand it as they wish. And all that with a nice native HTML element. And as MDN states: "The contents of the `<details>` provide the accessible description for the `<summary>`." That sounds practical for accessibility as well.
 
@@ -97,24 +97,22 @@ let elementsArray = document.querySelectorAll("button.dfn");
 
 elementsArray.forEach(function(e) {
   e.setAttribute("aria-expanded", "false");
-  e.addEventListener("click", function() {      
+  e.addEventListener("click", () => {      
     e.setAttribute("aria-expanded", e.getAttribute("aria-expanded") === "true" ? "false" : "true");
   });
 
-  e.nextElementSibling.addEventListener('mousedown', () => {
-    e.nextElementSibling.addEventListener('mouseup', () => {
+  e.nextElementSibling.addEventListener('click', () => {      
     let selection = window.getSelection();
-    
+
     if(selection.toString().length === 0) {
       e.setAttribute("aria-expanded", e.getAttribute("aria-expanded") === "true" ? "false" : "true");
-      }
-    });
+    }
   });
 });
 ```
 
 The JavaScript is quite minimal as well. When loaded, it finds all widgets. After that, it closes all widgets. When it doesn't load, all widgets stay open. This means it functions like a progressive enhancement. After closing them all, it adds an `EventListener` to the buttons. When activated, they toggle the `aria-expanded`-attribute. It toggles between `true` and `false`, and does not remove the attribute when `false`. `aria-expanded="false"` indicates an element can be opened, which is valuable.
-As a "usability-bonus", it adds an `EventListener` to the `<span>`s as well. This makes it easier to close once opened. This does require some extra JavaScript. Adding an `EventListener` for `click` can make it really hard to select the text. Dragging a mouse to select the text will close the widget. Instead we listen for a down-event, and an up-event, and check if nothing is selected. If no text is selected, we treat it like a click.
+As a "usability-bonus", it adds an `EventListener` to the `<span>`s as well. This makes it easier to close once opened. This does require some extra JavaScript. Adding an `EventListener` for `click` can make it really hard to select the text. Dragging a mouse to select the text will close the widget. We check if nothing is selected besides our click-event. If no text is selected, we treat it like a regular click.
 
 ## Conclusion
 
