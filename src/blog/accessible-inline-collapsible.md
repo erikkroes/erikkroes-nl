@@ -99,16 +99,25 @@ elementsArray.forEach(function(e) {
   e.addEventListener("click", function() {      
     e.setAttribute("aria-expanded", e.getAttribute("aria-expanded") === "true" ? "false" : "true");
   });
-  e.nextElementSibling.addEventListener("click", function() {      
-    e.setAttribute("aria-expanded", e.getAttribute("aria-expanded") === "true" ? "false" : "true");
+
+  e.nextElementSibling.addEventListener('mousedown', () => {
+    e.nextElementSibling.addEventListener('mouseup', () => {
+    let selection = window.getSelection();
+    
+    if(selection.toString().length === 0) {
+      e.setAttribute("aria-expanded", e.getAttribute("aria-expanded") === "true" ? "false" : "true");
+      }
+    });
   });
 });
 ```
 
 The JavaScript is quite minimal as well. When loaded, it finds all widgets. After that, it closes all widgets. When it doesn't load, all widgets stay open. This means it functions like a progressive enhancement. After closing them all, it adds an `EventListener` to the buttons. When activated, they toggle the `aria-expanded`-attribute. It toggles between `true` and `false`, and does not remove the attribute when `false`. `aria-expanded="false"` indicates an element can be opened, which is valuable.
-As a "usability-bonus", it adds an `EventListener` to the `<span>`s as well. This makes it easier to close once opened.
+As a "usability-bonus", it adds an `EventListener` to the `<span>`s as well. This makes it easier to close once opened. This does require some extra JavaScript. Adding an `EventListener` for `click` can make it really hard to select the text. Dragging a mouse to select the text will close the widget. Instead we listen for a down-event, and an up-event, and check if nothing is selected. If no text is selected, we treat it like a click.
 
 ## Conclusion
 
-That's how I built/build an accessible inline collapsible. If you read this shortly after publishing, make sure to check back a week later or so. I bet people will give great feedback and this example will be improved. A live version can be found on [codepen](https://codepen.io/erikkroes/pen/qENYrWJ). Feedback can be given on any of the numerous social media platforms I'm on, including the [Access Club Discord-server](https://discord.gg/FSRZDPDzrQ).
+That's how I built/build an accessible inline collapsible. If you read this shortly after publishing, make sure to check back a week later or so. I bet people will give great feedback and this example will be improved. A live version can be found on [codepen](https://codepen.io/erikkroes/pen/qENYrWJ). 
+[Curtis Wilcox](https://mastodon.social/@cwilcox808@c.im) extended on the codepen with 2 different versions. Both of them use the new `popover`-attribute turning them into tooltips instead.
+Feedback can be given on any of the numerous social media platforms I'm on, including the [Access Club Discord-server](https://discord.gg/FSRZDPDzrQ).
 This pattern has a lot of overlap with a tooltip. [Tooltips in the time of WCAG 2.1](https://sarahmhigley.com/writing/tooltips-in-wcag-21/) by Sarah Higley is a must-read on that topic.
