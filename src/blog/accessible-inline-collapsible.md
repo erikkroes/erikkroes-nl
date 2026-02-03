@@ -19,7 +19,7 @@ I do have a glossary on my website, and I'm trying to expand and update [a gloss
   on <a href="https://codepen.io">CodePen</a>.</span>
       </p>
       <script async src="https://public.codepenassets.com/embed/index.js"></script>
-
+      
 ## The concept
 HTML has a `<summary>` and `<details>`, AKA the [disclosure element](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/details), since about 2020. You can display a term in an element, and the element can expand to show details. I could already imagine it: a sentence has a bit of jargon in it and a visitor can chose to expand it as they wish. And all that with a nice native HTML element. And as MDN states: "The contents of the `<details>` provide the accessible description for the `<summary>`." That sounds practical for accessibility as well.
 
@@ -85,7 +85,8 @@ When activating the button, the `<span>` becomes visible to expand on the term i
 }
 ```
 
-The styling starts with removing all button-styles (beware, this might impact focus styling) and adding an underline for affordance. Then there's the `::after` pseudo-element. It shows a little triangle to visually communicate what `aria-expanded` does in code. The `/ ""` is like alt text, but for pseudo-elements. I'm not even sure what it's called, but it's [awesome](https://drafts.csswg.org/css-content-3/#alt). `display: inline-block;` removes the underline from this part. I've experimented with different visual solutions for making clear the widget is interactive, and grouping elements. I found borders, backgrounds and everything else I tried to break up the reading experience too much. In the end, a simple underline and arrow are minimal and functional enough. I assume icon-designers will disagree.
+The styling starts with removing all button-styles (beware, this might impact focus styling) and adding an underline for affordance. Then there's the `::after` pseudo-element. It shows a little triangle to visually communicate what `aria-expanded` does in code. The `/ ""` is like alt text, but for pseudo-elements. I'm not even sure what it's called, but it's [awesome](https://drafts.csswg.org/css-content-3/#alt). If you add an image here, make sure it doesn't get pronounced by screen readers.
+ `display: inline-block;` removes the underline from this part. I've experimented with different visual solutions for making clear the widget is interactive, and grouping elements. I found borders, backgrounds and everything else I tried to break up the reading experience too much. In the end, a simple underline and arrow are minimal and functional enough. I assume icon-designers will disagree.
 Then we style the span to display as a block (wide) with a bit of spacing, border and background to make it stand apart. We add another `::after` for when the widget is in another state, with a different triangle. And we add `display: none;` to hide the `<span>` when the widget is closed.
 There is no closed/open-class or anything alike. We hook into `aria-expanded` to style the different states.
 
