@@ -118,5 +118,7 @@ As a "usability-bonus", it adds an `EventListener` to the `<span>`s as well. Thi
 
 That's how I built/build an accessible inline collapsible. If you read this shortly after publishing, make sure to check back a week later or so. I bet people will give great feedback and this example will be improved. A live version can be found on [codepen](https://codepen.io/erikkroes/pen/qENYrWJ). 
 [Curtis Wilcox](https://mastodon.social/@cwilcox808@c.im) extended on the codepen with 2 different versions. Both of them use the new `popover`-attribute turning them into tooltips instead.
-Feedback can be given on any of the numerous social media platforms I'm on, including the [Access Club Discord-server](https://discord.gg/FSRZDPDzrQ).
-This pattern has a lot of overlap with a tooltip. [Tooltips in the time of WCAG 2.1](https://sarahmhigley.com/writing/tooltips-in-wcag-21/) by Sarah Higley is a must-read on that topic.
+
+This collapsible-pattern has a lot of overlap with a tooltip. Especially when using a popover. [Tooltips in the time of WCAG 2.1](https://sarahmhigley.com/writing/tooltips-in-wcag-21/) by Sarah Higley is a must-read on that topic.
+
+Feedback on this article and code can be given on any of the numerous social media platforms I'm on, including the [Access Club Discord-server](https://discord.gg/FSRZDPDzrQ).
