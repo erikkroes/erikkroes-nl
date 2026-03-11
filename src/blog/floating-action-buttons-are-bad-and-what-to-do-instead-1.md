@@ -28,4 +28,4 @@ If there is a primary action that warrants a FAB like Google describes, maybe pu
 This feedback on FABs is not a requirement for WCAG or compliance. It does align with the concept in WCAG to offer information in context like [WCAG A Success Criterion 2.4.4 Link Purpose (In Context)](https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context.html) and [WCAG AAA  Success Criterion 3.3.5 Help](https://www.w3.org/WAI/WCAG22/Understanding/help.html).
 
 ## Addition - 2026-02-11
-There is a third issue with FABs. They can overlap other content, making that content hard to find, consume and/or access. This can especially be troublesome on low resolutions and well-filled footers.
+There is a third issue with FABs: overlapping other content, making that content hard to find, consume and access. This is mostly troublesome on low resolutions and with well-filled footers.
