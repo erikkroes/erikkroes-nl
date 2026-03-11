@@ -8,6 +8,7 @@ date: 2026-01-21T11:37:00.000+01:00
 Some thoughts on Floating Action Buttons as I always run into them, their inefficiency and their inaccessible design.
 
 The [Floating Action Button](https://m1.material.io/components/buttons-floating-action-button.html) was introduced by Google’s Material Design. To quote [Material Design 2](https://m2.material.io/components/buttons-floating-action-button#usage):
+
 > “A floating action button (FAB) performs the primary, or most common, action on a screen. It appears in front of all screen content, typically as a circular shape with an icon in its center. FABs come in three types: regular, mini, and extended. Only use a FAB if it is the most suitable way to present a screen's primary action.”
 
 The FAB is a floating button, often in the bottom right of the screen, with a function related to the page as a whole.
@@ -25,3 +26,6 @@ Instead of a generic floating feedback-button, put links or buttons in the page 
 If there is a primary action that warrants a FAB like Google describes, maybe put it at the start of the page. If the action is so important, then making it the first topic and impossible to miss.
 
 This feedback on FABs is not a requirement for WCAG or compliance. It does align with the concept in WCAG to offer information in context like [WCAG A Success Criterion 2.4.4 Link Purpose (In Context)](https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context.html) and [WCAG AAA  Success Criterion 3.3.5 Help](https://www.w3.org/WAI/WCAG22/Understanding/help.html).
+
+## Addition - 2026-02-11
+There is a third issue with FABs. They can overlap other content, making that content hard to find, consume and/or access. This can especially be troublesome on low resolutions and well-filled footers.
