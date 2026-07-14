@@ -25,3 +25,11 @@ Sol LeWitt: "In conceptual art the idea or concept is the most important aspect 
 Even renaissance painters let assistants do much of the painting.
 
 What if you're not the maker, but you orchestrate the process? What if you come up with the concept? Are you making something when you're prompting?
+
+## Notes
+
+Comic by Twonks: https://bsky.app/profile/twonks.bsky.social/post/3mqjm3xgaj22p
+
+This is a small tribute to the Peanut-Butter Platform (Pindakaasvloer) by the late Wim T. Schippers - https://en.wikipedia.org/wiki/Pindakaasvloer
+
+Also: an art academy degree with an interest in media theory - still paying off in 2026!
