@@ -33,6 +33,5 @@ I can do anything from short assessments to complete accessibility compliance pr
 
 Freelance, employed, remote, hybrid.. I am flexible. 
 
-Can I do something for you? Let me know!
-
-Know others who might be able to help? Please share!
+Can I do something for you? Let me know! 🙏🏿 
+Know others who might be able to help? Please share! 💚
