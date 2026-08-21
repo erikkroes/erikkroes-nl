@@ -12,6 +12,8 @@ We have a guesthouse that we would like to make available for other people. That
 
 One of the things we needed was "something in front of the door". Which is this deck I've made.
 
+![A view of the deck from inside our guesthouse. It was the only horinzontal picture I could find.](/assets/media/pxl_20260526_142701572.jpg)
+
 ## The starting point
 
 * The area was a lot of wood chips on sand.
