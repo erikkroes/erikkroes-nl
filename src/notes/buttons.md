@@ -7,4 +7,4 @@ I made some buttons.
 
 HTML and CSS but not with HTML and CSS.
 
-![three 25mm buttons (pins). one with a html logo. another with a css logo. the third is a js logo with a red line through it](/assets/media/1000108586.dng)
+![three 25mm buttons (pins). one with a html logo. another with a css logo. the third is a js logo with a red line through it](/assets/media/1000108587.jpg)
