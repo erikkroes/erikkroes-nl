@@ -324,6 +324,25 @@ aside .comments li > a {
   padding: 1rem 0 2rem;
 }
 
+.sub-nav {
+  background-color: whitesmoke; 
+}
+
+.sub-nav ul {
+  display: flex;
+  list-style: none;
+  gap: 0;
+}
+
+.sub-nav li {
+  border: 1px solid white;
+  text-align: center;
+}
+
+.sub-nav li a {
+  width: 100%;
+}
+
 .introduction h3 {
   display: inline;
 }

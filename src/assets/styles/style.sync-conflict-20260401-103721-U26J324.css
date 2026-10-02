@@ -1,0 +1,514 @@
+/* Generic bit */
+
+@font-face {
+  font-family: 'atkinson_hyperlegible';
+  src: url('/assets/fonts/Atkinson-Hyperlegible-Regular-102a.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'atkinson_hyperlegible';
+  src: url('/assets/fonts/Atkinson-Hyperlegible-Bold-102a.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --body-width: 50rem;
+  --color-dark: #2d2d35;
+  --color-blue: #9dc0d7;
+  --color-linkblue: #003052;
+  --gap-100: .0625rem;
+  --gap-200: .125rem;
+  --gap-300: .25rem;
+  --gap-400: .5rem;
+  --gap-500: 1rem;
+  --gap-600: 2rem;
+  --gap-800: 4rem;
+  --gap-100: .0625rem;
+  --gap-200: .125rem;
+  --gap-300: .25rem;
+  --gap-400: .5rem;
+  --gap-500: 1rem;
+  --gap-600: 2rem;
+  --gap-800: 4rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:focus {
+  box-shadow: 0 0 0 .25rem white;
+  outline: .375rem double black;
+  border-radius: .125rem;
+}
+
+a {
+  position: relative;
+  color: var(--color-linkblue);
+  text-decoration: underline;
+  text-decoration-thickness: .125rem;
+  text-decoration-color: currentColor;
+  text-decoration-color: color-mix(in srgb, currentColor 70%, transparent);
+  text-underline-offset: .25rem;
+  text-decoration: underline;
+  text-decoration-thickness: .125rem;
+  text-decoration-color: currentColor;
+  text-decoration-color: color-mix(in srgb, currentColor 70%, transparent);
+  text-underline-offset: .25rem;
+  transition: all 0.2s ease-out;
+}
+
+a:focus, a:hover, 
+input:focus, input:hover {
+  color: black;
+  background-color: var(--color-blue);
+}
+
+a:visited {
+  color: #623393;
+}
+
+h2 a:visited,
+h3 a:visited,
+h4 a:visited {
+  color: inherit;
+}
+
+a:focus:visited {
+  color: #38254E;
+}
+
+body {
+  background-color: whitesmoke;
+  color: var(--color-dark);
+  display: flex;
+  flex-direction: column;
+  font-family: atkinson_hyperlegible, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.1875rem;
+  line-height: 1.7;
+}
+
+h1 {
+  font-size: 2.3rem;
+}
+
+header, main, footer { 
+  display: grid;
+  grid-template-columns: minmax(1rem, 1fr) minmax(18rem, var(--body-width)) minmax(1rem, 1fr);
+}
+
+header {
+  margin: var(--gap-400);
+}
+
+header .skip-link {
+  align-self: start;
+}
+
+header .logo {
+  display: flex;
+  align-items: start;
+}
+
+header .logo svg {
+  max-height: 2rem;
+  width: auto;
+  fill: currentColor;
+  padding-right: 0.6rem;
+}
+
+header nav {
+  display: flex;
+  grid-column: 2;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+header nav ul {
+  display: flex;
+  column-gap: 1rem;
+  padding-left: 0;
+}
+
+header nav ul li {
+  list-style:none;
+}
+
+nav a {
+  display: inline-block;
+}
+
+main {
+  margin: 0 0 var(--gap-600);
+  background-color: white;
+}
+
+main > section,
+main > article,
+footer > * {
+  grid-column: 2;
+}
+
+main > h1 {
+  grid-column: 2;
+}
+
+main > section + section {
+  margin: var(--gap-800) 0;
+}
+
+main > section + section > ul,
+.page-home > ul,
+.page-blog > ul,
+footer > div {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(18rem,1fr));
+  gap: 2rem;
+  list-style: none;
+  padding: 0;
+}
+
+main > article.e-content > ul {
+  display: block;
+  list-style: unset;
+  padding-left: 2rem;
+}
+
+
+main > article > ol {
+  padding-left: 1rem;
+}
+
+main > section article {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+main > article > * + *,
+main > article > aside > * + * {
+  margin-bottom: var(--gap-500);
+}
+
+main > article > *:last-child {
+  margin-bottom: var(--gap-600)
+}
+
+article > a:first-of-type{
+  font-size: 1rem;
+  color: darkslategrey;
+}
+
+article > p:first-of-type{
+  font-size: 1.6rem;
+}
+
+article > ul + p:nth-of-type(2) {
+  font-size: inherit;
+}
+
+main > article picture > img,
+main > article img {
+  width: 100vw;
+  max-width: calc(var(--body-width) + 2rem);
+  margin-left: -1rem;
+  height: auto;
+}
+
+article > h2 > a,
+article > h3 > a,
+article > h4 > a {
+  position: relative;
+  color: unset;
+}
+
+article blockquote {
+  padding-left: 2.5rem;
+  border-left: 0.25rem solid;
+}
+
+article blockquote {
+  font-size: 2rem;
+}
+
+article pre {
+  padding: 1.25rem;
+  white-space: pre-wrap;
+  border: 0.0625rem solid;
+  background-color: whitesmoke;
+}
+
+article p > code {
+  padding: 0.25rem 0.25rem 0.125rem;
+  border: 0.0625rem solid;
+  background-color: whitesmoke;
+}
+
+article > table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+article > table th,
+article > table td  {
+  border: 0.0625rem solid;
+  padding: 0.5rem;
+}
+
+article > table th {
+  background-color: whitesmoke;
+  border: 0.125rem solid;
+}
+
+article > table tr:nth-child(even) {
+  background-color: whitesmoke;
+}
+
+ul {
+  padding-left: 2rem;
+}
+
+ol {
+  margin-bottom: var(--gap-500);
+}
+
+aside nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding-left: unset;
+}
+
+aside .aside-nav {
+  padding-left: 2.5rem;
+  border-left: 0.25rem solid;
+}
+
+aside ol {
+  list-style: none;
+  padding-left: 2.5rem;
+  border-left: 0.25rem solid;
+}
+
+aside ol li {
+  display: inline;
+}
+
+aside .comments ol {
+  border: 0;
+  padding: unset
+}
+
+aside .comments li {
+  display: block;
+  padding-left: 2.5rem;
+  border-left: 0.25rem solid;
+  margin-bottom: 2rem;
+}
+
+aside .comments li > a {
+  width: 12rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+} 
+
+.social form {
+  padding: 1rem 0 2rem;
+}
+
+.introduction h3 {
+  display: inline;
+}
+
+.introduction ol {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(12rem,1fr));
+  gap: 2rem;
+  padding: 2rem;
+  list-style-position: inside;
+  margin-left: -2rem;
+}
+
+.introduction ol li {
+  border-left: .2rem solid var(--color-dark);
+  padding: 1rem;  
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: .2rem solid black;
+  border-radius: .6rem;
+  padding: 1rem;
+  max-width: 24rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+  background-color: #e2ff68;
+}
+
+footer .contact {
+ margin-top: 0;
+ margin-bottom: 1rem;
+}
+
+.contact .mail-updates p {
+  padding-bottom: 1.7rem;
+} 
+
+.contact-link {
+  font-weight: bold;
+  font-size: 1.7rem;
+  align-self: center;
+}
+
+.tools ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 0 1rem;
+  padding-left: 2rem;
+  border-left: .2rem solid var(--color-dark);
+}
+
+.trusted ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-left: 2rem;
+}
+
+.trusted li {
+  margin: 0 auto;
+}
+
+.trusted img {
+  max-width: 10rem;
+}
+
+.activities dl {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.activities dt,
+.activities dd {
+  padding: .5rem 0;
+  margin-bottom: 2rem;
+}
+
+.activities dt {
+  width: 12rem;
+  border-left: .2rem solid var(--color-dark);
+  font-weight: bold;
+  margin-bottom: 2rem;
+  padding-left: 2rem;
+}
+
+.activities dd {
+  width: 33rem;  
+  padding-left: 2rem;
+}
+
+
+
+.blog ul,
+.page-blog main ul {
+  display: block;
+  list-style: none;
+}
+
+.blog ul li,
+.page-blog main ul li {
+  border-left: .2rem solid var(--color-dark);
+  margin: 3rem 0;
+  padding-left: 2rem;
+}
+
+.blog article > p:first-of-type,
+.page-blog main article > p:first-of-type {
+  font-size: unset;
+}
+
+footer {
+  /* padding: var(--gap-600); */
+}
+
+footer .social ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 0 1rem;
+  padding-left: 0;
+}
+
+details {
+ background-color: whitesmoke;
+ border-radius: .6rem;  
+ transition: background-color .3s;
+}
+
+summary {
+  background-color: whitesmoke;
+  border: .125rem var(--color-dark) solid;
+  border-radius: .6rem;  
+  padding-left: var(--gap-500);
+  margin: var(--gap-200);
+}
+
+summary > * {
+  display: inline;
+}
+
+details[open] {
+  background-color: unset;
+  border: .125rem var(--color-dark) solid;
+  border-radius: .6rem;  
+}
+
+details[open] summary { 
+  background-color: unset;
+  border: none;
+  margin-bottom: .25rem;
+}
+
+details div {
+  border-top: .125rem var(--color-dark) solid;
+  padding: var(--gap-500);
+}
+
+details h3 {
+  margin-top: var(--gap-400);
+}
+
+.page-div details, 
+.page-div summary,
+.page-div details[open],
+.page-div details[open] summary {
+  display: inline-block;
+    margin: unset;
+  padding: unset;
+  border: unset;
+  border-radius: unset;
+}
+
+.page-div details {
+  background-color: #ccc;
+}
+
+.page-div p:has(+ details) {
+  display: inline;
+  vertical-align: top;
+}
+
+details[open]::after {
+    content: '\a';
+    white-space: pre;
+}
