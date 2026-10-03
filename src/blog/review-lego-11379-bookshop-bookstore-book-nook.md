@@ -36,7 +36,7 @@ I also found it interesting to see "how we build books these days". Lego has bui
 
 Sadly, it's a bit dark. The bookshop is a narrow space when closed. That kinda works for 10351 Sherlock Holmes: Book Nook as it's more of an alley. But I think this set would do better if it were more open. Especially in a bookcase where it will be surrounded by shelves and books, it can be quite dark in there.
 
-Also, it's quite a fun set to build. But if you're specifically building it because you want to build a nice interior, and actual building might be better value for money.
+Also, it's quite a fun set to build. But if you're specifically building it because you want to build a nice interior, an actual building might be better value for money.
 
 ## Conclusion
 
