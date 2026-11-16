@@ -1,0 +1,25 @@
+---
+layout: main
+---
+{% set previousPost = collections.post | getPreviousCollectionItem(page) %}
+{% set nextPost = collections.post | getNextCollectionItem(page) %}
+
+<main id="main" {% if language %}lang="{{ language }}"{% endif %}>
+  <article aria-labelledby="post-heading" class="h-entry e-content">   
+    <h1 id="post-heading" class="p-name">{{ title }}</h1>
+    <a class="u-url" href="{{ data.url }}" lang="en">
+      Posted on <time class="dt-published" datetime="{{ page.date | dateToISO }}">{{ page.date | readableDate('dd-LL-yyyy') }}</time>
+    </a>
+
+    {{ content | safe}}
+
+    <aside aria-labelledby="aside-heading" lang="en"> 
+      <h2 id="aside-heading">Aside</h2>
+      <div class = "aside-nav">
+      {% if previousPost or nextPost %}
+        {% include "parts/prevNext.njk" %}
+      {% endif %}
+      </div>
+    </aside>
+  </article>  
+</main>

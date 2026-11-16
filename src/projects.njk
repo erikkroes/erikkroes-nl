@@ -1,0 +1,22 @@
+---
+title: Projects
+layout: main
+---
+<main id="main">
+  <article>
+      <h1>Projects</h1>
+      I have done more things that I can list. Consider this a non-comprehensive overview.
+
+      {# <h2>Filters</h2> #}
+
+      {# <h2>Projects</h2> #}
+      <ul>
+      {%- for project in collections.project | reverse -%}      
+        <li><article aria-labelledby="{{ project.data.title | slug }}">
+          <h2 id="{{ project.data.title | slug }}"><a href="{{ project.url }}">{{ project.data.title }}</a></h2>          
+          <p>{{ project.data.description }}</p>
+        </article></li>
+      {%- endfor -%}
+      </ul>
+  </article>
+</main>
