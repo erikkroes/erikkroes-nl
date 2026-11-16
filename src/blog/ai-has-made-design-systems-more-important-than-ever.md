@@ -5,7 +5,7 @@ description: "AI is like a paid multiplier. Whatever you put in, gets scaled and
   amplified. "
 date: 2026-11-16T15:03:00.000+01:00
 ---
-
+AI is like a paid multiplier. Whatever you put in, gets scaled and amplified. 
 
 I'm a product manager with a background in Design Systems and accessibility. When it comes to accessibility, there are questions everywhere. For example: "Can AI make accessible websites?", "Can AI make our website accessible?" and "Can AI do accessibility testing?" Systems that hallucinate don't mix well with regulations and absolute requirements. The answer is usually: no.
 
