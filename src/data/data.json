@@ -1,10 +1,10 @@
 {
-  "title": "Erik Kroes - Accessibility Consultant",
-  "description": "Erik Kroes - Consultant specialized in accessibility, inclusive design and design systems.",
+  "title": "Erik Kroes",
+  "description": "Erik Kroes",
   "domain": "erikkroes.nl",  
   "url": "https://www.erikkroes.nl",
   "feed": {
-    "subtitle": "Erik Kroes - Consultant specialized in accessibility, inclusive design and design systems.",
+    "subtitle": "Erik Kroes",
     "filename": "feed.xml",
     "path": "/feed.xml",
     "id": "https://www.erikkroes.nl/"
